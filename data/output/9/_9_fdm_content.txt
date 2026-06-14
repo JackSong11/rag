@@ -1,0 +1,112 @@
+=== Lucene _9.fdm 文件解析 ===
+文件路径: /Users/songzhiquan1/IdeaProjects/rag/data/index9/_9.fdm
+文件长度: 158 bytes
+
+--- Codec Header ---
+Magic Number: 0x176CD73F (期望: 0x3FD76C17 即 CodecUtil.CODEC_MAGIC)
+Codec Name: Lucene90FieldsIndexMeta
+Version: 16777216
+Segment ID: 85FEF620C87D679BE089414916ABF29B
+Suffix: ""
+
+--- FDM 元数据内容 ---
+Header 结束位置 (offset): 49
+
+数据区域: offset 49 ~ 141
+
+--- 以 VInt 方式读取数据区域---
+[  0] Offset:   49 | VInt值: 81920
+[  1] Offset:   52 | VInt值: 106
+[  2] Offset:   54 | VInt值: 0
+[  3] Offset:   55 | VInt值: 0
+[  4] Offset:   56 | VInt值: 10
+[  5] Offset:   57 | VInt值: 0
+[  6] Offset:   58 | VInt值: 0
+[  7] Offset:   59 | VInt值: 0
+[  8] Offset:   60 | VInt值: 4
+[  9] Offset:   61 | VInt值: 0
+[ 10] Offset:   62 | VInt值: 0
+[ 11] Offset:   63 | VInt值: 0
+[ 12] Offset:   64 | VInt值: 48
+[ 13] Offset:   65 | VInt值: 0
+[ 14] Offset:   66 | VInt值: 0
+[ 15] Offset:   67 | VInt值: 0
+[ 16] Offset:   68 | VInt值: 0
+[ 17] Offset:   69 | VInt值: 0
+[ 18] Offset:   70 | VInt值: 0
+[ 19] Offset:   71 | VInt值: 0
+[ 20] Offset:   72 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 21] Offset:   73 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 22] Offset:   74 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 23] Offset:   75 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 24] Offset:   76 | VInt值: 268435455
+[ 25] Offset:   81 | VInt值: 0
+[ 26] Offset:   82 | VInt值: 8476
+[ 27] Offset:   84 | VInt值: 0
+[ 28] Offset:   85 | VInt值: 0
+[ 29] Offset:   86 | VInt值: 0
+[ 30] Offset:   87 | VInt值: 0
+[ 31] Offset:   88 | VInt值: 0
+[ 32] Offset:   89 | VInt值: 0
+[ 33] Offset:   90 | VInt值: 0
+[ 34] Offset:   91 | VInt值: 0
+[ 35] Offset:   92 | VInt值: 8
+[ 36] Offset:   93 | VInt值: 52
+[ 37] Offset:   94 | VInt值: 0
+[ 38] Offset:   95 | VInt值: 0
+[ 39] Offset:   96 | VInt值: 0
+[ 40] Offset:   97 | VInt值: 0
+[ 41] Offset:   98 | VInt值: 0
+[ 42] Offset:   99 | VInt值: 0
+[ 43] Offset:  100 | VInt值: 0
+[ 44] Offset:  101 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 45] Offset:  102 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 46] Offset:  103 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 47] Offset:  104 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 48] Offset:  105 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 49] Offset:  106 | VInt值: 180355071
+[ 50] Offset:  110 | VInt值: 117
+[ 51] Offset:  111 | VInt值: 8789
+[ 52] Offset:  113 | VInt值: 0
+[ 53] Offset:  114 | VInt值: 0
+[ 54] Offset:  115 | VInt值: 0
+[ 55] Offset:  116 | VInt值: 0
+[ 56] Offset:  117 | VInt值: 0
+[ 57] Offset:  118 | VInt值: 0
+[ 58] Offset:  119 | VInt值: 0
+[ 59] Offset:  120 | VInt值: 0
+[ 60] Offset:  121 | VInt值: 12
+[ 61] Offset:  122 | VInt值: 59
+[ 62] Offset:  123 | VInt值: 0
+[ 63] Offset:  124 | VInt值: 0
+[ 64] Offset:  125 | VInt值: 0
+[ 65] Offset:  126 | VInt值: 0
+[ 66] Offset:  127 | VInt值: 0
+[ 67] Offset:  128 | VInt值: 0
+[ 68] Offset:  129 | VInt值: 0
+[ 69] Offset:  130 | VInt值: 57
+[ 70] Offset:  131 | VInt值: 20
+[ 71] Offset:  132 | VInt值: 0
+[ 72] Offset:  133 | VInt值: 0
+[ 73] Offset:  134 | VInt值: 0
+[ 74] Offset:  135 | VInt值: 0
+[ 75] Offset:  136 | VInt值: 0
+[ 76] Offset:  137 | VInt值: 0
+[ 77] Offset:  138 | VInt值: 3
+[ 78] Offset:  139 | VInt值: 3
+[ 79] Offset:  140 | VInt值: 234
+
+--- 原始字节 (Hex Dump) ---
+Offset   49: 80 80 05 EA 00 00 00 0A 00 00 00 04 00 00 00 30  | ...............0
+Offset   65: 00 00 00 00 00 00 00 B3 FF FF FF FF FF FF FF 00  | ................
+Offset   81: 00 9C 42 00 00 00 00 00 00 00 00 08 34 00 00 00  | ..B.........4...
+Offset   97: 00 00 00 00 AA FD FF FF FF FF FF FF 55 75 D5 44  | ............Uu.D
+Offset  113: 00 00 00 00 00 00 00 00 0C 3B 00 00 00 00 00 00  | .........;......
+Offset  129: 00 39 14 00 00 00 00 00 00 03 03 EA 01           | .9...........
+
+--- Codec Footer ---
+Footer Magic: 0xE89328C0 (期望: 0xFFFFFFFE 即 CodecUtil.FOOTER_MAGIC)
+Algorithm ID: 0
+Checksum: 3245337126341967872 (0x2D09C0EC00000000)
+
+=== 解析完成 ===

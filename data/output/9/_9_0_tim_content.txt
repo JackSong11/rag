@@ -1,0 +1,2265 @@
+==========================================================
+ Lucene _9_0.tim 文件解析 (Term Dictionary)
+==========================================================
+文件路径: /Users/songzhiquan1/IdeaProjects/rag/data/index9/_9_0.tim
+
+--- 文件基本信息 ---
+文件长度: 3900 bytes
+
+--- Codec Header ---
+Magic Number: 0x176CD73F
+  (注意: 字节序可能不同，实际读取值)
+Codec Name: BlockTreeTermsDict
+Version: 0
+Segment ID: 85FEF620C87D679BE089414916ABF29B
+Suffix: "0"
+Header 结束位置 (offset): 45
+
+--- Codec Footer ---
+Footer Magic: 0xE89328C0
+Algorithm ID: 0
+Checksum: 8937419964759932928 (0x7C08181B00000000)
+
+--- 数据区域 Hex Dump ---
+数据区域: offset 45 ~ 3883
+数据区域长度: 3839 bytes
+
+Offset   45: 32 BC 17 00 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A  | 2....O......3..j
+Offset   61: 39 D3 01 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 39  | 9...O......3..j9
+Offset   77: D4 02 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 39 D4  | ...O......3..j9.
+Offset   93: 03 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 32 04  | ..O......3..n92.
+Offset  109: 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 32 05 89  | .O......3..n92..
+Offset  125: 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 33 06 89 4F  | O......3..n93..O
+Offset  141: BB 9E 01 E8 09 B8 33 97 E1 6E 39 33 07 89 4F BB  | ......3..n93..O.
+Offset  157: 9E 01 E8 09 B8 33 97 E1 6E 39 33 08 89 4F BB 9E  | .....3..n93..O..
+Offset  173: 01 E8 09 B8 33 97 E1 70 39 11 09 89 4F BB 9E 01  | ....3..p9...O...
+Offset  189: E8 09 B8 33 97 E1 70 39 11 0A 89 4F BB 9E 01 E8  | ...3..p9...O....
+Offset  205: 09 B8 33 97 E1 70 39 11 0B 89 4F BB 9E 01 E8 09  | ..3..p9...O.....
+Offset  221: B8 33 97 E1 70 39 11 0C 89 4F BB 9E 01 E8 09 B8  | .3..p9...O......
+Offset  237: 33 97 E1 70 39 12 0D 89 4F BB 9E 01 E8 09 B8 33  | 3..p9...O......3
+Offset  253: 97 E1 72 39 0E 0E 89 4F BB 9E 01 E8 09 B8 33 97  | ..r9...O......3.
+Offset  269: E1 72 39 0E 0F 89 4F BB 9E 01 E8 09 B8 33 97 E1  | .r9...O......3..
+Offset  285: 72 39 0E 10 89 4F BB 9E 01 E8 09 B8 33 97 E1 72  | r9...O......3..r
+Offset  301: 39 0E 11 89 4F BB 9E 01 E8 09 B8 33 97 E1 72 39  | 9...O......3..r9
+Offset  317: 0E 12 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE  | ...O......3..s9.
+Offset  333: 13 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE 14  | ..O......3..s9..
+Offset  349: 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE 15 89  | .O......3..s9...
+Offset  365: 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE 16 89 4F  | O......3..s9...O
+Offset  381: BB 9E 01 E8 09 B8 33 97 E1 73 39 DE 17 89 4F BB  | ......3..s9...O.
+Offset  397: 9E 01 E8 09 B8 33 97 E1 75 39 5E 18 89 4F BB 9E  | .....3..u9^..O..
+Offset  413: 01 E8 09 B8 33 97 E1 75 39 5E 33 0F 01 31 1A 68  | ....3..u9^3..1.h
+Offset  429: 69 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05  | i...............
+Offset  445: 05 05 05 05 05 05 05 05 05 32 BC 17 19 89 4F BB  | .........2....O.
+Offset  461: 9E 01 E8 09 B8 33 97 E1 75 39 5E 1A 89 4F BB 9E  | .....3..u9^..O..
+Offset  477: 01 E8 09 B8 33 97 E1 75 39 5E 1B 89 4F BB 9E 01  | ....3..u9^..O...
+Offset  493: E8 09 B8 33 97 E1 75 39 5E 1C 89 4F BB 9E 01 E8  | ...3..u9^..O....
+Offset  509: 09 B8 33 97 E1 79 39 29 1D 89 4F BB 9E 01 E8 09  | ..3..y9)..O.....
+Offset  525: B8 33 97 E1 79 39 29 1E 89 4F BB 9E 01 E8 09 B8  | .3..y9)..O......
+Offset  541: 33 97 E1 79 39 29 1F 89 4F BB 9E 01 E8 09 B8 33  | 3..y9)..O......3
+Offset  557: 97 E1 79 39 29 20 89 4F BB 9E 01 E8 09 B8 33 97  | ..y9) .O......3.
+Offset  573: E1 79 39 29 21 89 4F BB 9E 01 E8 09 B8 33 97 E1  | .y9)!.O......3..
+Offset  589: 7B 39 17 22 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B  | {9.".O......3..{
+Offset  605: 39 17 23 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39  | 9.#.O......3..{9
+Offset  621: 17 24 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17  | .$.O......3..{9.
+Offset  637: 25 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17 26  | %.O......3..{9.&
+Offset  653: 89 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07 27 89  | .O......3...9.'.
+Offset  669: 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07 28 89 4F  | O......3...9.(.O
+Offset  685: BB 9E 01 E8 09 B8 33 97 E1 A5 39 07 29 89 4F BB  | ......3...9.).O.
+Offset  701: 9E 01 E8 09 B8 33 97 E1 A5 39 07 2A 89 4F BB 9E  | .....3...9.*.O..
+Offset  717: 01 E8 09 B8 33 97 E1 A5 39 07 2B 89 4F BB 9E 01  | ....3...9.+.O...
+Offset  733: E8 09 B8 33 97 E1 A7 39 74 2C 89 4F BB 9E 01 E8  | ...3...9t,.O....
+Offset  749: 09 B8 33 97 E1 A7 39 74 2D 89 4F BB 9E 01 E8 09  | ..3...9t-.O.....
+Offset  765: B8 33 97 E1 A7 39 74 2E 89 4F BB 9E 01 E8 09 B8  | .3...9t..O......
+Offset  781: 33 97 E1 A7 39 74 2F 89 4F BB 9E 01 E8 09 B8 33  | 3...9t/.O......3
+Offset  797: 97 E1 A7 39 74 30 89 4F BB 9E 01 E8 09 B8 33 97  | ...9t0.O......3.
+Offset  813: E1 A9 39 5C 31 89 4F BB 9E 01 E8 09 B8 33 97 E1  | ..9\1.O......3..
+Offset  829: A9 39 5C 33 0F 01 31 1B 68 82 01 05 05 05 05 05  | .9\3..1.h.......
+Offset  845: 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05  | ................
+Offset  861: 05 05 05 32 BC 17 32 89 4F BB 9E 01 E8 09 B8 33  | ...2..2.O......3
+Offset  877: 97 E1 A9 39 5C 33 89 4F BB 9E 01 E8 09 B8 33 97  | ...9\3.O......3.
+Offset  893: E1 A9 39 5C 34 89 4F BB 9E 01 E8 09 B8 33 97 E1  | ..9\4.O......3..
+Offset  909: A9 39 5C 35 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB  | .9\5.O......3...
+Offset  925: 39 69 36 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39  | 9i6.O......3...9
+Offset  941: 6A 37 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A  | j7.O......3...9j
+Offset  957: 38 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A 39  | 8.O......3...9j9
+Offset  973: 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A 3A 89  | .O......3...9j:.
+Offset  989: 4F BB 9E 01 E8 09 B8 33 97 E1 AD 39 54 3B 89 4F  | O......3...9T;.O
+Offset 1005: BB 9E 01 E8 09 B8 33 97 E1 AD 39 54 3C 89 4F BB  | ......3...9T<.O.
+Offset 1021: 9E 01 E8 09 B8 33 97 E1 AD 39 54 3D 89 4F BB 9E  | .....3...9T=.O..
+Offset 1037: 01 E8 09 B8 33 97 E1 AD 39 54 3E 89 4F BB 9E 01  | ....3...9T>.O...
+Offset 1053: E8 09 B8 33 97 E1 AD 39 54 3F 89 4F BB 9E 01 E8  | ...3...9T?.O....
+Offset 1069: 09 B8 33 97 E1 AF 39 2F 40 89 4F BB 9E 01 E8 09  | ..3...9/@.O.....
+Offset 1085: B8 33 97 E1 AF 39 2F 41 89 4F BB 9E 01 E8 09 B8  | .3...9/A.O......
+Offset 1101: 33 97 E1 AF 39 2F 42 89 4F BB 9E 01 E8 09 B8 33  | 3...9/B.O......3
+Offset 1117: 97 E1 AF 39 2F 43 89 4F BB 9E 01 E8 09 B8 33 97  | ...9/C.O......3.
+Offset 1133: E1 AF 39 2F 44 89 4F BB 9E 01 E8 09 B8 33 97 E1  | ..9/D.O......3..
+Offset 1149: B1 39 1B 45 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1  | .9.E.O......3...
+Offset 1165: 39 1B 46 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39  | 9.F.O......3...9
+Offset 1181: 1B 47 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B  | .G.O......3...9.
+Offset 1197: 48 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B 49  | H.O......3...9.I
+Offset 1213: 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91 4A 89  | .O......3...9.J.
+Offset 1229: 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91 33 0F 01  | O......3...9.3..
+Offset 1245: 31 1B 68 9B 01 05 05 05 05 05 05 05 05 05 05 05  | 1.h.............
+Offset 1261: 05 05 05 05 05 05 05 05 05 05 05 05 05 32 BC 17  | .............2..
+Offset 1277: 4B 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91 4C  | K.O......3...9.L
+Offset 1293: 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91 4D 89  | .O......3...9.M.
+Offset 1309: 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 92 4E 89 4F  | O......3...9.N.O
+Offset 1325: BB 9E 01 E8 09 B8 33 97 E1 B4 39 28 4F 89 4F BB  | ......3...9(O.O.
+Offset 1341: 9E 01 E8 09 B8 33 97 E1 B4 39 28 50 89 4F BB 9E  | .....3...9(P.O..
+Offset 1357: 01 E8 09 B8 33 97 E1 B4 39 28 51 89 4F BB 9E 01  | ....3...9(Q.O...
+Offset 1373: E8 09 B8 33 97 E1 B4 39 28 52 89 4F BB 9E 01 E8  | ...3...9(R.O....
+Offset 1389: 09 B8 33 97 E1 B4 39 28 53 89 4F BB 9E 01 E8 09  | ..3...9(S.O.....
+Offset 1405: B8 33 97 E1 B6 39 4B 54 89 4F BB 9E 01 E8 09 B8  | .3...9KT.O......
+Offset 1421: 33 97 E1 B6 39 4C 55 89 4F BB 9E 01 E8 09 B8 33  | 3...9LU.O......3
+Offset 1437: 97 E1 B6 39 4C 56 89 4F BB 9E 01 E8 09 B8 33 97  | ...9LV.O......3.
+Offset 1453: E1 B6 39 4C 57 89 4F BB 9E 01 E8 09 B8 33 97 E1  | ..9LW.O......3..
+Offset 1469: B6 39 4C 58 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8  | .9LX.O......3...
+Offset 1485: 39 B3 59 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39  | 9.Y.O......3...9
+Offset 1501: B3 5A 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B3  | .Z.O......3...9.
+Offset 1517: 5B 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B3 5C  | [.O......3...9.\
+Offset 1533: 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B4 5D 89  | .O......3...9.].
+Offset 1549: 4F BB 9E 01 E8 09 B8 33 97 E1 BB 39 22 5E 89 4F  | O......3...9"^.O
+Offset 1565: BB 9E 01 E8 09 B8 33 97 E1 BB 39 22 5F 89 4F BB  | ......3...9"_.O.
+Offset 1581: 9E 01 E8 09 B8 33 97 E1 BB 39 22 60 89 4F BB 9E  | .....3...9"`.O..
+Offset 1597: 01 E8 09 B8 33 97 E1 BB 39 22 61 89 4F BB 9E 01  | ....3...9"a.O...
+Offset 1613: E8 09 B8 33 97 E1 BB 39 22 62 89 4F BB 9E 01 E8  | ...3...9"b.O....
+Offset 1629: 09 B8 33 97 E1 BD 39 A7 63 89 4F BB 9E 01 E8 09  | ..3...9.c.O.....
+Offset 1645: B8 33 97 E1 BD 39 A7 33 0F 01 31 1B 68 B4 01 05  | .3...9.3..1.h...
+Offset 1661: 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05  | ................
+Offset 1677: 05 05 05 05 05 05 05 32 BC 17 64 89 4F BB 9E 01  | .......2..d.O...
+Offset 1693: E8 09 B8 33 97 E1 BD 39 A7 65 89 4F BB 9E 01 E8  | ...3...9.e.O....
+Offset 1709: 09 B8 33 97 E1 BD 39 A7 66 89 4F BB 9E 01 E8 09  | ..3...9.f.O.....
+Offset 1725: B8 33 97 E1 BD 39 A7 67 89 4F BB 9E 01 E8 09 B8  | .3...9.g.O......
+Offset 1741: 33 97 E1 BF 39 DD 68 89 4F BB 9E 01 E8 09 B8 33  | 3...9.h.O......3
+Offset 1757: 97 E1 BF 39 DD 69 89 4F BB 9E 01 E8 09 B8 33 97  | ...9.i.O......3.
+Offset 1773: E1 BF 39 DD 6A 89 4F BB 9E 01 E8 09 B8 33 97 E1  | ..9.j.O......3..
+Offset 1789: BF 39 DD 6B 89 4F BB 9E 01 E8 09 B8 33 97 E1 BF  | .9.k.O......3...
+Offset 1805: 39 DD 6C 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39  | 9.l.O......3...9
+Offset 1821: 08 6D 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08  | .m.O......3...9.
+Offset 1837: 6E 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08 6F  | n.O......3...9.o
+Offset 1853: 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08 70 89  | .O......3...9.p.
+Offset 1869: 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08 71 89 4F  | O......3...9.q.O
+Offset 1885: BB 9E 01 E8 09 B8 33 97 E1 C4 39 2A 72 89 4F BB  | ......3...9*r.O.
+Offset 1901: 9E 01 E8 09 B8 33 97 E1 C4 39 2A 73 89 4F BB 9E  | .....3...9*s.O..
+Offset 1917: 01 E8 09 B8 33 97 E1 C4 39 2A 74 89 4F BB 9E 01  | ....3...9*t.O...
+Offset 1933: E8 09 B8 33 97 E1 C4 39 2A 75 89 4F BB 9E 01 E8  | ...3...9*u.O....
+Offset 1949: 09 B8 33 97 E1 C4 39 2A 76 89 50 BB 9E 01 E8 09  | ..3...9*v.P.....
+Offset 1965: B8 33 97 E1 AC 39 C9 77 89 50 BB 9E 01 E8 09 B8  | .3...9.w.P......
+Offset 1981: 33 97 E1 AC 39 CA 78 89 50 BB 9E 01 E8 09 B8 33  | 3...9.x.P......3
+Offset 1997: 97 E1 AC 39 CA 79 89 50 BB 9E 01 E8 09 B8 33 97  | ...9.y.P......3.
+Offset 2013: E1 AC 39 CB 7A 89 50 BB 9E 01 E8 09 B8 33 97 E1  | ..9.z.P......3..
+Offset 2029: AC 39 CB 7B 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE  | .9.{.P......3...
+Offset 2045: 39 F6 7C 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE 39  | 9.|.P......3...9
+Offset 2061: F6 33 0F 01 31 1C 68 CD 01 05 05 05 05 05 05 05  | .3..1.h.........
+Offset 2077: 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 83  | ................
+Offset 2093: 07 05 32 BC 17 7D 89 50 BB 9E 01 E8 09 B8 33 97  | ..2..}.P......3.
+Offset 2109: E1 AE 39 F6 7E 89 50 BB 9E 01 E8 09 B8 33 97 E1  | ..9.~.P......3..
+Offset 2125: AE 39 F6 7F 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE  | .9...P......3...
+Offset 2141: 39 F6 80 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39  | 9...P......3...9
+Offset 2157: 67 81 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67  | g..P......3...9g
+Offset 2173: 82 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67 83  | ..P......3...9g.
+Offset 2189: 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67 84 89  | .P......3...9g..
+Offset 2205: 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67 85 89 50  | P......3...9g..P
+Offset 2221: BB 9E 01 E8 09 B8 33 97 E1 B3 39 74 86 89 50 BB  | ......3...9t..P.
+Offset 2237: 9E 01 E8 09 B8 33 97 E1 B3 39 74 87 89 50 BB 9E  | .....3...9t..P..
+Offset 2253: 01 E8 09 B8 33 97 E1 B3 39 74 88 89 50 BB 9E 01  | ....3...9t..P...
+Offset 2269: E8 09 B8 33 97 E1 B3 39 74 89 89 50 BB 9E 01 E8  | ...3...9t..P....
+Offset 2285: 09 B8 33 97 E1 B3 39 74 8A 89 50 BB 9E 01 E8 09  | ..3...9t..P.....
+Offset 2301: B8 33 97 E1 B5 39 94 8B 89 50 BB 9E 01 E8 09 B8  | .3...9...P......
+Offset 2317: 33 97 E1 B5 39 94 8C 89 50 BB 9E 01 E8 09 B8 33  | 3...9...P......3
+Offset 2333: 97 E1 B5 39 94 8D 89 50 BB 9E 01 E8 09 B8 33 97  | ...9...P......3.
+Offset 2349: E1 B5 39 94 8E 89 50 BB 9E 01 E8 09 B8 33 97 E1  | ..9...P......3..
+Offset 2365: B5 39 94 8F 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7  | .9...P......3...
+Offset 2381: 39 70 90 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39  | 9p..P......3...9
+Offset 2397: 70 91 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70  | p..P......3...9p
+Offset 2413: 92 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70 93  | ..P......3...9p.
+Offset 2429: 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70 94 89  | .P......3...9p..
+Offset 2445: 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F 95 89 50  | P......3...9...P
+Offset 2461: BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F 33 0F 01 31  | ......3...9.3..1
+Offset 2477: 1A 68 04 05 05 05 05 05 05 05 05 05 05 05 05 05  | .h..............
+Offset 2493: 05 05 05 05 05 05 05 05 05 05 05 32 BC 17 96 89  | ...........2....
+Offset 2509: 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F 97 89 50  | P......3...9...P
+Offset 2525: BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F 98 89 50 BB  | ......3...9...P.
+Offset 2541: 9E 01 E8 09 B8 33 97 E1 BA 39 0F 99 89 50 BB 9E  | .....3...9...P..
+Offset 2557: 01 E8 09 B8 33 97 E1 BB 39 70 9A 89 50 BB 9E 01  | ....3...9p..P...
+Offset 2573: E8 09 B8 33 97 E1 BB 39 70 9B 89 50 BB 9E 01 E8  | ...3...9p..P....
+Offset 2589: 09 B8 33 97 E1 BB 39 70 9C 89 50 BB 9E 01 E8 09  | ..3...9p..P.....
+Offset 2605: B8 33 97 E1 BB 39 70 9D 89 50 BB 9E 01 E8 09 B8  | .3...9p..P......
+Offset 2621: 33 97 E1 BB 39 70 9E 89 50 BB 9E 01 E8 09 B8 33  | 3...9p..P......3
+Offset 2637: 97 E1 BF 39 B0 9F 89 50 BB 9E 01 E8 09 B8 33 97  | ...9...P......3.
+Offset 2653: E1 BF 39 B0 A0 89 50 BB 9E 01 E8 09 B8 33 97 E1  | ..9...P......3..
+Offset 2669: BF 39 B0 A1 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF  | .9...P......3...
+Offset 2685: 39 B0 A2 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF 39  | 9...P......3...9
+Offset 2701: B1 A3 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E  | ...P......3...9.
+Offset 2717: A4 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E A5  | ..P......3...9..
+Offset 2733: 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E A6 89  | .P......3...9...
+Offset 2749: 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E A7 89 50  | P......3...9...P
+Offset 2765: BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E A8 89 50 BB  | ......3...9...P.
+Offset 2781: 9E 01 E8 09 B8 33 97 E1 C3 39 64 A9 89 50 BB 9E  | .....3...9d..P..
+Offset 2797: 01 E8 09 B8 33 97 E1 C3 39 65 AA 89 50 BB 9E 01  | ....3...9e..P...
+Offset 2813: E8 09 B8 33 97 E1 C3 39 65 AB 89 50 BB 9E 01 E8  | ...3...9e..P....
+Offset 2829: 09 B8 33 97 E1 C3 39 65 AC 89 50 BB 9E 01 E8 09  | ..3...9e..P.....
+Offset 2845: B8 33 97 E1 C3 39 65 AD 89 50 BB 9E 01 E8 09 B8  | .3...9e..P......
+Offset 2861: 33 97 E1 C9 39 46 AE 89 50 BB 9E 01 E8 09 B8 33  | 3...9F..P......3
+Offset 2877: 97 E1 C9 39 46 33 0F 01 31 1A 68 1D 05 05 05 05  | ...9F3..1.h.....
+Offset 2893: 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05  | ................
+Offset 2909: 05 05 05 05 32 BC 17 AF 89 50 BB 9E 01 E8 09 B8  | ....2....P......
+Offset 2925: 33 97 E1 C9 39 46 B0 89 50 BB 9E 01 E8 09 B8 33  | 3...9F..P......3
+Offset 2941: 97 E1 C9 39 46 B1 89 50 BB 9E 01 E8 09 B8 33 97  | ...9F..P......3.
+Offset 2957: E1 C9 39 46 B2 89 50 BB 9E 01 E8 09 B8 33 97 E1  | ..9F..P......3..
+Offset 2973: CB 39 48 B3 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB  | .9H..P......3...
+Offset 2989: 39 49 B4 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39  | 9I..P......3...9
+Offset 3005: 49 B5 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 49  | I..P......3...9I
+Offset 3021: B6 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 49 B7  | ..P......3...9I.
+Offset 3037: 89 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4 B8 89  | .P......3...9...
+Offset 3053: 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4 B9 89 50  | P......3...9...P
+Offset 3069: BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4 BA 89 50 BB  | ......3...9...P.
+Offset 3085: 9E 01 E8 09 B8 33 97 E1 CC 39 D4 BB 89 50 BB 9E  | .....3...9...P..
+Offset 3101: 01 E8 09 B8 33 97 E1 CC 39 D4 BC 89 50 BB 9E 01  | ....3...9...P...
+Offset 3117: E8 09 B8 33 97 E1 CE 39 FA BD 89 50 BB 9E 01 E8  | ...3...9...P....
+Offset 3133: 09 B8 33 97 E1 CE 39 FA BE 89 50 BB 9E 01 E8 09  | ..3...9...P.....
+Offset 3149: B8 33 97 E1 CE 39 FA BF 89 50 BB 9E 01 E8 09 B8  | .3...9...P......
+Offset 3165: 33 97 E1 CE 39 FA C0 89 50 BB 9E 01 E8 09 B8 33  | 3...9...P......3
+Offset 3181: 97 E1 CE 39 FA C1 89 50 BB 9E 01 E8 09 B8 33 97  | ...9...P......3.
+Offset 3197: E1 D0 39 C7 C2 89 50 BB 9E 01 E8 09 B8 33 97 E1  | ..9...P......3..
+Offset 3213: D0 39 C7 C3 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0  | .9...P......3...
+Offset 3229: 39 C7 C4 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39  | 9...P......3...9
+Offset 3245: C7 C5 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39 C7  | ...P......3...9.
+Offset 3261: DF 89 31 BB 9E 01 E8 09 B8 33 97 E1 1E 38 24 E0  | ..1......3...8$.
+Offset 3277: 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1D 33 0F  | .O......3..T8.3.
+Offset 3293: 01 31 1C 68 36 05 05 05 05 05 05 05 05 05 05 05  | .1.h6...........
+Offset 3309: 05 05 05 05 05 05 05 05 05 05 05 AB 02 8D 07 45  | ...............E
+Offset 3325: 84 1E E1 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38  | ....O......3..T8
+Offset 3341: 1E E2 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E  | ...O......3..T8.
+Offset 3357: E3 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E E4  | ..O......3..T8..
+Offset 3373: 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E E5 89  | .O......3..T8...
+Offset 3389: 4F BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF E6 89 4F  | O......3.._8...O
+Offset 3405: BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF E7 89 4F BB  | ......3.._8...O.
+Offset 3421: 9E 01 E8 09 B8 33 97 E1 5F 38 CF E8 89 4F BB 9E  | .....3.._8...O..
+Offset 3437: 01 E8 09 B8 33 97 E1 5F 38 CF E9 89 4F BB 9E 01  | ....3.._8...O...
+Offset 3453: E8 09 B8 33 97 E1 5F 38 CF EA 89 4F BB 9E 01 E8  | ...3.._8...O....
+Offset 3469: 09 B8 33 97 E1 62 38 38 EB 89 4F BB 9E 01 E8 09  | ..3..b88..O.....
+Offset 3485: B8 33 97 E1 62 38 38 EC 89 4F BB 9E 01 E8 09 B8  | .3..b88..O......
+Offset 3501: 33 97 E1 62 38 38 ED 89 4F BB 9E 01 E8 09 B8 33  | 3..b88..O......3
+Offset 3517: 97 E1 62 38 38 EE 89 4F BB 9E 01 E8 09 B8 33 97  | ..b88..O......3.
+Offset 3533: E1 62 38 38 EF 89 4F BB 9E 01 E8 09 B8 33 97 E1  | .b88..O......3..
+Offset 3549: 64 38 AF F0 89 4F BB 9E 01 E8 09 B8 33 97 E1 64  | d8...O......3..d
+Offset 3565: 38 AF F1 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38  | 8...O......3..d8
+Offset 3581: AF F2 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF  | ...O......3..d8.
+Offset 3597: F3 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF F4  | ..O......3..d8..
+Offset 3613: 89 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CA F5 89  | .O......3..f8...
+Offset 3629: 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CA F6 89 4F  | O......3..f8...O
+Offset 3645: BB 9E 01 E8 09 B8 33 97 E1 66 38 CA F7 89 4F BB  | ......3..f8...O.
+Offset 3661: 9E 01 E8 09 B8 33 97 E1 66 38 CB F8 89 4F BB 9E  | .....3..f8...O..
+Offset 3677: 01 E8 09 B8 33 97 E1 66 38 CB F9 89 4F BB 9E 01  | ....3..f8...O...
+Offset 3693: E8 09 B8 33 97 E1 68 38 C3 FA 89 4F BB 9E 01 E8  | ...3..h8...O....
+Offset 3709: 09 B8 33 97 E1 68 38 C3 FB 89 4F BB 9E 01 E8 09  | ..3..h8...O.....
+Offset 3725: B8 33 97 E1 68 38 C3 FC 89 4F BB 9E 01 E8 09 B8  | .3..h8...O......
+Offset 3741: 33 97 E1 68 38 C3 FD FD 89 4F BB 9E 01 E8 09 B8  | 3..h8....O......
+Offset 3757: 33 97 E1 68 38 C3 FD FE 89 4F BB 9E 01 E8 09 B8  | 3..h8....O......
+Offset 3773: 33 97 E1 6A 38 D3 FD FF 89 4F BB 9E 01 E8 09 B8  | 3..j8....O......
+Offset 3789: 33 97 E1 6A 38 D3 FE 10 09 0F FE 10 09 1F FE 10  | 3..j8...........
+Offset 3805: 09 2F 44 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F  | ./D.............
+Offset 3821: 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 10  | ................
+Offset 3837: 10 10 04 04 04 01 43 27 68 E5 01 05 05 05 E7 04  | ......C'h.......
+Offset 3853: 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05  | ................
+Offset 3869: 05 05 05 05 05 05 05 05 05 05 6B F1 04 A3 07     | ..........k....
+
+==========================================================
+ 通过 Lucene API 解析 Term Dictionary 语义内容
+ (对应 _9_0.tim 文件中存储的 term 数据)
+==========================================================
+
+[Segment: _9]
+  最大文档数: 234
+  有效文档数: 234
+
+----------------------------------------------------------
+[Field] _id
+  IndexOptions: DOCS
+  DocCount: 234
+  SumTotalTermFreq: 234
+  SumDocFreq: 234
+  TermCount (size): 234
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] " O»艸3᪹Ӏ"
+    Bytes (hex): 00 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 39 D3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=105/freq=1]
+
+  [Term #2] "O»艸3᪹Ԁ"
+    Bytes (hex): 01 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=106/freq=1]
+
+  [Term #3] "O»艸3᪹Ԁ"
+    Bytes (hex): 02 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=107/freq=1]
+
+  [Term #4] "O»艸3᮹2"
+    Bytes (hex): 03 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 32
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=108/freq=1]
+
+  [Term #5] "O»艸3᮹2"
+    Bytes (hex): 04 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 32
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=109/freq=1]
+
+  [Term #6] "O»艸3᮹3"
+    Bytes (hex): 05 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 33
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=110/freq=1]
+
+  [Term #7] "O»艸3᮹3"
+    Bytes (hex): 06 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 33
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=111/freq=1]
+
+  [Term #8] "O»艸3᮹3"
+    Bytes (hex): 07 89 4F BB 9E 01 E8 09 B8 33 97 E1 6E 39 33
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=112/freq=1]
+
+  [Term #9] "O»艸3᰹"
+    Bytes (hex): 08 89 4F BB 9E 01 E8 09 B8 33 97 E1 70 39 11
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=113/freq=1]
+
+  [Term #10] "	O»艸3᰹"
+    Bytes (hex): 09 89 4F BB 9E 01 E8 09 B8 33 97 E1 70 39 11
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=114/freq=1]
+
+  [Term #11] "
+O»艸3᰹"
+    Bytes (hex): 0A 89 4F BB 9E 01 E8 09 B8 33 97 E1 70 39 11
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=115/freq=1]
+
+  [Term #12] "O»艸3᰹"
+    Bytes (hex): 0B 89 4F BB 9E 01 E8 09 B8 33 97 E1 70 39 11
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=116/freq=1]
+
+  [Term #13] "O»艸3᰹"
+    Bytes (hex): 0C 89 4F BB 9E 01 E8 09 B8 33 97 E1 70 39 12
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=117/freq=1]
+
+  [Term #14] "O»艸3Ჹ"
+    Bytes (hex): 0D 89 4F BB 9E 01 E8 09 B8 33 97 E1 72 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=118/freq=1]
+
+  [Term #15] "O»艸3Ჹ"
+    Bytes (hex): 0E 89 4F BB 9E 01 E8 09 B8 33 97 E1 72 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=119/freq=1]
+
+  [Term #16] "O»艸3Ჹ"
+    Bytes (hex): 0F 89 4F BB 9E 01 E8 09 B8 33 97 E1 72 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=120/freq=1]
+
+  [Term #17] "O»艸3Ჹ"
+    Bytes (hex): 10 89 4F BB 9E 01 E8 09 B8 33 97 E1 72 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=121/freq=1]
+
+  [Term #18] "O»艸3Ჹ"
+    Bytes (hex): 11 89 4F BB 9E 01 E8 09 B8 33 97 E1 72 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=122/freq=1]
+
+  [Term #19] "O»艸3᳹ހ"
+    Bytes (hex): 12 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=123/freq=1]
+
+  [Term #20] "O»艸3᳹ހ"
+    Bytes (hex): 13 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=124/freq=1]
+
+  [Term #21] "O»艸3᳹ހ"
+    Bytes (hex): 14 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=125/freq=1]
+
+  [Term #22] "O»艸3᳹ހ"
+    Bytes (hex): 15 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=126/freq=1]
+
+  [Term #23] "O»艸3᳹ހ"
+    Bytes (hex): 16 89 4F BB 9E 01 E8 09 B8 33 97 E1 73 39 DE
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=127/freq=1]
+
+  [Term #24] "O»艸3ᵹ^"
+    Bytes (hex): 17 89 4F BB 9E 01 E8 09 B8 33 97 E1 75 39 5E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=128/freq=1]
+
+  [Term #25] "O»艸3ᵹ^"
+    Bytes (hex): 18 89 4F BB 9E 01 E8 09 B8 33 97 E1 75 39 5E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=129/freq=1]
+
+  [Term #26] "O»艸3ᵹ^"
+    Bytes (hex): 19 89 4F BB 9E 01 E8 09 B8 33 97 E1 75 39 5E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=130/freq=1]
+
+  [Term #27] "O»艸3ᵹ^"
+    Bytes (hex): 1A 89 4F BB 9E 01 E8 09 B8 33 97 E1 75 39 5E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=131/freq=1]
+
+  [Term #28] "O»艸3ᵹ^"
+    Bytes (hex): 1B 89 4F BB 9E 01 E8 09 B8 33 97 E1 75 39 5E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=132/freq=1]
+
+  [Term #29] "O»艸3ṹ)"
+    Bytes (hex): 1C 89 4F BB 9E 01 E8 09 B8 33 97 E1 79 39 29
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=133/freq=1]
+
+  [Term #30] "O»艸3ṹ)"
+    Bytes (hex): 1D 89 4F BB 9E 01 E8 09 B8 33 97 E1 79 39 29
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=134/freq=1]
+
+  [Term #31] "O»艸3ṹ)"
+    Bytes (hex): 1E 89 4F BB 9E 01 E8 09 B8 33 97 E1 79 39 29
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=135/freq=1]
+
+  [Term #32] "O»艸3ṹ)"
+    Bytes (hex): 1F 89 4F BB 9E 01 E8 09 B8 33 97 E1 79 39 29
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=136/freq=1]
+
+  [Term #33] " O»艸3ṹ)"
+    Bytes (hex): 20 89 4F BB 9E 01 E8 09 B8 33 97 E1 79 39 29
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=137/freq=1]
+
+  [Term #34] "!O»艸3ỹ"
+    Bytes (hex): 21 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=138/freq=1]
+
+  [Term #35] ""O»艸3ỹ"
+    Bytes (hex): 22 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=139/freq=1]
+
+  [Term #36] "#O»艸3ỹ"
+    Bytes (hex): 23 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=140/freq=1]
+
+  [Term #37] "$O»艸3ỹ"
+    Bytes (hex): 24 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=141/freq=1]
+
+  [Term #38] "%O»艸3ỹ"
+    Bytes (hex): 25 89 4F BB 9E 01 E8 09 B8 33 97 E1 7B 39 17
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=142/freq=1]
+
+  [Term #39] "&O»艸3᥹"
+    Bytes (hex): 26 89 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=143/freq=1]
+
+  [Term #40] "'O»艸3᥹"
+    Bytes (hex): 27 89 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=144/freq=1]
+
+  [Term #41] "(O»艸3᥹"
+    Bytes (hex): 28 89 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=145/freq=1]
+
+  [Term #42] ")O»艸3᥹"
+    Bytes (hex): 29 89 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=146/freq=1]
+
+  [Term #43] "*O»艸3᥹"
+    Bytes (hex): 2A 89 4F BB 9E 01 E8 09 B8 33 97 E1 A5 39 07
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=147/freq=1]
+
+  [Term #44] "+O»艸3᧹t"
+    Bytes (hex): 2B 89 4F BB 9E 01 E8 09 B8 33 97 E1 A7 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=148/freq=1]
+
+  [Term #45] ",O»艸3᧹t"
+    Bytes (hex): 2C 89 4F BB 9E 01 E8 09 B8 33 97 E1 A7 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=149/freq=1]
+
+  [Term #46] "-O»艸3᧹t"
+    Bytes (hex): 2D 89 4F BB 9E 01 E8 09 B8 33 97 E1 A7 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=150/freq=1]
+
+  [Term #47] ".O»艸3᧹t"
+    Bytes (hex): 2E 89 4F BB 9E 01 E8 09 B8 33 97 E1 A7 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=151/freq=1]
+
+  [Term #48] "/O»艸3᧹t"
+    Bytes (hex): 2F 89 4F BB 9E 01 E8 09 B8 33 97 E1 A7 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=152/freq=1]
+
+  [Term #49] "0O»艸3᩹\"
+    Bytes (hex): 30 89 4F BB 9E 01 E8 09 B8 33 97 E1 A9 39 5C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=153/freq=1]
+
+  [Term #50] "1O»艸3᩹\"
+    Bytes (hex): 31 89 4F BB 9E 01 E8 09 B8 33 97 E1 A9 39 5C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=154/freq=1]
+
+  [Term #51] "2O»艸3᩹\"
+    Bytes (hex): 32 89 4F BB 9E 01 E8 09 B8 33 97 E1 A9 39 5C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=155/freq=1]
+
+  [Term #52] "3O»艸3᩹\"
+    Bytes (hex): 33 89 4F BB 9E 01 E8 09 B8 33 97 E1 A9 39 5C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=156/freq=1]
+
+  [Term #53] "4O»艸3᩹\"
+    Bytes (hex): 34 89 4F BB 9E 01 E8 09 B8 33 97 E1 A9 39 5C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=157/freq=1]
+
+  [Term #54] "5O»艸3᫹i"
+    Bytes (hex): 35 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 69
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=158/freq=1]
+
+  [Term #55] "6O»艸3᫹j"
+    Bytes (hex): 36 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=159/freq=1]
+
+  [Term #56] "7O»艸3᫹j"
+    Bytes (hex): 37 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=160/freq=1]
+
+  [Term #57] "8O»艸3᫹j"
+    Bytes (hex): 38 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=161/freq=1]
+
+  [Term #58] "9O»艸3᫹j"
+    Bytes (hex): 39 89 4F BB 9E 01 E8 09 B8 33 97 E1 AB 39 6A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=162/freq=1]
+
+  [Term #59] ":O»艸3᭹T"
+    Bytes (hex): 3A 89 4F BB 9E 01 E8 09 B8 33 97 E1 AD 39 54
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=163/freq=1]
+
+  [Term #60] ";O»艸3᭹T"
+    Bytes (hex): 3B 89 4F BB 9E 01 E8 09 B8 33 97 E1 AD 39 54
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=164/freq=1]
+
+  [Term #61] "<O»艸3᭹T"
+    Bytes (hex): 3C 89 4F BB 9E 01 E8 09 B8 33 97 E1 AD 39 54
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=165/freq=1]
+
+  [Term #62] "=O»艸3᭹T"
+    Bytes (hex): 3D 89 4F BB 9E 01 E8 09 B8 33 97 E1 AD 39 54
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=166/freq=1]
+
+  [Term #63] ">O»艸3᭹T"
+    Bytes (hex): 3E 89 4F BB 9E 01 E8 09 B8 33 97 E1 AD 39 54
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=167/freq=1]
+
+  [Term #64] "?O»艸3᯹/"
+    Bytes (hex): 3F 89 4F BB 9E 01 E8 09 B8 33 97 E1 AF 39 2F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=168/freq=1]
+
+  [Term #65] "@O»艸3᯹/"
+    Bytes (hex): 40 89 4F BB 9E 01 E8 09 B8 33 97 E1 AF 39 2F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=169/freq=1]
+
+  [Term #66] "AO»艸3᯹/"
+    Bytes (hex): 41 89 4F BB 9E 01 E8 09 B8 33 97 E1 AF 39 2F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=170/freq=1]
+
+  [Term #67] "BO»艸3᯹/"
+    Bytes (hex): 42 89 4F BB 9E 01 E8 09 B8 33 97 E1 AF 39 2F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=171/freq=1]
+
+  [Term #68] "CO»艸3᯹/"
+    Bytes (hex): 43 89 4F BB 9E 01 E8 09 B8 33 97 E1 AF 39 2F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=172/freq=1]
+
+  [Term #69] "DO»艸3ᱹ"
+    Bytes (hex): 44 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=173/freq=1]
+
+  [Term #70] "EO»艸3ᱹ"
+    Bytes (hex): 45 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=174/freq=1]
+
+  [Term #71] "FO»艸3ᱹ"
+    Bytes (hex): 46 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=175/freq=1]
+
+  [Term #72] "GO»艸3ᱹ"
+    Bytes (hex): 47 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=176/freq=1]
+
+  [Term #73] "HO»艸3ᱹ"
+    Bytes (hex): 48 89 4F BB 9E 01 E8 09 B8 33 97 E1 B1 39 1B
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=177/freq=1]
+
+  [Term #74] "IO»艸3Ჹ"
+    Bytes (hex): 49 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=178/freq=1]
+
+  [Term #75] "JO»艸3Ჹ"
+    Bytes (hex): 4A 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=179/freq=1]
+
+  [Term #76] "KO»艸3Ჹ"
+    Bytes (hex): 4B 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=180/freq=1]
+
+  [Term #77] "LO»艸3Ჹ"
+    Bytes (hex): 4C 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 91
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=181/freq=1]
+
+  [Term #78] "MO»艸3Ჹ"
+    Bytes (hex): 4D 89 4F BB 9E 01 E8 09 B8 33 97 E1 B2 39 92
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=182/freq=1]
+
+  [Term #79] "NO»艸3ᴹ("
+    Bytes (hex): 4E 89 4F BB 9E 01 E8 09 B8 33 97 E1 B4 39 28
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=183/freq=1]
+
+  [Term #80] "OO»艸3ᴹ("
+    Bytes (hex): 4F 89 4F BB 9E 01 E8 09 B8 33 97 E1 B4 39 28
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=184/freq=1]
+
+  [Term #81] "PO»艸3ᴹ("
+    Bytes (hex): 50 89 4F BB 9E 01 E8 09 B8 33 97 E1 B4 39 28
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=185/freq=1]
+
+  [Term #82] "QO»艸3ᴹ("
+    Bytes (hex): 51 89 4F BB 9E 01 E8 09 B8 33 97 E1 B4 39 28
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=186/freq=1]
+
+  [Term #83] "RO»艸3ᴹ("
+    Bytes (hex): 52 89 4F BB 9E 01 E8 09 B8 33 97 E1 B4 39 28
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=187/freq=1]
+
+  [Term #84] "SO»艸3ᶹK"
+    Bytes (hex): 53 89 4F BB 9E 01 E8 09 B8 33 97 E1 B6 39 4B
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=188/freq=1]
+
+  [Term #85] "TO»艸3ᶹL"
+    Bytes (hex): 54 89 4F BB 9E 01 E8 09 B8 33 97 E1 B6 39 4C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=189/freq=1]
+
+  [Term #86] "UO»艸3ᶹL"
+    Bytes (hex): 55 89 4F BB 9E 01 E8 09 B8 33 97 E1 B6 39 4C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=190/freq=1]
+
+  [Term #87] "VO»艸3ᶹL"
+    Bytes (hex): 56 89 4F BB 9E 01 E8 09 B8 33 97 E1 B6 39 4C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=191/freq=1]
+
+  [Term #88] "WO»艸3ᶹL"
+    Bytes (hex): 57 89 4F BB 9E 01 E8 09 B8 33 97 E1 B6 39 4C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=192/freq=1]
+
+  [Term #89] "XO»艸3ḹ³"
+    Bytes (hex): 58 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=193/freq=1]
+
+  [Term #90] "YO»艸3ḹ³"
+    Bytes (hex): 59 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=194/freq=1]
+
+  [Term #91] "ZO»艸3ḹ³"
+    Bytes (hex): 5A 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=195/freq=1]
+
+  [Term #92] "[O»艸3ḹ³"
+    Bytes (hex): 5B 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=196/freq=1]
+
+  [Term #93] "\O»艸3ḹ´"
+    Bytes (hex): 5C 89 4F BB 9E 01 E8 09 B8 33 97 E1 B8 39 B4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=197/freq=1]
+
+  [Term #94] "]O»艸3ỹ""
+    Bytes (hex): 5D 89 4F BB 9E 01 E8 09 B8 33 97 E1 BB 39 22
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=198/freq=1]
+
+  [Term #95] "^O»艸3ỹ""
+    Bytes (hex): 5E 89 4F BB 9E 01 E8 09 B8 33 97 E1 BB 39 22
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=199/freq=1]
+
+  [Term #96] "_O»艸3ỹ""
+    Bytes (hex): 5F 89 4F BB 9E 01 E8 09 B8 33 97 E1 BB 39 22
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=200/freq=1]
+
+  [Term #97] "`O»艸3ỹ""
+    Bytes (hex): 60 89 4F BB 9E 01 E8 09 B8 33 97 E1 BB 39 22
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=201/freq=1]
+
+  [Term #98] "aO»艸3ỹ""
+    Bytes (hex): 61 89 4F BB 9E 01 E8 09 B8 33 97 E1 BB 39 22
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=202/freq=1]
+
+  [Term #99] "bO»艸3ό§"
+    Bytes (hex): 62 89 4F BB 9E 01 E8 09 B8 33 97 E1 BD 39 A7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=203/freq=1]
+
+  [Term #100] "cO»艸3ό§"
+    Bytes (hex): 63 89 4F BB 9E 01 E8 09 B8 33 97 E1 BD 39 A7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=204/freq=1]
+
+  [Term #101] "dO»艸3ό§"
+    Bytes (hex): 64 89 4F BB 9E 01 E8 09 B8 33 97 E1 BD 39 A7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=205/freq=1]
+
+  [Term #102] "eO»艸3ό§"
+    Bytes (hex): 65 89 4F BB 9E 01 E8 09 B8 33 97 E1 BD 39 A7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=206/freq=1]
+
+  [Term #103] "fO»艸3ό§"
+    Bytes (hex): 66 89 4F BB 9E 01 E8 09 B8 33 97 E1 BD 39 A7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=207/freq=1]
+
+  [Term #104] "gO»艸3Ό݀"
+    Bytes (hex): 67 89 4F BB 9E 01 E8 09 B8 33 97 E1 BF 39 DD
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=208/freq=1]
+
+  [Term #105] "hO»艸3Ό݀"
+    Bytes (hex): 68 89 4F BB 9E 01 E8 09 B8 33 97 E1 BF 39 DD
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=209/freq=1]
+
+  [Term #106] "iO»艸3Ό݀"
+    Bytes (hex): 69 89 4F BB 9E 01 E8 09 B8 33 97 E1 BF 39 DD
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=210/freq=1]
+
+  [Term #107] "jO»艸3Ό݀"
+    Bytes (hex): 6A 89 4F BB 9E 01 E8 09 B8 33 97 E1 BF 39 DD
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=211/freq=1]
+
+  [Term #108] "kO»艸3Ό݀"
+    Bytes (hex): 6B 89 4F BB 9E 01 E8 09 B8 33 97 E1 BF 39 DD
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=212/freq=1]
+
+  [Term #109] "lO»艸3Ⴙ"
+    Bytes (hex): 6C 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=213/freq=1]
+
+  [Term #110] "mO»艸3Ⴙ"
+    Bytes (hex): 6D 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=214/freq=1]
+
+  [Term #111] "nO»艸3Ⴙ"
+    Bytes (hex): 6E 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=215/freq=1]
+
+  [Term #112] "oO»艸3Ⴙ"
+    Bytes (hex): 6F 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=216/freq=1]
+
+  [Term #113] "pO»艸3Ⴙ"
+    Bytes (hex): 70 89 4F BB 9E 01 E8 09 B8 33 97 E1 C2 39 08
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=217/freq=1]
+
+  [Term #114] "qO»艸3ᄹ*"
+    Bytes (hex): 71 89 4F BB 9E 01 E8 09 B8 33 97 E1 C4 39 2A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=218/freq=1]
+
+  [Term #115] "rO»艸3ᄹ*"
+    Bytes (hex): 72 89 4F BB 9E 01 E8 09 B8 33 97 E1 C4 39 2A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=219/freq=1]
+
+  [Term #116] "sO»艸3ᄹ*"
+    Bytes (hex): 73 89 4F BB 9E 01 E8 09 B8 33 97 E1 C4 39 2A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=220/freq=1]
+
+  [Term #117] "tO»艸3ᄹ*"
+    Bytes (hex): 74 89 4F BB 9E 01 E8 09 B8 33 97 E1 C4 39 2A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=221/freq=1]
+
+  [Term #118] "uO»艸3ᄹ*"
+    Bytes (hex): 75 89 4F BB 9E 01 E8 09 B8 33 97 E1 C4 39 2A
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=222/freq=1]
+
+  [Term #119] "vP»艸3ᬹɀ"
+    Bytes (hex): 76 89 50 BB 9E 01 E8 09 B8 33 97 E1 AC 39 C9
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=223/freq=1]
+
+  [Term #120] "wP»艸3ᬹʀ"
+    Bytes (hex): 77 89 50 BB 9E 01 E8 09 B8 33 97 E1 AC 39 CA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=224/freq=1]
+
+  [Term #121] "xP»艸3ᬹʀ"
+    Bytes (hex): 78 89 50 BB 9E 01 E8 09 B8 33 97 E1 AC 39 CA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=225/freq=1]
+
+  [Term #122] "yP»艸3ᬹˀ"
+    Bytes (hex): 79 89 50 BB 9E 01 E8 09 B8 33 97 E1 AC 39 CB
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=226/freq=1]
+
+  [Term #123] "zP»艸3ᬹˀ"
+    Bytes (hex): 7A 89 50 BB 9E 01 E8 09 B8 33 97 E1 AC 39 CB
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=227/freq=1]
+
+  [Term #124] "{P»艸3᮹??"
+    Bytes (hex): 7B 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE 39 F6
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=2/freq=1]
+
+  [Term #125] "|P»艸3᮹??"
+    Bytes (hex): 7C 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE 39 F6
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=3/freq=1]
+
+  [Term #126] "}P»艸3᮹??"
+    Bytes (hex): 7D 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE 39 F6
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=4/freq=1]
+
+  [Term #127] "~P»艸3᮹??"
+    Bytes (hex): 7E 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE 39 F6
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=5/freq=1]
+
+  [Term #128] "P»艸3᮹??"
+    Bytes (hex): 7F 89 50 BB 9E 01 E8 09 B8 33 97 E1 AE 39 F6
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=6/freq=1]
+
+  [Term #129] "P»艸3ᱹg"
+    Bytes (hex): 80 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=7/freq=1]
+
+  [Term #130] "P»艸3ᱹg"
+    Bytes (hex): 81 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=8/freq=1]
+
+  [Term #131] "P»艸3ᱹg"
+    Bytes (hex): 82 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=9/freq=1]
+
+  [Term #132] "P»艸3ᱹg"
+    Bytes (hex): 83 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=10/freq=1]
+
+  [Term #133] "P»艸3ᱹg"
+    Bytes (hex): 84 89 50 BB 9E 01 E8 09 B8 33 97 E1 B1 39 67
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=11/freq=1]
+
+  [Term #134] "P»艸3᳹t"
+    Bytes (hex): 85 89 50 BB 9E 01 E8 09 B8 33 97 E1 B3 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=12/freq=1]
+
+  [Term #135] "P»艸3᳹t"
+    Bytes (hex): 86 89 50 BB 9E 01 E8 09 B8 33 97 E1 B3 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=13/freq=1]
+
+  [Term #136] "P»艸3᳹t"
+    Bytes (hex): 87 89 50 BB 9E 01 E8 09 B8 33 97 E1 B3 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=14/freq=1]
+
+  [Term #137] "P»艸3᳹t"
+    Bytes (hex): 88 89 50 BB 9E 01 E8 09 B8 33 97 E1 B3 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=15/freq=1]
+
+  [Term #138] "P»艸3᳹t"
+    Bytes (hex): 89 89 50 BB 9E 01 E8 09 B8 33 97 E1 B3 39 74
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=16/freq=1]
+
+  [Term #139] "P»艸3ᵹ"
+    Bytes (hex): 8A 89 50 BB 9E 01 E8 09 B8 33 97 E1 B5 39 94
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=17/freq=1]
+
+  [Term #140] "P»艸3ᵹ"
+    Bytes (hex): 8B 89 50 BB 9E 01 E8 09 B8 33 97 E1 B5 39 94
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=18/freq=1]
+
+  [Term #141] "P»艸3ᵹ"
+    Bytes (hex): 8C 89 50 BB 9E 01 E8 09 B8 33 97 E1 B5 39 94
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=19/freq=1]
+
+  [Term #142] "P»艸3ᵹ"
+    Bytes (hex): 8D 89 50 BB 9E 01 E8 09 B8 33 97 E1 B5 39 94
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=20/freq=1]
+
+  [Term #143] "P»艸3ᵹ"
+    Bytes (hex): 8E 89 50 BB 9E 01 E8 09 B8 33 97 E1 B5 39 94
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=21/freq=1]
+
+  [Term #144] "P»艸3᷹p"
+    Bytes (hex): 8F 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=22/freq=1]
+
+  [Term #145] "P»艸3᷹p"
+    Bytes (hex): 90 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=23/freq=1]
+
+  [Term #146] "P»艸3᷹p"
+    Bytes (hex): 91 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=24/freq=1]
+
+  [Term #147] "P»艸3᷹p"
+    Bytes (hex): 92 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=25/freq=1]
+
+  [Term #148] "P»艸3᷹p"
+    Bytes (hex): 93 89 50 BB 9E 01 E8 09 B8 33 97 E1 B7 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=26/freq=1]
+
+  [Term #149] "P»艸3ẹ"
+    Bytes (hex): 94 89 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=27/freq=1]
+
+  [Term #150] "P»艸3ẹ"
+    Bytes (hex): 95 89 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=28/freq=1]
+
+  [Term #151] "P»艸3ẹ"
+    Bytes (hex): 96 89 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=29/freq=1]
+
+  [Term #152] "P»艸3ẹ"
+    Bytes (hex): 97 89 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=30/freq=1]
+
+  [Term #153] "P»艸3ẹ"
+    Bytes (hex): 98 89 50 BB 9E 01 E8 09 B8 33 97 E1 BA 39 0F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=31/freq=1]
+
+  [Term #154] "P»艸3ỹp"
+    Bytes (hex): 99 89 50 BB 9E 01 E8 09 B8 33 97 E1 BB 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=32/freq=1]
+
+  [Term #155] "P»艸3ỹp"
+    Bytes (hex): 9A 89 50 BB 9E 01 E8 09 B8 33 97 E1 BB 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=33/freq=1]
+
+  [Term #156] "P»艸3ỹp"
+    Bytes (hex): 9B 89 50 BB 9E 01 E8 09 B8 33 97 E1 BB 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=34/freq=1]
+
+  [Term #157] "P»艸3ỹp"
+    Bytes (hex): 9C 89 50 BB 9E 01 E8 09 B8 33 97 E1 BB 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=35/freq=1]
+
+  [Term #158] "P»艸3ỹp"
+    Bytes (hex): 9D 89 50 BB 9E 01 E8 09 B8 33 97 E1 BB 39 70
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=36/freq=1]
+
+  [Term #159] "P»艸3Ό°"
+    Bytes (hex): 9E 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF 39 B0
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=37/freq=1]
+
+  [Term #160] "P»艸3Ό°"
+    Bytes (hex): 9F 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF 39 B0
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=38/freq=1]
+
+  [Term #161] " P»艸3Ό°"
+    Bytes (hex): A0 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF 39 B0
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=39/freq=1]
+
+  [Term #162] "¡P»艸3Ό°"
+    Bytes (hex): A1 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF 39 B0
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=40/freq=1]
+
+  [Term #163] "¢P»艸3Ό±"
+    Bytes (hex): A2 89 50 BB 9E 01 E8 09 B8 33 97 E1 BF 39 B1
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=41/freq=1]
+
+  [Term #164] "£P»艸3ၹ"
+    Bytes (hex): A3 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=42/freq=1]
+
+  [Term #165] "¤P»艸3ၹ"
+    Bytes (hex): A4 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=43/freq=1]
+
+  [Term #166] "¥P»艸3ၹ"
+    Bytes (hex): A5 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=44/freq=1]
+
+  [Term #167] "¦P»艸3ၹ"
+    Bytes (hex): A6 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=45/freq=1]
+
+  [Term #168] "§P»艸3ၹ"
+    Bytes (hex): A7 89 50 BB 9E 01 E8 09 B8 33 97 E1 C1 39 0E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=46/freq=1]
+
+  [Term #169] "¨P»艸3ჹd"
+    Bytes (hex): A8 89 50 BB 9E 01 E8 09 B8 33 97 E1 C3 39 64
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=47/freq=1]
+
+  [Term #170] "©P»艸3ჹe"
+    Bytes (hex): A9 89 50 BB 9E 01 E8 09 B8 33 97 E1 C3 39 65
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=48/freq=1]
+
+  [Term #171] "ªP»艸3ჹe"
+    Bytes (hex): AA 89 50 BB 9E 01 E8 09 B8 33 97 E1 C3 39 65
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=49/freq=1]
+
+  [Term #172] "«P»艸3ჹe"
+    Bytes (hex): AB 89 50 BB 9E 01 E8 09 B8 33 97 E1 C3 39 65
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=50/freq=1]
+
+  [Term #173] "¬P»艸3ჹe"
+    Bytes (hex): AC 89 50 BB 9E 01 E8 09 B8 33 97 E1 C3 39 65
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=51/freq=1]
+
+  [Term #174] "­P»艸3ቹF"
+    Bytes (hex): AD 89 50 BB 9E 01 E8 09 B8 33 97 E1 C9 39 46
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=52/freq=1]
+
+  [Term #175] "®P»艸3ቹF"
+    Bytes (hex): AE 89 50 BB 9E 01 E8 09 B8 33 97 E1 C9 39 46
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=53/freq=1]
+
+  [Term #176] "¯P»艸3ቹF"
+    Bytes (hex): AF 89 50 BB 9E 01 E8 09 B8 33 97 E1 C9 39 46
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=54/freq=1]
+
+  [Term #177] "°P»艸3ቹF"
+    Bytes (hex): B0 89 50 BB 9E 01 E8 09 B8 33 97 E1 C9 39 46
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=55/freq=1]
+
+  [Term #178] "±P»艸3ቹF"
+    Bytes (hex): B1 89 50 BB 9E 01 E8 09 B8 33 97 E1 C9 39 46
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=56/freq=1]
+
+  [Term #179] "²P»艸3ዹH"
+    Bytes (hex): B2 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 48
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=57/freq=1]
+
+  [Term #180] "³P»艸3ዹI"
+    Bytes (hex): B3 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 49
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=58/freq=1]
+
+  [Term #181] "´P»艸3ዹI"
+    Bytes (hex): B4 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 49
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=59/freq=1]
+
+  [Term #182] "µP»艸3ዹI"
+    Bytes (hex): B5 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 49
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=60/freq=1]
+
+  [Term #183] "¶P»艸3ዹI"
+    Bytes (hex): B6 89 50 BB 9E 01 E8 09 B8 33 97 E1 CB 39 49
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=61/freq=1]
+
+  [Term #184] "·P»艸3ጹԀ"
+    Bytes (hex): B7 89 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=62/freq=1]
+
+  [Term #185] "¸P»艸3ጹԀ"
+    Bytes (hex): B8 89 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=63/freq=1]
+
+  [Term #186] "¹P»艸3ጹԀ"
+    Bytes (hex): B9 89 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=64/freq=1]
+
+  [Term #187] "ºP»艸3ጹԀ"
+    Bytes (hex): BA 89 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=65/freq=1]
+
+  [Term #188] "»P»艸3ጹԀ"
+    Bytes (hex): BB 89 50 BB 9E 01 E8 09 B8 33 97 E1 CC 39 D4
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=66/freq=1]
+
+  [Term #189] "¼P»艸3Ꮉ򀀀"
+    Bytes (hex): BC 89 50 BB 9E 01 E8 09 B8 33 97 E1 CE 39 FA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=67/freq=1]
+
+  [Term #190] "½P»艸3Ꮉ򀀀"
+    Bytes (hex): BD 89 50 BB 9E 01 E8 09 B8 33 97 E1 CE 39 FA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=68/freq=1]
+
+  [Term #191] "¾P»艸3Ꮉ򀀀"
+    Bytes (hex): BE 89 50 BB 9E 01 E8 09 B8 33 97 E1 CE 39 FA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=69/freq=1]
+
+  [Term #192] "¿P»艸3Ꮉ򀀀"
+    Bytes (hex): BF 89 50 BB 9E 01 E8 09 B8 33 97 E1 CE 39 FA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=70/freq=1]
+
+  [Term #193] "	P»艸3Ꮉ򀀀"
+    Bytes (hex): C0 89 50 BB 9E 01 E8 09 B8 33 97 E1 CE 39 FA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=71/freq=1]
+
+  [Term #194] "IP»艸3ᐹǀ"
+    Bytes (hex): C1 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39 C7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=72/freq=1]
+
+  [Term #195] "P»艸3ᐹǀ"
+    Bytes (hex): C2 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39 C7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=73/freq=1]
+
+  [Term #196] "ÉP»艸3ᐹǀ"
+    Bytes (hex): C3 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39 C7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=74/freq=1]
+
+  [Term #197] "ĉP»艸3ᐹǀ"
+    Bytes (hex): C4 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39 C7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=75/freq=1]
+
+  [Term #198] "ŉP»艸3ᐹǀ"
+    Bytes (hex): C5 89 50 BB 9E 01 E8 09 B8 33 97 E1 D0 39 C7
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=76/freq=1]
+
+  [Term #199] "߉1»艸3ី$"
+    Bytes (hex): DF 89 31 BB 9E 01 E8 09 B8 33 97 E1 1E 38 24
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  [Term #200] "ɏ»艸3ᔸ"
+    Bytes (hex): E0 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1D
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=228/freq=1]
+
+  [Term #201] "቏»艸3ᔸ"
+    Bytes (hex): E1 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=229/freq=1]
+
+  [Term #202] "≏»艸3ᔸ"
+    Bytes (hex): E2 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=230/freq=1]
+
+  [Term #203] "㉏»艸3ᔸ"
+    Bytes (hex): E3 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=231/freq=1]
+
+  [Term #204] "䉏»艸3ᔸ"
+    Bytes (hex): E4 89 4F BB 9E 01 E8 09 B8 33 97 E1 54 38 1E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=232/freq=1]
+
+  [Term #205] "剏»艸3៸π"
+    Bytes (hex): E5 89 4F BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=78/freq=1]
+
+  [Term #206] "扏»艸3៸π"
+    Bytes (hex): E6 89 4F BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=79/freq=1]
+
+  [Term #207] "牏»艸3៸π"
+    Bytes (hex): E7 89 4F BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=80/freq=1]
+
+  [Term #208] "艏»艸3៸π"
+    Bytes (hex): E8 89 4F BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=81/freq=1]
+
+  [Term #209] "鉏»艸3៸π"
+    Bytes (hex): E9 89 4F BB 9E 01 E8 09 B8 33 97 E1 5F 38 CF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=82/freq=1]
+
+  [Term #210] "ꉏ»艸3ᢸ8"
+    Bytes (hex): EA 89 4F BB 9E 01 E8 09 B8 33 97 E1 62 38 38
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=83/freq=1]
+
+  [Term #211] "뉏»艸3ᢸ8"
+    Bytes (hex): EB 89 4F BB 9E 01 E8 09 B8 33 97 E1 62 38 38
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=84/freq=1]
+
+  [Term #212] "쉏»艸3ᢸ8"
+    Bytes (hex): EC 89 4F BB 9E 01 E8 09 B8 33 97 E1 62 38 38
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=85/freq=1]
+
+  [Term #213] "퉏»艸3ᢸ8"
+    Bytes (hex): ED 89 4F BB 9E 01 E8 09 B8 33 97 E1 62 38 38
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=86/freq=1]
+
+  [Term #214] "»艸3ᢸ8"
+    Bytes (hex): EE 89 4F BB 9E 01 E8 09 B8 33 97 E1 62 38 38
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=87/freq=1]
+
+  [Term #215] "»艸3ᤸ¯"
+    Bytes (hex): EF 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=88/freq=1]
+
+  [Term #216] "鏻艸3ᤸ¯"
+    Bytes (hex): F0 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=89/freq=1]
+
+  [Term #217] "񉏻艸3ᤸ¯"
+    Bytes (hex): F1 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=90/freq=1]
+
+  [Term #218] "򉏻艸3ᤸ¯"
+    Bytes (hex): F2 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=91/freq=1]
+
+  [Term #219] "󉏻艸3ᤸ¯"
+    Bytes (hex): F3 89 4F BB 9E 01 E8 09 B8 33 97 E1 64 38 AF
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=92/freq=1]
+
+  [Term #220] "􉏻艸3ᦸʀ"
+    Bytes (hex): F4 89 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=93/freq=1]
+
+  [Term #221] "??艸3ᦸʀ"
+    Bytes (hex): F5 89 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=94/freq=1]
+
+  [Term #222] "??艸3ᦸʀ"
+    Bytes (hex): F6 89 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CA
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=95/freq=1]
+
+  [Term #223] "??艸3ᦸˀ"
+    Bytes (hex): F7 89 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CB
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=96/freq=1]
+
+  [Term #224] "鏻艸3ᦸˀ"
+    Bytes (hex): F8 89 4F BB 9E 01 E8 09 B8 33 97 E1 66 38 CB
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=97/freq=1]
+
+  [Term #225] "񉏻艸3ᨸÀ"
+    Bytes (hex): F9 89 4F BB 9E 01 E8 09 B8 33 97 E1 68 38 C3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=98/freq=1]
+
+  [Term #226] "򉏻艸3ᨸÀ"
+    Bytes (hex): FA 89 4F BB 9E 01 E8 09 B8 33 97 E1 68 38 C3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=99/freq=1]
+
+  [Term #227] "󉏻艸3ᨸÀ"
+    Bytes (hex): FB 89 4F BB 9E 01 E8 09 B8 33 97 E1 68 38 C3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=100/freq=1]
+
+  [Term #228] "􉏻艸3ᨸÀ"
+    Bytes (hex): FC 89 4F BB 9E 01 E8 09 B8 33 97 E1 68 38 C3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=101/freq=1]
+
+  [Term #229] "??»艸3ᨸÀ"
+    Bytes (hex): FD FD 89 4F BB 9E 01 E8 09 B8 33 97 E1 68 38 C3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=102/freq=1]
+
+  [Term #230] "??»艸3᪸Ӏ"
+    Bytes (hex): FD FE 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 38 D3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=103/freq=1]
+
+  [Term #231] "??»艸3᪸Ӏ"
+    Bytes (hex): FD FF 89 4F BB 9E 01 E8 09 B8 33 97 E1 6A 38 D3
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=104/freq=1]
+
+  [Term #232] "??"
+    Bytes (hex): FE 10 09 0F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=77/freq=1]
+
+  [Term #233] "??"
+    Bytes (hex): FE 10 09 1F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=233/freq=1]
+
+  [Term #234] "??"
+    Bytes (hex): FE 10 09 2F
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=0/freq=1]
+
+  该字段 Term 总数: 234
+
+----------------------------------------------------------
+[Field] name
+  IndexOptions: DOCS_AND_FREQS_AND_POSITIONS
+  DocCount: 234
+  SumTotalTermFreq: 517
+  SumDocFreq: 517
+  TermCount (size): 13
+  HasFreqs: true
+  HasPositions: true
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] "1984"
+    Bytes (hex): 31 39 38 34
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=3/freq=1, doc=8/freq=1, doc=13/freq=1, doc=18/freq=1, doc=23/freq=1, doc=28/freq=1, doc=33/freq=1, doc=38/freq=1, doc=43/freq=1, doc=48/freq=1, doc=53/freq=1, doc=58/freq=1, doc=63/freq=1, doc=68/freq=1, doc=73/freq=1, doc=79/freq=1, doc=84/freq=1, doc=89/freq=1, doc=94/freq=1, doc=99/freq=1, doc=104/freq=1, doc=109/freq=1, doc=114/freq=1, doc=119/freq=1, doc=124/freq=1, doc=129/freq=1, doc=134/freq=1, doc=139/freq=1, doc=144/freq=1, doc=149/freq=1, doc=154/freq=1, doc=159/freq=1, doc=164/freq=1, doc=169/freq=1, doc=174/freq=1, doc=179/freq=1, doc=184/freq=1, doc=189/freq=1, doc=194/freq=1, doc=199/freq=1, doc=204/freq=1, doc=209/freq=1, doc=214/freq=1, doc=219/freq=1, doc=224/freq=1, doc=229/freq=1]
+
+  [Term #2] "451"
+    Bytes (hex): 34 35 31
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=4/freq=1, doc=9/freq=1, doc=14/freq=1, doc=19/freq=1, doc=24/freq=1, doc=29/freq=1, doc=34/freq=1, doc=39/freq=1, doc=44/freq=1, doc=49/freq=1, doc=54/freq=1, doc=59/freq=1, doc=64/freq=1, doc=69/freq=1, doc=74/freq=1, doc=80/freq=1, doc=85/freq=1, doc=90/freq=1, doc=95/freq=1, doc=100/freq=1, doc=105/freq=1, doc=110/freq=1, doc=115/freq=1, doc=120/freq=1, doc=125/freq=1, doc=130/freq=1, doc=135/freq=1, doc=140/freq=1, doc=145/freq=1, doc=150/freq=1, doc=155/freq=1, doc=160/freq=1, doc=165/freq=1, doc=170/freq=1, doc=175/freq=1, doc=180/freq=1, doc=185/freq=1, doc=190/freq=1, doc=195/freq=1, doc=200/freq=1, doc=205/freq=1, doc=210/freq=1, doc=215/freq=1, doc=220/freq=1, doc=225/freq=1, doc=230/freq=1]
+
+  [Term #3] "brave"
+    Bytes (hex): 62 72 61 76 65
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  [Term #4] "crash"
+    Bytes (hex): 63 72 61 73 68
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  [Term #5] "fahrenheit"
+    Bytes (hex): 66 61 68 72 65 6E 68 65 69 74
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=4/freq=1, doc=9/freq=1, doc=14/freq=1, doc=19/freq=1, doc=24/freq=1, doc=29/freq=1, doc=34/freq=1, doc=39/freq=1, doc=44/freq=1, doc=49/freq=1, doc=54/freq=1, doc=59/freq=1, doc=64/freq=1, doc=69/freq=1, doc=74/freq=1, doc=80/freq=1, doc=85/freq=1, doc=90/freq=1, doc=95/freq=1, doc=100/freq=1, doc=105/freq=1, doc=110/freq=1, doc=115/freq=1, doc=120/freq=1, doc=125/freq=1, doc=130/freq=1, doc=135/freq=1, doc=140/freq=1, doc=145/freq=1, doc=150/freq=1, doc=155/freq=1, doc=160/freq=1, doc=165/freq=1, doc=170/freq=1, doc=175/freq=1, doc=180/freq=1, doc=185/freq=1, doc=190/freq=1, doc=195/freq=1, doc=200/freq=1, doc=205/freq=1, doc=210/freq=1, doc=215/freq=1, doc=220/freq=1, doc=225/freq=1, doc=230/freq=1]
+
+  [Term #6] "handmaids"
+    Bytes (hex): 68 61 6E 64 6D 61 69 64 73
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  [Term #7] "new"
+    Bytes (hex): 6E 65 77
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  [Term #8] "revelation"
+    Bytes (hex): 72 65 76 65 6C 61 74 69 6F 6E
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=2/freq=1, doc=7/freq=1, doc=12/freq=1, doc=17/freq=1, doc=22/freq=1, doc=27/freq=1, doc=32/freq=1, doc=37/freq=1, doc=42/freq=1, doc=47/freq=1, doc=52/freq=1, doc=57/freq=1, doc=62/freq=1, doc=67/freq=1, doc=72/freq=1, doc=78/freq=1, doc=83/freq=1, doc=88/freq=1, doc=93/freq=1, doc=98/freq=1, doc=103/freq=1, doc=108/freq=1, doc=113/freq=1, doc=118/freq=1, doc=123/freq=1, doc=128/freq=1, doc=133/freq=1, doc=138/freq=1, doc=143/freq=1, doc=148/freq=1, doc=153/freq=1, doc=158/freq=1, doc=163/freq=1, doc=168/freq=1, doc=173/freq=1, doc=178/freq=1, doc=183/freq=1, doc=188/freq=1, doc=193/freq=1, doc=198/freq=1, doc=203/freq=1, doc=208/freq=1, doc=213/freq=1, doc=218/freq=1, doc=223/freq=1, doc=228/freq=1]
+
+  [Term #9] "snow"
+    Bytes (hex): 73 6E 6F 77
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  [Term #10] "space"
+    Bytes (hex): 73 70 61 63 65
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=2/freq=1, doc=7/freq=1, doc=12/freq=1, doc=17/freq=1, doc=22/freq=1, doc=27/freq=1, doc=32/freq=1, doc=37/freq=1, doc=42/freq=1, doc=47/freq=1, doc=52/freq=1, doc=57/freq=1, doc=62/freq=1, doc=67/freq=1, doc=72/freq=1, doc=78/freq=1, doc=83/freq=1, doc=88/freq=1, doc=93/freq=1, doc=98/freq=1, doc=103/freq=1, doc=108/freq=1, doc=113/freq=1, doc=118/freq=1, doc=123/freq=1, doc=128/freq=1, doc=133/freq=1, doc=138/freq=1, doc=143/freq=1, doc=148/freq=1, doc=153/freq=1, doc=158/freq=1, doc=163/freq=1, doc=168/freq=1, doc=173/freq=1, doc=178/freq=1, doc=183/freq=1, doc=188/freq=1, doc=193/freq=1, doc=198/freq=1, doc=203/freq=1, doc=208/freq=1, doc=213/freq=1, doc=218/freq=1, doc=223/freq=1, doc=228/freq=1]
+
+  [Term #11] "tale"
+    Bytes (hex): 74 61 6C 65
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  [Term #12] "the"
+    Bytes (hex): 74 68 65
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  [Term #13] "world"
+    Bytes (hex): 77 6F 72 6C 64
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  该字段 Term 总数: 13
+
+----------------------------------------------------------
+[Field] name.keyword
+  IndexOptions: DOCS
+  DocCount: 234
+  SumTotalTermFreq: 234
+  SumDocFreq: 234
+  TermCount (size): 6
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] "1984"
+    Bytes (hex): 31 39 38 34
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=3/freq=1, doc=8/freq=1, doc=13/freq=1, doc=18/freq=1, doc=23/freq=1, doc=28/freq=1, doc=33/freq=1, doc=38/freq=1, doc=43/freq=1, doc=48/freq=1, doc=53/freq=1, doc=58/freq=1, doc=63/freq=1, doc=68/freq=1, doc=73/freq=1, doc=79/freq=1, doc=84/freq=1, doc=89/freq=1, doc=94/freq=1, doc=99/freq=1, doc=104/freq=1, doc=109/freq=1, doc=114/freq=1, doc=119/freq=1, doc=124/freq=1, doc=129/freq=1, doc=134/freq=1, doc=139/freq=1, doc=144/freq=1, doc=149/freq=1, doc=154/freq=1, doc=159/freq=1, doc=164/freq=1, doc=169/freq=1, doc=174/freq=1, doc=179/freq=1, doc=184/freq=1, doc=189/freq=1, doc=194/freq=1, doc=199/freq=1, doc=204/freq=1, doc=209/freq=1, doc=214/freq=1, doc=219/freq=1, doc=224/freq=1, doc=229/freq=1]
+
+  [Term #2] "Brave New World"
+    Bytes (hex): 42 72 61 76 65 20 4E 65 77 20 57 6F 72 6C 64
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  [Term #3] "Fahrenheit 451"
+    Bytes (hex): 46 61 68 72 65 6E 68 65 69 74 20 34 35 31
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=4/freq=1, doc=9/freq=1, doc=14/freq=1, doc=19/freq=1, doc=24/freq=1, doc=29/freq=1, doc=34/freq=1, doc=39/freq=1, doc=44/freq=1, doc=49/freq=1, doc=54/freq=1, doc=59/freq=1, doc=64/freq=1, doc=69/freq=1, doc=74/freq=1, doc=80/freq=1, doc=85/freq=1, doc=90/freq=1, doc=95/freq=1, doc=100/freq=1, doc=105/freq=1, doc=110/freq=1, doc=115/freq=1, doc=120/freq=1, doc=125/freq=1, doc=130/freq=1, doc=135/freq=1, doc=140/freq=1, doc=145/freq=1, doc=150/freq=1, doc=155/freq=1, doc=160/freq=1, doc=165/freq=1, doc=170/freq=1, doc=175/freq=1, doc=180/freq=1, doc=185/freq=1, doc=190/freq=1, doc=195/freq=1, doc=200/freq=1, doc=205/freq=1, doc=210/freq=1, doc=215/freq=1, doc=220/freq=1, doc=225/freq=1, doc=230/freq=1]
+
+  [Term #4] "Revelation Space"
+    Bytes (hex): 52 65 76 65 6C 61 74 69 6F 6E 20 53 70 61 63 65
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=2/freq=1, doc=7/freq=1, doc=12/freq=1, doc=17/freq=1, doc=22/freq=1, doc=27/freq=1, doc=32/freq=1, doc=37/freq=1, doc=42/freq=1, doc=47/freq=1, doc=52/freq=1, doc=57/freq=1, doc=62/freq=1, doc=67/freq=1, doc=72/freq=1, doc=78/freq=1, doc=83/freq=1, doc=88/freq=1, doc=93/freq=1, doc=98/freq=1, doc=103/freq=1, doc=108/freq=1, doc=113/freq=1, doc=118/freq=1, doc=123/freq=1, doc=128/freq=1, doc=133/freq=1, doc=138/freq=1, doc=143/freq=1, doc=148/freq=1, doc=153/freq=1, doc=158/freq=1, doc=163/freq=1, doc=168/freq=1, doc=173/freq=1, doc=178/freq=1, doc=183/freq=1, doc=188/freq=1, doc=193/freq=1, doc=198/freq=1, doc=203/freq=1, doc=208/freq=1, doc=213/freq=1, doc=218/freq=1, doc=223/freq=1, doc=228/freq=1]
+
+  [Term #5] "Snow Crash"
+    Bytes (hex): 53 6E 6F 77 20 43 72 61 73 68
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  [Term #6] "The Handmaids Tale"
+    Bytes (hex): 54 68 65 20 48 61 6E 64 6D 61 69 64 73 20 54 61 6C 65
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  该字段 Term 总数: 6
+
+----------------------------------------------------------
+[Field] author
+  IndexOptions: DOCS_AND_FREQS_AND_POSITIONS
+  DocCount: 234
+  SumTotalTermFreq: 468
+  SumDocFreq: 468
+  TermCount (size): 12
+  HasFreqs: true
+  HasPositions: true
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] "alastair"
+    Bytes (hex): 61 6C 61 73 74 61 69 72
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=2/freq=1, doc=7/freq=1, doc=12/freq=1, doc=17/freq=1, doc=22/freq=1, doc=27/freq=1, doc=32/freq=1, doc=37/freq=1, doc=42/freq=1, doc=47/freq=1, doc=52/freq=1, doc=57/freq=1, doc=62/freq=1, doc=67/freq=1, doc=72/freq=1, doc=78/freq=1, doc=83/freq=1, doc=88/freq=1, doc=93/freq=1, doc=98/freq=1, doc=103/freq=1, doc=108/freq=1, doc=113/freq=1, doc=118/freq=1, doc=123/freq=1, doc=128/freq=1, doc=133/freq=1, doc=138/freq=1, doc=143/freq=1, doc=148/freq=1, doc=153/freq=1, doc=158/freq=1, doc=163/freq=1, doc=168/freq=1, doc=173/freq=1, doc=178/freq=1, doc=183/freq=1, doc=188/freq=1, doc=193/freq=1, doc=198/freq=1, doc=203/freq=1, doc=208/freq=1, doc=213/freq=1, doc=218/freq=1, doc=223/freq=1, doc=228/freq=1]
+
+  [Term #2] "aldous"
+    Bytes (hex): 61 6C 64 6F 75 73
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  [Term #3] "atwood"
+    Bytes (hex): 61 74 77 6F 6F 64
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  [Term #4] "bradbury"
+    Bytes (hex): 62 72 61 64 62 75 72 79
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=4/freq=1, doc=9/freq=1, doc=14/freq=1, doc=19/freq=1, doc=24/freq=1, doc=29/freq=1, doc=34/freq=1, doc=39/freq=1, doc=44/freq=1, doc=49/freq=1, doc=54/freq=1, doc=59/freq=1, doc=64/freq=1, doc=69/freq=1, doc=74/freq=1, doc=80/freq=1, doc=85/freq=1, doc=90/freq=1, doc=95/freq=1, doc=100/freq=1, doc=105/freq=1, doc=110/freq=1, doc=115/freq=1, doc=120/freq=1, doc=125/freq=1, doc=130/freq=1, doc=135/freq=1, doc=140/freq=1, doc=145/freq=1, doc=150/freq=1, doc=155/freq=1, doc=160/freq=1, doc=165/freq=1, doc=170/freq=1, doc=175/freq=1, doc=180/freq=1, doc=185/freq=1, doc=190/freq=1, doc=195/freq=1, doc=200/freq=1, doc=205/freq=1, doc=210/freq=1, doc=215/freq=1, doc=220/freq=1, doc=225/freq=1, doc=230/freq=1]
+
+  [Term #5] "george"
+    Bytes (hex): 67 65 6F 72 67 65
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=3/freq=1, doc=8/freq=1, doc=13/freq=1, doc=18/freq=1, doc=23/freq=1, doc=28/freq=1, doc=33/freq=1, doc=38/freq=1, doc=43/freq=1, doc=48/freq=1, doc=53/freq=1, doc=58/freq=1, doc=63/freq=1, doc=68/freq=1, doc=73/freq=1, doc=79/freq=1, doc=84/freq=1, doc=89/freq=1, doc=94/freq=1, doc=99/freq=1, doc=104/freq=1, doc=109/freq=1, doc=114/freq=1, doc=119/freq=1, doc=124/freq=1, doc=129/freq=1, doc=134/freq=1, doc=139/freq=1, doc=144/freq=1, doc=149/freq=1, doc=154/freq=1, doc=159/freq=1, doc=164/freq=1, doc=169/freq=1, doc=174/freq=1, doc=179/freq=1, doc=184/freq=1, doc=189/freq=1, doc=194/freq=1, doc=199/freq=1, doc=204/freq=1, doc=209/freq=1, doc=214/freq=1, doc=219/freq=1, doc=224/freq=1, doc=229/freq=1]
+
+  [Term #6] "huxley"
+    Bytes (hex): 68 75 78 6C 65 79
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  [Term #7] "margaret"
+    Bytes (hex): 6D 61 72 67 61 72 65 74
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  [Term #8] "neal"
+    Bytes (hex): 6E 65 61 6C
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  [Term #9] "orwell"
+    Bytes (hex): 6F 72 77 65 6C 6C
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=3/freq=1, doc=8/freq=1, doc=13/freq=1, doc=18/freq=1, doc=23/freq=1, doc=28/freq=1, doc=33/freq=1, doc=38/freq=1, doc=43/freq=1, doc=48/freq=1, doc=53/freq=1, doc=58/freq=1, doc=63/freq=1, doc=68/freq=1, doc=73/freq=1, doc=79/freq=1, doc=84/freq=1, doc=89/freq=1, doc=94/freq=1, doc=99/freq=1, doc=104/freq=1, doc=109/freq=1, doc=114/freq=1, doc=119/freq=1, doc=124/freq=1, doc=129/freq=1, doc=134/freq=1, doc=139/freq=1, doc=144/freq=1, doc=149/freq=1, doc=154/freq=1, doc=159/freq=1, doc=164/freq=1, doc=169/freq=1, doc=174/freq=1, doc=179/freq=1, doc=184/freq=1, doc=189/freq=1, doc=194/freq=1, doc=199/freq=1, doc=204/freq=1, doc=209/freq=1, doc=214/freq=1, doc=219/freq=1, doc=224/freq=1, doc=229/freq=1]
+
+  [Term #10] "ray"
+    Bytes (hex): 72 61 79
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=4/freq=1, doc=9/freq=1, doc=14/freq=1, doc=19/freq=1, doc=24/freq=1, doc=29/freq=1, doc=34/freq=1, doc=39/freq=1, doc=44/freq=1, doc=49/freq=1, doc=54/freq=1, doc=59/freq=1, doc=64/freq=1, doc=69/freq=1, doc=74/freq=1, doc=80/freq=1, doc=85/freq=1, doc=90/freq=1, doc=95/freq=1, doc=100/freq=1, doc=105/freq=1, doc=110/freq=1, doc=115/freq=1, doc=120/freq=1, doc=125/freq=1, doc=130/freq=1, doc=135/freq=1, doc=140/freq=1, doc=145/freq=1, doc=150/freq=1, doc=155/freq=1, doc=160/freq=1, doc=165/freq=1, doc=170/freq=1, doc=175/freq=1, doc=180/freq=1, doc=185/freq=1, doc=190/freq=1, doc=195/freq=1, doc=200/freq=1, doc=205/freq=1, doc=210/freq=1, doc=215/freq=1, doc=220/freq=1, doc=225/freq=1, doc=230/freq=1]
+
+  [Term #11] "reynolds"
+    Bytes (hex): 72 65 79 6E 6F 6C 64 73
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=2/freq=1, doc=7/freq=1, doc=12/freq=1, doc=17/freq=1, doc=22/freq=1, doc=27/freq=1, doc=32/freq=1, doc=37/freq=1, doc=42/freq=1, doc=47/freq=1, doc=52/freq=1, doc=57/freq=1, doc=62/freq=1, doc=67/freq=1, doc=72/freq=1, doc=78/freq=1, doc=83/freq=1, doc=88/freq=1, doc=93/freq=1, doc=98/freq=1, doc=103/freq=1, doc=108/freq=1, doc=113/freq=1, doc=118/freq=1, doc=123/freq=1, doc=128/freq=1, doc=133/freq=1, doc=138/freq=1, doc=143/freq=1, doc=148/freq=1, doc=153/freq=1, doc=158/freq=1, doc=163/freq=1, doc=168/freq=1, doc=173/freq=1, doc=178/freq=1, doc=183/freq=1, doc=188/freq=1, doc=193/freq=1, doc=198/freq=1, doc=203/freq=1, doc=208/freq=1, doc=213/freq=1, doc=218/freq=1, doc=223/freq=1, doc=228/freq=1]
+
+  [Term #12] "stephenson"
+    Bytes (hex): 73 74 65 70 68 65 6E 73 6F 6E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  该字段 Term 总数: 12
+
+----------------------------------------------------------
+[Field] author.keyword
+  IndexOptions: DOCS
+  DocCount: 234
+  SumTotalTermFreq: 234
+  SumDocFreq: 234
+  TermCount (size): 6
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] "Alastair Reynolds"
+    Bytes (hex): 41 6C 61 73 74 61 69 72 20 52 65 79 6E 6F 6C 64 73
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=2/freq=1, doc=7/freq=1, doc=12/freq=1, doc=17/freq=1, doc=22/freq=1, doc=27/freq=1, doc=32/freq=1, doc=37/freq=1, doc=42/freq=1, doc=47/freq=1, doc=52/freq=1, doc=57/freq=1, doc=62/freq=1, doc=67/freq=1, doc=72/freq=1, doc=78/freq=1, doc=83/freq=1, doc=88/freq=1, doc=93/freq=1, doc=98/freq=1, doc=103/freq=1, doc=108/freq=1, doc=113/freq=1, doc=118/freq=1, doc=123/freq=1, doc=128/freq=1, doc=133/freq=1, doc=138/freq=1, doc=143/freq=1, doc=148/freq=1, doc=153/freq=1, doc=158/freq=1, doc=163/freq=1, doc=168/freq=1, doc=173/freq=1, doc=178/freq=1, doc=183/freq=1, doc=188/freq=1, doc=193/freq=1, doc=198/freq=1, doc=203/freq=1, doc=208/freq=1, doc=213/freq=1, doc=218/freq=1, doc=223/freq=1, doc=228/freq=1]
+
+  [Term #2] "Aldous Huxley"
+    Bytes (hex): 41 6C 64 6F 75 73 20 48 75 78 6C 65 79
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=5/freq=1, doc=10/freq=1, doc=15/freq=1, doc=20/freq=1, doc=25/freq=1, doc=30/freq=1, doc=35/freq=1, doc=40/freq=1, doc=45/freq=1, doc=50/freq=1, doc=55/freq=1, doc=60/freq=1, doc=65/freq=1, doc=70/freq=1, doc=75/freq=1, doc=81/freq=1, doc=86/freq=1, doc=91/freq=1, doc=96/freq=1, doc=101/freq=1, doc=106/freq=1, doc=111/freq=1, doc=116/freq=1, doc=121/freq=1, doc=126/freq=1, doc=131/freq=1, doc=136/freq=1, doc=141/freq=1, doc=146/freq=1, doc=151/freq=1, doc=156/freq=1, doc=161/freq=1, doc=166/freq=1, doc=171/freq=1, doc=176/freq=1, doc=181/freq=1, doc=186/freq=1, doc=191/freq=1, doc=196/freq=1, doc=201/freq=1, doc=206/freq=1, doc=211/freq=1, doc=216/freq=1, doc=221/freq=1, doc=226/freq=1, doc=231/freq=1]
+
+  [Term #3] "George Orwell"
+    Bytes (hex): 47 65 6F 72 67 65 20 4F 72 77 65 6C 6C
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=3/freq=1, doc=8/freq=1, doc=13/freq=1, doc=18/freq=1, doc=23/freq=1, doc=28/freq=1, doc=33/freq=1, doc=38/freq=1, doc=43/freq=1, doc=48/freq=1, doc=53/freq=1, doc=58/freq=1, doc=63/freq=1, doc=68/freq=1, doc=73/freq=1, doc=79/freq=1, doc=84/freq=1, doc=89/freq=1, doc=94/freq=1, doc=99/freq=1, doc=104/freq=1, doc=109/freq=1, doc=114/freq=1, doc=119/freq=1, doc=124/freq=1, doc=129/freq=1, doc=134/freq=1, doc=139/freq=1, doc=144/freq=1, doc=149/freq=1, doc=154/freq=1, doc=159/freq=1, doc=164/freq=1, doc=169/freq=1, doc=174/freq=1, doc=179/freq=1, doc=184/freq=1, doc=189/freq=1, doc=194/freq=1, doc=199/freq=1, doc=204/freq=1, doc=209/freq=1, doc=214/freq=1, doc=219/freq=1, doc=224/freq=1, doc=229/freq=1]
+
+  [Term #4] "Margaret Atwood"
+    Bytes (hex): 4D 61 72 67 61 72 65 74 20 41 74 77 6F 6F 64
+    DocFreq: 49
+    TotalTermFreq: 49
+    Postings: [doc=0/freq=1, doc=6/freq=1, doc=11/freq=1, doc=16/freq=1, doc=21/freq=1, doc=26/freq=1, doc=31/freq=1, doc=36/freq=1, doc=41/freq=1, doc=46/freq=1, doc=51/freq=1, doc=56/freq=1, doc=61/freq=1, doc=66/freq=1, doc=71/freq=1, doc=76/freq=1, doc=77/freq=1, doc=82/freq=1, doc=87/freq=1, doc=92/freq=1, doc=97/freq=1, doc=102/freq=1, doc=107/freq=1, doc=112/freq=1, doc=117/freq=1, doc=122/freq=1, doc=127/freq=1, doc=132/freq=1, doc=137/freq=1, doc=142/freq=1, doc=147/freq=1, doc=152/freq=1, doc=157/freq=1, doc=162/freq=1, doc=167/freq=1, doc=172/freq=1, doc=177/freq=1, doc=182/freq=1, doc=187/freq=1, doc=192/freq=1, doc=197/freq=1, doc=202/freq=1, doc=207/freq=1, doc=212/freq=1, doc=217/freq=1, doc=222/freq=1, doc=227/freq=1, doc=232/freq=1, doc=233/freq=1]
+
+  [Term #5] "Neal Stephenson"
+    Bytes (hex): 4E 65 61 6C 20 53 74 65 70 68 65 6E 73 6F 6E
+    DocFreq: 1
+    TotalTermFreq: 1
+    Postings: [doc=1/freq=1]
+
+  [Term #6] "Ray Bradbury"
+    Bytes (hex): 52 61 79 20 42 72 61 64 62 75 72 79
+    DocFreq: 46
+    TotalTermFreq: 46
+    Postings: [doc=4/freq=1, doc=9/freq=1, doc=14/freq=1, doc=19/freq=1, doc=24/freq=1, doc=29/freq=1, doc=34/freq=1, doc=39/freq=1, doc=44/freq=1, doc=49/freq=1, doc=54/freq=1, doc=59/freq=1, doc=64/freq=1, doc=69/freq=1, doc=74/freq=1, doc=80/freq=1, doc=85/freq=1, doc=90/freq=1, doc=95/freq=1, doc=100/freq=1, doc=105/freq=1, doc=110/freq=1, doc=115/freq=1, doc=120/freq=1, doc=125/freq=1, doc=130/freq=1, doc=135/freq=1, doc=140/freq=1, doc=145/freq=1, doc=150/freq=1, doc=155/freq=1, doc=160/freq=1, doc=165/freq=1, doc=170/freq=1, doc=175/freq=1, doc=180/freq=1, doc=185/freq=1, doc=190/freq=1, doc=195/freq=1, doc=200/freq=1, doc=205/freq=1, doc=210/freq=1, doc=215/freq=1, doc=220/freq=1, doc=225/freq=1, doc=230/freq=1]
+
+  该字段 Term 总数: 6
+
+----------------------------------------------------------
+[Field] content
+  IndexOptions: DOCS_AND_FREQS_AND_POSITIONS
+  DocCount: 2
+  SumTotalTermFreq: 300
+  SumDocFreq: 84
+  TermCount (size): 42
+  HasFreqs: true
+  HasPositions: true
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] "a"
+    Bytes (hex): 61
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #2] "and"
+    Bytes (hex): 61 6E 64
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #3] "are"
+    Bytes (hex): 61 72 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #4] "bypass"
+    Bytes (hex): 62 79 70 61 73 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #5] "doc"
+    Bytes (hex): 64 6F 63
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #6] "duplicate"
+    Bytes (hex): 64 75 70 6C 69 63 61 74 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #7] "files"
+    Bytes (hex): 66 69 6C 65 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #8] "in"
+    Bytes (hex): 69 6E
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #9] "index"
+    Bytes (hex): 69 6E 64 65 78
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #10] "indices"
+    Bytes (hex): 69 6E 64 69 63 65 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #11] "it"
+    Bytes (hex): 69 74
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #12] "large"
+    Bytes (hex): 6C 61 72 67 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #13] "let's"
+    Bytes (hex): 6C 65 74 27 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #14] "like"
+    Bytes (hex): 6C 69 6B 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #15] "longer"
+    Bytes (hex): 6C 6F 6E 67 65 72
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #16] "lucene"
+    Bytes (hex): 6C 75 63 65 6E 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #17] "made"
+    Bytes (hex): 6D 61 64 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #18] "make"
+    Bytes (hex): 6D 61 6B 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #19] "mechanism"
+    Bytes (hex): 6D 65 63 68 61 6E 69 73 6D
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #20] "minimum"
+    Bytes (hex): 6D 69 6E 69 6D 75 6D
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #21] "must"
+    Bytes (hex): 6D 75 73 74
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #22] "of"
+    Bytes (hex): 6F 66
+    DocFreq: 2
+    TotalTermFreq: 18
+    Postings: [doc=0/freq=9, doc=233/freq=9]
+
+  [Term #23] "order"
+    Bytes (hex): 6F 72 64 65 72
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #24] "piece"
+    Bytes (hex): 70 69 65 63 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #25] "pos"
+    Bytes (hex): 70 6F 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #26] "protection"
+    Bytes (hex): 70 72 6F 74 65 63 74 69 6F 6E
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #27] "relatively"
+    Bytes (hex): 72 65 6C 61 74 69 76 65 6C 79
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #28] "requires"
+    Bytes (hex): 72 65 71 75 69 72 65 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #29] "see"
+    Bytes (hex): 73 65 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #30] "segment"
+    Bytes (hex): 73 65 67 6D 65 6E 74
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #31] "segments"
+    Bytes (hex): 73 65 67 6D 65 6E 74 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #32] "small"
+    Bytes (hex): 73 6D 61 6C 6C
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #33] "text"
+    Bytes (hex): 74 65 78 74
+    DocFreq: 2
+    TotalTermFreq: 12
+    Postings: [doc=0/freq=6, doc=233/freq=6]
+
+  [Term #34] "the"
+    Bytes (hex): 74 68 65
+    DocFreq: 2
+    TotalTermFreq: 18
+    Postings: [doc=0/freq=9, doc=233/freq=9]
+
+  [Term #35] "this"
+    Bytes (hex): 74 68 69 73
+    DocFreq: 2
+    TotalTermFreq: 12
+    Postings: [doc=0/freq=6, doc=233/freq=6]
+
+  [Term #36] "threshold"
+    Bytes (hex): 74 68 72 65 73 68 6F 6C 64
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #37] "tim"
+    Bytes (hex): 74 69 6D
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #38] "tip"
+    Bytes (hex): 74 69 70
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #39] "to"
+    Bytes (hex): 74 6F
+    DocFreq: 2
+    TotalTermFreq: 18
+    Postings: [doc=0/freq=9, doc=233/freq=9]
+
+  [Term #40] "underlying"
+    Bytes (hex): 75 6E 64 65 72 6C 79 69 6E 67
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #41] "us"
+    Bytes (hex): 75 73
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  [Term #42] "we"
+    Bytes (hex): 77 65
+    DocFreq: 2
+    TotalTermFreq: 6
+    Postings: [doc=0/freq=3, doc=233/freq=3]
+
+  该字段 Term 总数: 42
+
+----------------------------------------------------------
+[Field] _ignored
+  IndexOptions: DOCS
+  DocCount: 2
+  SumTotalTermFreq: 2
+  SumDocFreq: 2
+  TermCount (size): 1
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+  HasPayloads: false
+
+  [Term #1] "content.keyword"
+    Bytes (hex): 63 6F 6E 74 65 6E 74 2E 6B 65 79 77 6F 72 64
+    DocFreq: 2
+    TotalTermFreq: 2
+    Postings: [doc=0/freq=1, doc=233/freq=1]
+
+  该字段 Term 总数: 1
+
+----------------------------------------------------------
+所有字段 Term 总数: 314
+
+==========================================================
+ 解析完成!
+==========================================================

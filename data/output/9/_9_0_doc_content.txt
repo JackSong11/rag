@@ -1,0 +1,4565 @@
+==========================================================
+ 解析索引目录: /Users/songzhiquan1/IdeaProjects/rag/data/index9
+ 目标: _9_0.doc (Postings - 倒排索引文档频率数据)
+ 说明: .doc文件存储了每个term对应的文档ID和词频信息
+==========================================================
+
+[Segment: _9(9.8.0):C234:[diagnostics={os=Linux, timestamp=1781368580410, os.arch=aarch64, lucene.version=9.8.0, source=merge, es.shuffle_merge=, os.version=6.6.71-0-virt, java.vendor=Oracle Corporation, mergeMaxNumSegments=1, java.runtime.version=21.0.1+12-29, mergeFactor=3}]:[attributes={Lucene90StoredFieldsFormat.mode=BEST_SPEED}] :id=7xl0n45r2q6rxpfugdn3tcs65]
+  段内最大文档数: 234
+  段内有效文档数: 234
+
+----------------------------------------------------------
+[Field] _id
+  IndexOptions: DOCS
+  DocCount: 234
+  SumTotalTermFreq: 234
+  SumDocFreq: 234
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+
+  [Term] "AIlPu54B6Am4M5fhajnT"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=105, freq=1
+
+  [Term] "AYlPu54B6Am4M5fhajnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=106, freq=1
+
+  [Term] "AolPu54B6Am4M5fhajnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=107, freq=1
+
+  [Term] "A4lPu54B6Am4M5fhbjky"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=108, freq=1
+
+  [Term] "BIlPu54B6Am4M5fhbjky"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=109, freq=1
+
+  [Term] "BYlPu54B6Am4M5fhbjkz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=110, freq=1
+
+  [Term] "BolPu54B6Am4M5fhbjkz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=111, freq=1
+
+  [Term] "B4lPu54B6Am4M5fhbjkz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=112, freq=1
+
+  [Term] "CIlPu54B6Am4M5fhcDkR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=113, freq=1
+
+  [Term] "CYlPu54B6Am4M5fhcDkR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=114, freq=1
+
+  [Term] "ColPu54B6Am4M5fhcDkR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=115, freq=1
+
+  [Term] "C4lPu54B6Am4M5fhcDkR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=116, freq=1
+
+  [Term] "DIlPu54B6Am4M5fhcDkS"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=117, freq=1
+
+  [Term] "DYlPu54B6Am4M5fhcjkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=118, freq=1
+
+  [Term] "DolPu54B6Am4M5fhcjkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=119, freq=1
+
+  [Term] "D4lPu54B6Am4M5fhcjkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=120, freq=1
+
+  [Term] "EIlPu54B6Am4M5fhcjkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=121, freq=1
+
+  [Term] "EYlPu54B6Am4M5fhcjkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=122, freq=1
+
+  [Term] "EolPu54B6Am4M5fhczne"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=123, freq=1
+
+  [Term] "E4lPu54B6Am4M5fhczne"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=124, freq=1
+
+  [Term] "FIlPu54B6Am4M5fhczne"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=125, freq=1
+
+  [Term] "FYlPu54B6Am4M5fhczne"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=126, freq=1
+
+  [Term] "FolPu54B6Am4M5fhczne"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=127, freq=1
+
+  [Term] "F4lPu54B6Am4M5fhdTle"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=128, freq=1
+
+  [Term] "GIlPu54B6Am4M5fhdTle"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=129, freq=1
+
+  [Term] "GYlPu54B6Am4M5fhdTle"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=130, freq=1
+
+  [Term] "GolPu54B6Am4M5fhdTle"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=131, freq=1
+
+  [Term] "G4lPu54B6Am4M5fhdTle"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=132, freq=1
+
+  [Term] "HIlPu54B6Am4M5fheTkp"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=133, freq=1
+
+  [Term] "HYlPu54B6Am4M5fheTkp"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=134, freq=1
+
+  [Term] "HolPu54B6Am4M5fheTkp"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=135, freq=1
+
+  [Term] "H4lPu54B6Am4M5fheTkp"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=136, freq=1
+
+  [Term] "IIlPu54B6Am4M5fheTkp"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=137, freq=1
+
+  [Term] "IYlPu54B6Am4M5fhezkX"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=138, freq=1
+
+  [Term] "IolPu54B6Am4M5fhezkX"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=139, freq=1
+
+  [Term] "I4lPu54B6Am4M5fhezkX"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=140, freq=1
+
+  [Term] "JIlPu54B6Am4M5fhezkX"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=141, freq=1
+
+  [Term] "JYlPu54B6Am4M5fhezkX"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=142, freq=1
+
+  [Term] "JolPu54B6Am4M5fhpTkH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=143, freq=1
+
+  [Term] "J4lPu54B6Am4M5fhpTkH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=144, freq=1
+
+  [Term] "KIlPu54B6Am4M5fhpTkH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=145, freq=1
+
+  [Term] "KYlPu54B6Am4M5fhpTkH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=146, freq=1
+
+  [Term] "KolPu54B6Am4M5fhpTkH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=147, freq=1
+
+  [Term] "K4lPu54B6Am4M5fhpzl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=148, freq=1
+
+  [Term] "LIlPu54B6Am4M5fhpzl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=149, freq=1
+
+  [Term] "LYlPu54B6Am4M5fhpzl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=150, freq=1
+
+  [Term] "LolPu54B6Am4M5fhpzl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=151, freq=1
+
+  [Term] "L4lPu54B6Am4M5fhpzl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=152, freq=1
+
+  [Term] "MIlPu54B6Am4M5fhqTlc"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=153, freq=1
+
+  [Term] "MYlPu54B6Am4M5fhqTlc"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=154, freq=1
+
+  [Term] "MolPu54B6Am4M5fhqTlc"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=155, freq=1
+
+  [Term] "M4lPu54B6Am4M5fhqTlc"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=156, freq=1
+
+  [Term] "NIlPu54B6Am4M5fhqTlc"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=157, freq=1
+
+  [Term] "NYlPu54B6Am4M5fhqzlp"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=158, freq=1
+
+  [Term] "NolPu54B6Am4M5fhqzlq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=159, freq=1
+
+  [Term] "N4lPu54B6Am4M5fhqzlq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=160, freq=1
+
+  [Term] "OIlPu54B6Am4M5fhqzlq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=161, freq=1
+
+  [Term] "OYlPu54B6Am4M5fhqzlq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=162, freq=1
+
+  [Term] "OolPu54B6Am4M5fhrTlU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=163, freq=1
+
+  [Term] "O4lPu54B6Am4M5fhrTlU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=164, freq=1
+
+  [Term] "PIlPu54B6Am4M5fhrTlU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=165, freq=1
+
+  [Term] "PYlPu54B6Am4M5fhrTlU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=166, freq=1
+
+  [Term] "PolPu54B6Am4M5fhrTlU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=167, freq=1
+
+  [Term] "P4lPu54B6Am4M5fhrzkv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=168, freq=1
+
+  [Term] "QIlPu54B6Am4M5fhrzkv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=169, freq=1
+
+  [Term] "QYlPu54B6Am4M5fhrzkv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=170, freq=1
+
+  [Term] "QolPu54B6Am4M5fhrzkv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=171, freq=1
+
+  [Term] "Q4lPu54B6Am4M5fhrzkv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=172, freq=1
+
+  [Term] "RIlPu54B6Am4M5fhsTkb"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=173, freq=1
+
+  [Term] "RYlPu54B6Am4M5fhsTkb"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=174, freq=1
+
+  [Term] "RolPu54B6Am4M5fhsTkb"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=175, freq=1
+
+  [Term] "R4lPu54B6Am4M5fhsTkb"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=176, freq=1
+
+  [Term] "SIlPu54B6Am4M5fhsTkb"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=177, freq=1
+
+  [Term] "SYlPu54B6Am4M5fhsjmR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=178, freq=1
+
+  [Term] "SolPu54B6Am4M5fhsjmR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=179, freq=1
+
+  [Term] "S4lPu54B6Am4M5fhsjmR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=180, freq=1
+
+  [Term] "TIlPu54B6Am4M5fhsjmR"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=181, freq=1
+
+  [Term] "TYlPu54B6Am4M5fhsjmS"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=182, freq=1
+
+  [Term] "TolPu54B6Am4M5fhtDko"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=183, freq=1
+
+  [Term] "T4lPu54B6Am4M5fhtDko"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=184, freq=1
+
+  [Term] "UIlPu54B6Am4M5fhtDko"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=185, freq=1
+
+  [Term] "UYlPu54B6Am4M5fhtDko"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=186, freq=1
+
+  [Term] "UolPu54B6Am4M5fhtDko"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=187, freq=1
+
+  [Term] "U4lPu54B6Am4M5fhtjlL"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=188, freq=1
+
+  [Term] "VIlPu54B6Am4M5fhtjlM"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=189, freq=1
+
+  [Term] "VYlPu54B6Am4M5fhtjlM"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=190, freq=1
+
+  [Term] "VolPu54B6Am4M5fhtjlM"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=191, freq=1
+
+  [Term] "V4lPu54B6Am4M5fhtjlM"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=192, freq=1
+
+  [Term] "WIlPu54B6Am4M5fhuDmz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=193, freq=1
+
+  [Term] "WYlPu54B6Am4M5fhuDmz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=194, freq=1
+
+  [Term] "WolPu54B6Am4M5fhuDmz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=195, freq=1
+
+  [Term] "W4lPu54B6Am4M5fhuDmz"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=196, freq=1
+
+  [Term] "XIlPu54B6Am4M5fhuDm0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=197, freq=1
+
+  [Term] "XYlPu54B6Am4M5fhuzki"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=198, freq=1
+
+  [Term] "XolPu54B6Am4M5fhuzki"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=199, freq=1
+
+  [Term] "X4lPu54B6Am4M5fhuzki"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=200, freq=1
+
+  [Term] "YIlPu54B6Am4M5fhuzki"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=201, freq=1
+
+  [Term] "YYlPu54B6Am4M5fhuzki"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=202, freq=1
+
+  [Term] "YolPu54B6Am4M5fhvTmn"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=203, freq=1
+
+  [Term] "Y4lPu54B6Am4M5fhvTmn"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=204, freq=1
+
+  [Term] "ZIlPu54B6Am4M5fhvTmn"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=205, freq=1
+
+  [Term] "ZYlPu54B6Am4M5fhvTmn"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=206, freq=1
+
+  [Term] "ZolPu54B6Am4M5fhvTmn"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=207, freq=1
+
+  [Term] "Z4lPu54B6Am4M5fhvznd"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=208, freq=1
+
+  [Term] "aIlPu54B6Am4M5fhvznd"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=209, freq=1
+
+  [Term] "aYlPu54B6Am4M5fhvznd"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=210, freq=1
+
+  [Term] "aolPu54B6Am4M5fhvznd"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=211, freq=1
+
+  [Term] "a4lPu54B6Am4M5fhvznd"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=212, freq=1
+
+  [Term] "bIlPu54B6Am4M5fhwjkI"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=213, freq=1
+
+  [Term] "bYlPu54B6Am4M5fhwjkI"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=214, freq=1
+
+  [Term] "bolPu54B6Am4M5fhwjkI"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=215, freq=1
+
+  [Term] "b4lPu54B6Am4M5fhwjkI"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=216, freq=1
+
+  [Term] "cIlPu54B6Am4M5fhwjkI"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=217, freq=1
+
+  [Term] "cYlPu54B6Am4M5fhxDkq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=218, freq=1
+
+  [Term] "colPu54B6Am4M5fhxDkq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=219, freq=1
+
+  [Term] "c4lPu54B6Am4M5fhxDkq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=220, freq=1
+
+  [Term] "dIlPu54B6Am4M5fhxDkq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=221, freq=1
+
+  [Term] "dYlPu54B6Am4M5fhxDkq"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=222, freq=1
+
+  [Term] "dolQu54B6Am4M5fhrDnJ"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=223, freq=1
+
+  [Term] "d4lQu54B6Am4M5fhrDnK"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=224, freq=1
+
+  [Term] "eIlQu54B6Am4M5fhrDnK"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=225, freq=1
+
+  [Term] "eYlQu54B6Am4M5fhrDnL"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=226, freq=1
+
+  [Term] "eolQu54B6Am4M5fhrDnL"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=227, freq=1
+
+  [Term] "e4lQu54B6Am4M5fhrjn2"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+
+  [Term] "fIlQu54B6Am4M5fhrjn2"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=3, freq=1
+
+  [Term] "fYlQu54B6Am4M5fhrjn2"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+
+  [Term] "folQu54B6Am4M5fhrjn2"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+
+  [Term] "f4lQu54B6Am4M5fhrjn2"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=6, freq=1
+
+  [Term] "gIlQu54B6Am4M5fhsTln"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=7, freq=1
+
+  [Term] "gYlQu54B6Am4M5fhsTln"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=8, freq=1
+
+  [Term] "golQu54B6Am4M5fhsTln"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=9, freq=1
+
+  [Term] "g4lQu54B6Am4M5fhsTln"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=10, freq=1
+
+  [Term] "hIlQu54B6Am4M5fhsTln"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=11, freq=1
+
+  [Term] "hYlQu54B6Am4M5fhszl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=12, freq=1
+
+  [Term] "holQu54B6Am4M5fhszl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=13, freq=1
+
+  [Term] "h4lQu54B6Am4M5fhszl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=14, freq=1
+
+  [Term] "iIlQu54B6Am4M5fhszl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=15, freq=1
+
+  [Term] "iYlQu54B6Am4M5fhszl0"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=16, freq=1
+
+  [Term] "iolQu54B6Am4M5fhtTmU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=17, freq=1
+
+  [Term] "i4lQu54B6Am4M5fhtTmU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=18, freq=1
+
+  [Term] "jIlQu54B6Am4M5fhtTmU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=19, freq=1
+
+  [Term] "jYlQu54B6Am4M5fhtTmU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=20, freq=1
+
+  [Term] "jolQu54B6Am4M5fhtTmU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=21, freq=1
+
+  [Term] "j4lQu54B6Am4M5fhtzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=22, freq=1
+
+  [Term] "kIlQu54B6Am4M5fhtzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=23, freq=1
+
+  [Term] "kYlQu54B6Am4M5fhtzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=24, freq=1
+
+  [Term] "kolQu54B6Am4M5fhtzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=25, freq=1
+
+  [Term] "k4lQu54B6Am4M5fhtzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=26, freq=1
+
+  [Term] "lIlQu54B6Am4M5fhujkP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=27, freq=1
+
+  [Term] "lYlQu54B6Am4M5fhujkP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=28, freq=1
+
+  [Term] "lolQu54B6Am4M5fhujkP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=29, freq=1
+
+  [Term] "l4lQu54B6Am4M5fhujkP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=30, freq=1
+
+  [Term] "mIlQu54B6Am4M5fhujkP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=31, freq=1
+
+  [Term] "mYlQu54B6Am4M5fhuzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=32, freq=1
+
+  [Term] "molQu54B6Am4M5fhuzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=33, freq=1
+
+  [Term] "m4lQu54B6Am4M5fhuzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=34, freq=1
+
+  [Term] "nIlQu54B6Am4M5fhuzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=35, freq=1
+
+  [Term] "nYlQu54B6Am4M5fhuzlw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=36, freq=1
+
+  [Term] "nolQu54B6Am4M5fhvzmw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=37, freq=1
+
+  [Term] "n4lQu54B6Am4M5fhvzmw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=38, freq=1
+
+  [Term] "oIlQu54B6Am4M5fhvzmw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=39, freq=1
+
+  [Term] "oYlQu54B6Am4M5fhvzmw"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=40, freq=1
+
+  [Term] "oolQu54B6Am4M5fhvzmx"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=41, freq=1
+
+  [Term] "o4lQu54B6Am4M5fhwTkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=42, freq=1
+
+  [Term] "pIlQu54B6Am4M5fhwTkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=43, freq=1
+
+  [Term] "pYlQu54B6Am4M5fhwTkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=44, freq=1
+
+  [Term] "polQu54B6Am4M5fhwTkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=45, freq=1
+
+  [Term] "p4lQu54B6Am4M5fhwTkO"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=46, freq=1
+
+  [Term] "qIlQu54B6Am4M5fhwzlk"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=47, freq=1
+
+  [Term] "qYlQu54B6Am4M5fhwzll"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=48, freq=1
+
+  [Term] "qolQu54B6Am4M5fhwzll"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=49, freq=1
+
+  [Term] "q4lQu54B6Am4M5fhwzll"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=50, freq=1
+
+  [Term] "rIlQu54B6Am4M5fhwzll"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=51, freq=1
+
+  [Term] "rYlQu54B6Am4M5fhyTlG"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=52, freq=1
+
+  [Term] "rolQu54B6Am4M5fhyTlG"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=53, freq=1
+
+  [Term] "r4lQu54B6Am4M5fhyTlG"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=54, freq=1
+
+  [Term] "sIlQu54B6Am4M5fhyTlG"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=55, freq=1
+
+  [Term] "sYlQu54B6Am4M5fhyTlG"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=56, freq=1
+
+  [Term] "solQu54B6Am4M5fhyzlI"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=57, freq=1
+
+  [Term] "s4lQu54B6Am4M5fhyzlJ"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=58, freq=1
+
+  [Term] "tIlQu54B6Am4M5fhyzlJ"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=59, freq=1
+
+  [Term] "tYlQu54B6Am4M5fhyzlJ"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=60, freq=1
+
+  [Term] "tolQu54B6Am4M5fhyzlJ"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=61, freq=1
+
+  [Term] "t4lQu54B6Am4M5fhzDnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=62, freq=1
+
+  [Term] "uIlQu54B6Am4M5fhzDnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=63, freq=1
+
+  [Term] "uYlQu54B6Am4M5fhzDnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=64, freq=1
+
+  [Term] "uolQu54B6Am4M5fhzDnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=65, freq=1
+
+  [Term] "u4lQu54B6Am4M5fhzDnU"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=66, freq=1
+
+  [Term] "vIlQu54B6Am4M5fhzjn6"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=67, freq=1
+
+  [Term] "vYlQu54B6Am4M5fhzjn6"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=68, freq=1
+
+  [Term] "volQu54B6Am4M5fhzjn6"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=69, freq=1
+
+  [Term] "v4lQu54B6Am4M5fhzjn6"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=70, freq=1
+
+  [Term] "wIlQu54B6Am4M5fhzjn6"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=71, freq=1
+
+  [Term] "wYlQu54B6Am4M5fh0DnH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=72, freq=1
+
+  [Term] "wolQu54B6Am4M5fh0DnH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=73, freq=1
+
+  [Term] "w4lQu54B6Am4M5fh0DnH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=74, freq=1
+
+  [Term] "xIlQu54B6Am4M5fh0DnH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=75, freq=1
+
+  [Term] "xYlQu54B6Am4M5fh0DnH"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=76, freq=1
+
+  [Term] "34kxu54B6Am4M5fhHjgk"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+
+  [Term] "4IlPu54B6Am4M5fhVDgd"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=228, freq=1
+
+  [Term] "4YlPu54B6Am4M5fhVDge"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=229, freq=1
+
+  [Term] "4olPu54B6Am4M5fhVDge"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=230, freq=1
+
+  [Term] "44lPu54B6Am4M5fhVDge"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=231, freq=1
+
+  [Term] "5IlPu54B6Am4M5fhVDge"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=232, freq=1
+
+  [Term] "5YlPu54B6Am4M5fhXzjP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=78, freq=1
+
+  [Term] "5olPu54B6Am4M5fhXzjP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=79, freq=1
+
+  [Term] "54lPu54B6Am4M5fhXzjP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=80, freq=1
+
+  [Term] "6IlPu54B6Am4M5fhXzjP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=81, freq=1
+
+  [Term] "6YlPu54B6Am4M5fhXzjP"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=82, freq=1
+
+  [Term] "6olPu54B6Am4M5fhYjg4"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=83, freq=1
+
+  [Term] "64lPu54B6Am4M5fhYjg4"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=84, freq=1
+
+  [Term] "7IlPu54B6Am4M5fhYjg4"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=85, freq=1
+
+  [Term] "7YlPu54B6Am4M5fhYjg4"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=86, freq=1
+
+  [Term] "7olPu54B6Am4M5fhYjg4"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=87, freq=1
+
+  [Term] "74lPu54B6Am4M5fhZDiv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=88, freq=1
+
+  [Term] "8IlPu54B6Am4M5fhZDiv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=89, freq=1
+
+  [Term] "8YlPu54B6Am4M5fhZDiv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=90, freq=1
+
+  [Term] "8olPu54B6Am4M5fhZDiv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=91, freq=1
+
+  [Term] "84lPu54B6Am4M5fhZDiv"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=92, freq=1
+
+  [Term] "9IlPu54B6Am4M5fhZjjK"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=93, freq=1
+
+  [Term] "9YlPu54B6Am4M5fhZjjK"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=94, freq=1
+
+  [Term] "9olPu54B6Am4M5fhZjjK"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=95, freq=1
+
+  [Term] "94lPu54B6Am4M5fhZjjL"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=96, freq=1
+
+  [Term] "-IlPu54B6Am4M5fhZjjL"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=97, freq=1
+
+  [Term] "-YlPu54B6Am4M5fhaDjD"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=98, freq=1
+
+  [Term] "-olPu54B6Am4M5fhaDjD"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=99, freq=1
+
+  [Term] "-4lPu54B6Am4M5fhaDjD"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=100, freq=1
+
+  [Term] "_IlPu54B6Am4M5fhaDjD"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=101, freq=1
+
+  [Term] "_YlPu54B6Am4M5fhaDjD"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=102, freq=1
+
+  [Term] "_olPu54B6Am4M5fhajjT"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=103, freq=1
+
+  [Term] "_4lPu54B6Am4M5fhajjT"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=104, freq=1
+
+  [Term] "10090"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=77, freq=1
+
+  [Term] "10091"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=233, freq=1
+
+  [Term] "10092"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+
+----------------------------------------------------------
+[Field] name
+  IndexOptions: DOCS_AND_FREQS_AND_POSITIONS
+  DocCount: 234
+  SumTotalTermFreq: 517
+  SumDocFreq: 517
+  HasFreqs: true
+  HasPositions: true
+  HasOffsets: false
+
+  [Term] "1984"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=3, freq=1
+      docId=8, freq=1
+      docId=13, freq=1
+      docId=18, freq=1
+      docId=23, freq=1
+      docId=28, freq=1
+      docId=33, freq=1
+      docId=38, freq=1
+      docId=43, freq=1
+      docId=48, freq=1
+      docId=53, freq=1
+      docId=58, freq=1
+      docId=63, freq=1
+      docId=68, freq=1
+      docId=73, freq=1
+      docId=79, freq=1
+      docId=84, freq=1
+      docId=89, freq=1
+      docId=94, freq=1
+      docId=99, freq=1
+      docId=104, freq=1
+      docId=109, freq=1
+      docId=114, freq=1
+      docId=119, freq=1
+      docId=124, freq=1
+      docId=129, freq=1
+      docId=134, freq=1
+      docId=139, freq=1
+      docId=144, freq=1
+      docId=149, freq=1
+      docId=154, freq=1
+      docId=159, freq=1
+      docId=164, freq=1
+      docId=169, freq=1
+      docId=174, freq=1
+      docId=179, freq=1
+      docId=184, freq=1
+      docId=189, freq=1
+      docId=194, freq=1
+      docId=199, freq=1
+      docId=204, freq=1
+      docId=209, freq=1
+      docId=214, freq=1
+      docId=219, freq=1
+      docId=224, freq=1
+      docId=229, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=3, positions=[0]
+      docId=8, positions=[0]
+      docId=13, positions=[0]
+      docId=18, positions=[0]
+      docId=23, positions=[0]
+      docId=28, positions=[0]
+      docId=33, positions=[0]
+      docId=38, positions=[0]
+      docId=43, positions=[0]
+      docId=48, positions=[0]
+      docId=53, positions=[0]
+      docId=58, positions=[0]
+      docId=63, positions=[0]
+      docId=68, positions=[0]
+      docId=73, positions=[0]
+      docId=79, positions=[0]
+      docId=84, positions=[0]
+      docId=89, positions=[0]
+      docId=94, positions=[0]
+      docId=99, positions=[0]
+      docId=104, positions=[0]
+      docId=109, positions=[0]
+      docId=114, positions=[0]
+      docId=119, positions=[0]
+      docId=124, positions=[0]
+      docId=129, positions=[0]
+      docId=134, positions=[0]
+      docId=139, positions=[0]
+      docId=144, positions=[0]
+      docId=149, positions=[0]
+      docId=154, positions=[0]
+      docId=159, positions=[0]
+      docId=164, positions=[0]
+      docId=169, positions=[0]
+      docId=174, positions=[0]
+      docId=179, positions=[0]
+      docId=184, positions=[0]
+      docId=189, positions=[0]
+      docId=194, positions=[0]
+      docId=199, positions=[0]
+      docId=204, positions=[0]
+      docId=209, positions=[0]
+      docId=214, positions=[0]
+      docId=219, positions=[0]
+      docId=224, positions=[0]
+      docId=229, positions=[0]
+
+  [Term] "451"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+      docId=9, freq=1
+      docId=14, freq=1
+      docId=19, freq=1
+      docId=24, freq=1
+      docId=29, freq=1
+      docId=34, freq=1
+      docId=39, freq=1
+      docId=44, freq=1
+      docId=49, freq=1
+      docId=54, freq=1
+      docId=59, freq=1
+      docId=64, freq=1
+      docId=69, freq=1
+      docId=74, freq=1
+      docId=80, freq=1
+      docId=85, freq=1
+      docId=90, freq=1
+      docId=95, freq=1
+      docId=100, freq=1
+      docId=105, freq=1
+      docId=110, freq=1
+      docId=115, freq=1
+      docId=120, freq=1
+      docId=125, freq=1
+      docId=130, freq=1
+      docId=135, freq=1
+      docId=140, freq=1
+      docId=145, freq=1
+      docId=150, freq=1
+      docId=155, freq=1
+      docId=160, freq=1
+      docId=165, freq=1
+      docId=170, freq=1
+      docId=175, freq=1
+      docId=180, freq=1
+      docId=185, freq=1
+      docId=190, freq=1
+      docId=195, freq=1
+      docId=200, freq=1
+      docId=205, freq=1
+      docId=210, freq=1
+      docId=215, freq=1
+      docId=220, freq=1
+      docId=225, freq=1
+      docId=230, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=4, positions=[1]
+      docId=9, positions=[1]
+      docId=14, positions=[1]
+      docId=19, positions=[1]
+      docId=24, positions=[1]
+      docId=29, positions=[1]
+      docId=34, positions=[1]
+      docId=39, positions=[1]
+      docId=44, positions=[1]
+      docId=49, positions=[1]
+      docId=54, positions=[1]
+      docId=59, positions=[1]
+      docId=64, positions=[1]
+      docId=69, positions=[1]
+      docId=74, positions=[1]
+      docId=80, positions=[1]
+      docId=85, positions=[1]
+      docId=90, positions=[1]
+      docId=95, positions=[1]
+      docId=100, positions=[1]
+      docId=105, positions=[1]
+      docId=110, positions=[1]
+      docId=115, positions=[1]
+      docId=120, positions=[1]
+      docId=125, positions=[1]
+      docId=130, positions=[1]
+      docId=135, positions=[1]
+      docId=140, positions=[1]
+      docId=145, positions=[1]
+      docId=150, positions=[1]
+      docId=155, positions=[1]
+      docId=160, positions=[1]
+      docId=165, positions=[1]
+      docId=170, positions=[1]
+      docId=175, positions=[1]
+      docId=180, positions=[1]
+      docId=185, positions=[1]
+      docId=190, positions=[1]
+      docId=195, positions=[1]
+      docId=200, positions=[1]
+      docId=205, positions=[1]
+      docId=210, positions=[1]
+      docId=215, positions=[1]
+      docId=220, positions=[1]
+      docId=225, positions=[1]
+      docId=230, positions=[1]
+
+  [Term] "brave"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=5, positions=[0]
+      docId=10, positions=[0]
+      docId=15, positions=[0]
+      docId=20, positions=[0]
+      docId=25, positions=[0]
+      docId=30, positions=[0]
+      docId=35, positions=[0]
+      docId=40, positions=[0]
+      docId=45, positions=[0]
+      docId=50, positions=[0]
+      docId=55, positions=[0]
+      docId=60, positions=[0]
+      docId=65, positions=[0]
+      docId=70, positions=[0]
+      docId=75, positions=[0]
+      docId=81, positions=[0]
+      docId=86, positions=[0]
+      docId=91, positions=[0]
+      docId=96, positions=[0]
+      docId=101, positions=[0]
+      docId=106, positions=[0]
+      docId=111, positions=[0]
+      docId=116, positions=[0]
+      docId=121, positions=[0]
+      docId=126, positions=[0]
+      docId=131, positions=[0]
+      docId=136, positions=[0]
+      docId=141, positions=[0]
+      docId=146, positions=[0]
+      docId=151, positions=[0]
+      docId=156, positions=[0]
+      docId=161, positions=[0]
+      docId=166, positions=[0]
+      docId=171, positions=[0]
+      docId=176, positions=[0]
+      docId=181, positions=[0]
+      docId=186, positions=[0]
+      docId=191, positions=[0]
+      docId=196, positions=[0]
+      docId=201, positions=[0]
+      docId=206, positions=[0]
+      docId=211, positions=[0]
+      docId=216, positions=[0]
+      docId=221, positions=[0]
+      docId=226, positions=[0]
+      docId=231, positions=[0]
+
+  [Term] "crash"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=1, positions=[1]
+
+  [Term] "fahrenheit"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+      docId=9, freq=1
+      docId=14, freq=1
+      docId=19, freq=1
+      docId=24, freq=1
+      docId=29, freq=1
+      docId=34, freq=1
+      docId=39, freq=1
+      docId=44, freq=1
+      docId=49, freq=1
+      docId=54, freq=1
+      docId=59, freq=1
+      docId=64, freq=1
+      docId=69, freq=1
+      docId=74, freq=1
+      docId=80, freq=1
+      docId=85, freq=1
+      docId=90, freq=1
+      docId=95, freq=1
+      docId=100, freq=1
+      docId=105, freq=1
+      docId=110, freq=1
+      docId=115, freq=1
+      docId=120, freq=1
+      docId=125, freq=1
+      docId=130, freq=1
+      docId=135, freq=1
+      docId=140, freq=1
+      docId=145, freq=1
+      docId=150, freq=1
+      docId=155, freq=1
+      docId=160, freq=1
+      docId=165, freq=1
+      docId=170, freq=1
+      docId=175, freq=1
+      docId=180, freq=1
+      docId=185, freq=1
+      docId=190, freq=1
+      docId=195, freq=1
+      docId=200, freq=1
+      docId=205, freq=1
+      docId=210, freq=1
+      docId=215, freq=1
+      docId=220, freq=1
+      docId=225, freq=1
+      docId=230, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=4, positions=[0]
+      docId=9, positions=[0]
+      docId=14, positions=[0]
+      docId=19, positions=[0]
+      docId=24, positions=[0]
+      docId=29, positions=[0]
+      docId=34, positions=[0]
+      docId=39, positions=[0]
+      docId=44, positions=[0]
+      docId=49, positions=[0]
+      docId=54, positions=[0]
+      docId=59, positions=[0]
+      docId=64, positions=[0]
+      docId=69, positions=[0]
+      docId=74, positions=[0]
+      docId=80, positions=[0]
+      docId=85, positions=[0]
+      docId=90, positions=[0]
+      docId=95, positions=[0]
+      docId=100, positions=[0]
+      docId=105, positions=[0]
+      docId=110, positions=[0]
+      docId=115, positions=[0]
+      docId=120, positions=[0]
+      docId=125, positions=[0]
+      docId=130, positions=[0]
+      docId=135, positions=[0]
+      docId=140, positions=[0]
+      docId=145, positions=[0]
+      docId=150, positions=[0]
+      docId=155, positions=[0]
+      docId=160, positions=[0]
+      docId=165, positions=[0]
+      docId=170, positions=[0]
+      docId=175, positions=[0]
+      docId=180, positions=[0]
+      docId=185, positions=[0]
+      docId=190, positions=[0]
+      docId=195, positions=[0]
+      docId=200, positions=[0]
+      docId=205, positions=[0]
+      docId=210, positions=[0]
+      docId=215, positions=[0]
+      docId=220, positions=[0]
+      docId=225, positions=[0]
+      docId=230, positions=[0]
+
+  [Term] "handmaids"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[1]
+      docId=6, positions=[1]
+      docId=11, positions=[1]
+      docId=16, positions=[1]
+      docId=21, positions=[1]
+      docId=26, positions=[1]
+      docId=31, positions=[1]
+      docId=36, positions=[1]
+      docId=41, positions=[1]
+      docId=46, positions=[1]
+      docId=51, positions=[1]
+      docId=56, positions=[1]
+      docId=61, positions=[1]
+      docId=66, positions=[1]
+      docId=71, positions=[1]
+      docId=76, positions=[1]
+      docId=77, positions=[1]
+      docId=82, positions=[1]
+      docId=87, positions=[1]
+      docId=92, positions=[1]
+      docId=97, positions=[1]
+      docId=102, positions=[1]
+      docId=107, positions=[1]
+      docId=112, positions=[1]
+      docId=117, positions=[1]
+      docId=122, positions=[1]
+      docId=127, positions=[1]
+      docId=132, positions=[1]
+      docId=137, positions=[1]
+      docId=142, positions=[1]
+      docId=147, positions=[1]
+      docId=152, positions=[1]
+      docId=157, positions=[1]
+      docId=162, positions=[1]
+      docId=167, positions=[1]
+      docId=172, positions=[1]
+      docId=177, positions=[1]
+      docId=182, positions=[1]
+      docId=187, positions=[1]
+      docId=192, positions=[1]
+      docId=197, positions=[1]
+      docId=202, positions=[1]
+      docId=207, positions=[1]
+      docId=212, positions=[1]
+      docId=217, positions=[1]
+      docId=222, positions=[1]
+      docId=227, positions=[1]
+      docId=232, positions=[1]
+      docId=233, positions=[1]
+
+  [Term] "new"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=5, positions=[1]
+      docId=10, positions=[1]
+      docId=15, positions=[1]
+      docId=20, positions=[1]
+      docId=25, positions=[1]
+      docId=30, positions=[1]
+      docId=35, positions=[1]
+      docId=40, positions=[1]
+      docId=45, positions=[1]
+      docId=50, positions=[1]
+      docId=55, positions=[1]
+      docId=60, positions=[1]
+      docId=65, positions=[1]
+      docId=70, positions=[1]
+      docId=75, positions=[1]
+      docId=81, positions=[1]
+      docId=86, positions=[1]
+      docId=91, positions=[1]
+      docId=96, positions=[1]
+      docId=101, positions=[1]
+      docId=106, positions=[1]
+      docId=111, positions=[1]
+      docId=116, positions=[1]
+      docId=121, positions=[1]
+      docId=126, positions=[1]
+      docId=131, positions=[1]
+      docId=136, positions=[1]
+      docId=141, positions=[1]
+      docId=146, positions=[1]
+      docId=151, positions=[1]
+      docId=156, positions=[1]
+      docId=161, positions=[1]
+      docId=166, positions=[1]
+      docId=171, positions=[1]
+      docId=176, positions=[1]
+      docId=181, positions=[1]
+      docId=186, positions=[1]
+      docId=191, positions=[1]
+      docId=196, positions=[1]
+      docId=201, positions=[1]
+      docId=206, positions=[1]
+      docId=211, positions=[1]
+      docId=216, positions=[1]
+      docId=221, positions=[1]
+      docId=226, positions=[1]
+      docId=231, positions=[1]
+
+  [Term] "revelation"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+      docId=7, freq=1
+      docId=12, freq=1
+      docId=17, freq=1
+      docId=22, freq=1
+      docId=27, freq=1
+      docId=32, freq=1
+      docId=37, freq=1
+      docId=42, freq=1
+      docId=47, freq=1
+      docId=52, freq=1
+      docId=57, freq=1
+      docId=62, freq=1
+      docId=67, freq=1
+      docId=72, freq=1
+      docId=78, freq=1
+      docId=83, freq=1
+      docId=88, freq=1
+      docId=93, freq=1
+      docId=98, freq=1
+      docId=103, freq=1
+      docId=108, freq=1
+      docId=113, freq=1
+      docId=118, freq=1
+      docId=123, freq=1
+      docId=128, freq=1
+      docId=133, freq=1
+      docId=138, freq=1
+      docId=143, freq=1
+      docId=148, freq=1
+      docId=153, freq=1
+      docId=158, freq=1
+      docId=163, freq=1
+      docId=168, freq=1
+      docId=173, freq=1
+      docId=178, freq=1
+      docId=183, freq=1
+      docId=188, freq=1
+      docId=193, freq=1
+      docId=198, freq=1
+      docId=203, freq=1
+      docId=208, freq=1
+      docId=213, freq=1
+      docId=218, freq=1
+      docId=223, freq=1
+      docId=228, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=2, positions=[0]
+      docId=7, positions=[0]
+      docId=12, positions=[0]
+      docId=17, positions=[0]
+      docId=22, positions=[0]
+      docId=27, positions=[0]
+      docId=32, positions=[0]
+      docId=37, positions=[0]
+      docId=42, positions=[0]
+      docId=47, positions=[0]
+      docId=52, positions=[0]
+      docId=57, positions=[0]
+      docId=62, positions=[0]
+      docId=67, positions=[0]
+      docId=72, positions=[0]
+      docId=78, positions=[0]
+      docId=83, positions=[0]
+      docId=88, positions=[0]
+      docId=93, positions=[0]
+      docId=98, positions=[0]
+      docId=103, positions=[0]
+      docId=108, positions=[0]
+      docId=113, positions=[0]
+      docId=118, positions=[0]
+      docId=123, positions=[0]
+      docId=128, positions=[0]
+      docId=133, positions=[0]
+      docId=138, positions=[0]
+      docId=143, positions=[0]
+      docId=148, positions=[0]
+      docId=153, positions=[0]
+      docId=158, positions=[0]
+      docId=163, positions=[0]
+      docId=168, positions=[0]
+      docId=173, positions=[0]
+      docId=178, positions=[0]
+      docId=183, positions=[0]
+      docId=188, positions=[0]
+      docId=193, positions=[0]
+      docId=198, positions=[0]
+      docId=203, positions=[0]
+      docId=208, positions=[0]
+      docId=213, positions=[0]
+      docId=218, positions=[0]
+      docId=223, positions=[0]
+      docId=228, positions=[0]
+
+  [Term] "snow"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=1, positions=[0]
+
+  [Term] "space"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+      docId=7, freq=1
+      docId=12, freq=1
+      docId=17, freq=1
+      docId=22, freq=1
+      docId=27, freq=1
+      docId=32, freq=1
+      docId=37, freq=1
+      docId=42, freq=1
+      docId=47, freq=1
+      docId=52, freq=1
+      docId=57, freq=1
+      docId=62, freq=1
+      docId=67, freq=1
+      docId=72, freq=1
+      docId=78, freq=1
+      docId=83, freq=1
+      docId=88, freq=1
+      docId=93, freq=1
+      docId=98, freq=1
+      docId=103, freq=1
+      docId=108, freq=1
+      docId=113, freq=1
+      docId=118, freq=1
+      docId=123, freq=1
+      docId=128, freq=1
+      docId=133, freq=1
+      docId=138, freq=1
+      docId=143, freq=1
+      docId=148, freq=1
+      docId=153, freq=1
+      docId=158, freq=1
+      docId=163, freq=1
+      docId=168, freq=1
+      docId=173, freq=1
+      docId=178, freq=1
+      docId=183, freq=1
+      docId=188, freq=1
+      docId=193, freq=1
+      docId=198, freq=1
+      docId=203, freq=1
+      docId=208, freq=1
+      docId=213, freq=1
+      docId=218, freq=1
+      docId=223, freq=1
+      docId=228, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=2, positions=[1]
+      docId=7, positions=[1]
+      docId=12, positions=[1]
+      docId=17, positions=[1]
+      docId=22, positions=[1]
+      docId=27, positions=[1]
+      docId=32, positions=[1]
+      docId=37, positions=[1]
+      docId=42, positions=[1]
+      docId=47, positions=[1]
+      docId=52, positions=[1]
+      docId=57, positions=[1]
+      docId=62, positions=[1]
+      docId=67, positions=[1]
+      docId=72, positions=[1]
+      docId=78, positions=[1]
+      docId=83, positions=[1]
+      docId=88, positions=[1]
+      docId=93, positions=[1]
+      docId=98, positions=[1]
+      docId=103, positions=[1]
+      docId=108, positions=[1]
+      docId=113, positions=[1]
+      docId=118, positions=[1]
+      docId=123, positions=[1]
+      docId=128, positions=[1]
+      docId=133, positions=[1]
+      docId=138, positions=[1]
+      docId=143, positions=[1]
+      docId=148, positions=[1]
+      docId=153, positions=[1]
+      docId=158, positions=[1]
+      docId=163, positions=[1]
+      docId=168, positions=[1]
+      docId=173, positions=[1]
+      docId=178, positions=[1]
+      docId=183, positions=[1]
+      docId=188, positions=[1]
+      docId=193, positions=[1]
+      docId=198, positions=[1]
+      docId=203, positions=[1]
+      docId=208, positions=[1]
+      docId=213, positions=[1]
+      docId=218, positions=[1]
+      docId=223, positions=[1]
+      docId=228, positions=[1]
+
+  [Term] "tale"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[2]
+      docId=6, positions=[2]
+      docId=11, positions=[2]
+      docId=16, positions=[2]
+      docId=21, positions=[2]
+      docId=26, positions=[2]
+      docId=31, positions=[2]
+      docId=36, positions=[2]
+      docId=41, positions=[2]
+      docId=46, positions=[2]
+      docId=51, positions=[2]
+      docId=56, positions=[2]
+      docId=61, positions=[2]
+      docId=66, positions=[2]
+      docId=71, positions=[2]
+      docId=76, positions=[2]
+      docId=77, positions=[2]
+      docId=82, positions=[2]
+      docId=87, positions=[2]
+      docId=92, positions=[2]
+      docId=97, positions=[2]
+      docId=102, positions=[2]
+      docId=107, positions=[2]
+      docId=112, positions=[2]
+      docId=117, positions=[2]
+      docId=122, positions=[2]
+      docId=127, positions=[2]
+      docId=132, positions=[2]
+      docId=137, positions=[2]
+      docId=142, positions=[2]
+      docId=147, positions=[2]
+      docId=152, positions=[2]
+      docId=157, positions=[2]
+      docId=162, positions=[2]
+      docId=167, positions=[2]
+      docId=172, positions=[2]
+      docId=177, positions=[2]
+      docId=182, positions=[2]
+      docId=187, positions=[2]
+      docId=192, positions=[2]
+      docId=197, positions=[2]
+      docId=202, positions=[2]
+      docId=207, positions=[2]
+      docId=212, positions=[2]
+      docId=217, positions=[2]
+      docId=222, positions=[2]
+      docId=227, positions=[2]
+      docId=232, positions=[2]
+      docId=233, positions=[2]
+
+  [Term] "the"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[0]
+      docId=6, positions=[0]
+      docId=11, positions=[0]
+      docId=16, positions=[0]
+      docId=21, positions=[0]
+      docId=26, positions=[0]
+      docId=31, positions=[0]
+      docId=36, positions=[0]
+      docId=41, positions=[0]
+      docId=46, positions=[0]
+      docId=51, positions=[0]
+      docId=56, positions=[0]
+      docId=61, positions=[0]
+      docId=66, positions=[0]
+      docId=71, positions=[0]
+      docId=76, positions=[0]
+      docId=77, positions=[0]
+      docId=82, positions=[0]
+      docId=87, positions=[0]
+      docId=92, positions=[0]
+      docId=97, positions=[0]
+      docId=102, positions=[0]
+      docId=107, positions=[0]
+      docId=112, positions=[0]
+      docId=117, positions=[0]
+      docId=122, positions=[0]
+      docId=127, positions=[0]
+      docId=132, positions=[0]
+      docId=137, positions=[0]
+      docId=142, positions=[0]
+      docId=147, positions=[0]
+      docId=152, positions=[0]
+      docId=157, positions=[0]
+      docId=162, positions=[0]
+      docId=167, positions=[0]
+      docId=172, positions=[0]
+      docId=177, positions=[0]
+      docId=182, positions=[0]
+      docId=187, positions=[0]
+      docId=192, positions=[0]
+      docId=197, positions=[0]
+      docId=202, positions=[0]
+      docId=207, positions=[0]
+      docId=212, positions=[0]
+      docId=217, positions=[0]
+      docId=222, positions=[0]
+      docId=227, positions=[0]
+      docId=232, positions=[0]
+      docId=233, positions=[0]
+
+  [Term] "world"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=5, positions=[2]
+      docId=10, positions=[2]
+      docId=15, positions=[2]
+      docId=20, positions=[2]
+      docId=25, positions=[2]
+      docId=30, positions=[2]
+      docId=35, positions=[2]
+      docId=40, positions=[2]
+      docId=45, positions=[2]
+      docId=50, positions=[2]
+      docId=55, positions=[2]
+      docId=60, positions=[2]
+      docId=65, positions=[2]
+      docId=70, positions=[2]
+      docId=75, positions=[2]
+      docId=81, positions=[2]
+      docId=86, positions=[2]
+      docId=91, positions=[2]
+      docId=96, positions=[2]
+      docId=101, positions=[2]
+      docId=106, positions=[2]
+      docId=111, positions=[2]
+      docId=116, positions=[2]
+      docId=121, positions=[2]
+      docId=126, positions=[2]
+      docId=131, positions=[2]
+      docId=136, positions=[2]
+      docId=141, positions=[2]
+      docId=146, positions=[2]
+      docId=151, positions=[2]
+      docId=156, positions=[2]
+      docId=161, positions=[2]
+      docId=166, positions=[2]
+      docId=171, positions=[2]
+      docId=176, positions=[2]
+      docId=181, positions=[2]
+      docId=186, positions=[2]
+      docId=191, positions=[2]
+      docId=196, positions=[2]
+      docId=201, positions=[2]
+      docId=206, positions=[2]
+      docId=211, positions=[2]
+      docId=216, positions=[2]
+      docId=221, positions=[2]
+      docId=226, positions=[2]
+      docId=231, positions=[2]
+
+----------------------------------------------------------
+[Field] name.keyword
+  IndexOptions: DOCS
+  DocCount: 234
+  SumTotalTermFreq: 234
+  SumDocFreq: 234
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+
+  [Term] "1984"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=3, freq=1
+      docId=8, freq=1
+      docId=13, freq=1
+      docId=18, freq=1
+      docId=23, freq=1
+      docId=28, freq=1
+      docId=33, freq=1
+      docId=38, freq=1
+      docId=43, freq=1
+      docId=48, freq=1
+      docId=53, freq=1
+      docId=58, freq=1
+      docId=63, freq=1
+      docId=68, freq=1
+      docId=73, freq=1
+      docId=79, freq=1
+      docId=84, freq=1
+      docId=89, freq=1
+      docId=94, freq=1
+      docId=99, freq=1
+      docId=104, freq=1
+      docId=109, freq=1
+      docId=114, freq=1
+      docId=119, freq=1
+      docId=124, freq=1
+      docId=129, freq=1
+      docId=134, freq=1
+      docId=139, freq=1
+      docId=144, freq=1
+      docId=149, freq=1
+      docId=154, freq=1
+      docId=159, freq=1
+      docId=164, freq=1
+      docId=169, freq=1
+      docId=174, freq=1
+      docId=179, freq=1
+      docId=184, freq=1
+      docId=189, freq=1
+      docId=194, freq=1
+      docId=199, freq=1
+      docId=204, freq=1
+      docId=209, freq=1
+      docId=214, freq=1
+      docId=219, freq=1
+      docId=224, freq=1
+      docId=229, freq=1
+
+  [Term] "Brave New World"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+
+  [Term] "Fahrenheit 451"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+      docId=9, freq=1
+      docId=14, freq=1
+      docId=19, freq=1
+      docId=24, freq=1
+      docId=29, freq=1
+      docId=34, freq=1
+      docId=39, freq=1
+      docId=44, freq=1
+      docId=49, freq=1
+      docId=54, freq=1
+      docId=59, freq=1
+      docId=64, freq=1
+      docId=69, freq=1
+      docId=74, freq=1
+      docId=80, freq=1
+      docId=85, freq=1
+      docId=90, freq=1
+      docId=95, freq=1
+      docId=100, freq=1
+      docId=105, freq=1
+      docId=110, freq=1
+      docId=115, freq=1
+      docId=120, freq=1
+      docId=125, freq=1
+      docId=130, freq=1
+      docId=135, freq=1
+      docId=140, freq=1
+      docId=145, freq=1
+      docId=150, freq=1
+      docId=155, freq=1
+      docId=160, freq=1
+      docId=165, freq=1
+      docId=170, freq=1
+      docId=175, freq=1
+      docId=180, freq=1
+      docId=185, freq=1
+      docId=190, freq=1
+      docId=195, freq=1
+      docId=200, freq=1
+      docId=205, freq=1
+      docId=210, freq=1
+      docId=215, freq=1
+      docId=220, freq=1
+      docId=225, freq=1
+      docId=230, freq=1
+
+  [Term] "Revelation Space"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+      docId=7, freq=1
+      docId=12, freq=1
+      docId=17, freq=1
+      docId=22, freq=1
+      docId=27, freq=1
+      docId=32, freq=1
+      docId=37, freq=1
+      docId=42, freq=1
+      docId=47, freq=1
+      docId=52, freq=1
+      docId=57, freq=1
+      docId=62, freq=1
+      docId=67, freq=1
+      docId=72, freq=1
+      docId=78, freq=1
+      docId=83, freq=1
+      docId=88, freq=1
+      docId=93, freq=1
+      docId=98, freq=1
+      docId=103, freq=1
+      docId=108, freq=1
+      docId=113, freq=1
+      docId=118, freq=1
+      docId=123, freq=1
+      docId=128, freq=1
+      docId=133, freq=1
+      docId=138, freq=1
+      docId=143, freq=1
+      docId=148, freq=1
+      docId=153, freq=1
+      docId=158, freq=1
+      docId=163, freq=1
+      docId=168, freq=1
+      docId=173, freq=1
+      docId=178, freq=1
+      docId=183, freq=1
+      docId=188, freq=1
+      docId=193, freq=1
+      docId=198, freq=1
+      docId=203, freq=1
+      docId=208, freq=1
+      docId=213, freq=1
+      docId=218, freq=1
+      docId=223, freq=1
+      docId=228, freq=1
+
+  [Term] "Snow Crash"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+
+  [Term] "The Handmaids Tale"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+
+----------------------------------------------------------
+[Field] author
+  IndexOptions: DOCS_AND_FREQS_AND_POSITIONS
+  DocCount: 234
+  SumTotalTermFreq: 468
+  SumDocFreq: 468
+  HasFreqs: true
+  HasPositions: true
+  HasOffsets: false
+
+  [Term] "alastair"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+      docId=7, freq=1
+      docId=12, freq=1
+      docId=17, freq=1
+      docId=22, freq=1
+      docId=27, freq=1
+      docId=32, freq=1
+      docId=37, freq=1
+      docId=42, freq=1
+      docId=47, freq=1
+      docId=52, freq=1
+      docId=57, freq=1
+      docId=62, freq=1
+      docId=67, freq=1
+      docId=72, freq=1
+      docId=78, freq=1
+      docId=83, freq=1
+      docId=88, freq=1
+      docId=93, freq=1
+      docId=98, freq=1
+      docId=103, freq=1
+      docId=108, freq=1
+      docId=113, freq=1
+      docId=118, freq=1
+      docId=123, freq=1
+      docId=128, freq=1
+      docId=133, freq=1
+      docId=138, freq=1
+      docId=143, freq=1
+      docId=148, freq=1
+      docId=153, freq=1
+      docId=158, freq=1
+      docId=163, freq=1
+      docId=168, freq=1
+      docId=173, freq=1
+      docId=178, freq=1
+      docId=183, freq=1
+      docId=188, freq=1
+      docId=193, freq=1
+      docId=198, freq=1
+      docId=203, freq=1
+      docId=208, freq=1
+      docId=213, freq=1
+      docId=218, freq=1
+      docId=223, freq=1
+      docId=228, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=2, positions=[0]
+      docId=7, positions=[0]
+      docId=12, positions=[0]
+      docId=17, positions=[0]
+      docId=22, positions=[0]
+      docId=27, positions=[0]
+      docId=32, positions=[0]
+      docId=37, positions=[0]
+      docId=42, positions=[0]
+      docId=47, positions=[0]
+      docId=52, positions=[0]
+      docId=57, positions=[0]
+      docId=62, positions=[0]
+      docId=67, positions=[0]
+      docId=72, positions=[0]
+      docId=78, positions=[0]
+      docId=83, positions=[0]
+      docId=88, positions=[0]
+      docId=93, positions=[0]
+      docId=98, positions=[0]
+      docId=103, positions=[0]
+      docId=108, positions=[0]
+      docId=113, positions=[0]
+      docId=118, positions=[0]
+      docId=123, positions=[0]
+      docId=128, positions=[0]
+      docId=133, positions=[0]
+      docId=138, positions=[0]
+      docId=143, positions=[0]
+      docId=148, positions=[0]
+      docId=153, positions=[0]
+      docId=158, positions=[0]
+      docId=163, positions=[0]
+      docId=168, positions=[0]
+      docId=173, positions=[0]
+      docId=178, positions=[0]
+      docId=183, positions=[0]
+      docId=188, positions=[0]
+      docId=193, positions=[0]
+      docId=198, positions=[0]
+      docId=203, positions=[0]
+      docId=208, positions=[0]
+      docId=213, positions=[0]
+      docId=218, positions=[0]
+      docId=223, positions=[0]
+      docId=228, positions=[0]
+
+  [Term] "aldous"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=5, positions=[0]
+      docId=10, positions=[0]
+      docId=15, positions=[0]
+      docId=20, positions=[0]
+      docId=25, positions=[0]
+      docId=30, positions=[0]
+      docId=35, positions=[0]
+      docId=40, positions=[0]
+      docId=45, positions=[0]
+      docId=50, positions=[0]
+      docId=55, positions=[0]
+      docId=60, positions=[0]
+      docId=65, positions=[0]
+      docId=70, positions=[0]
+      docId=75, positions=[0]
+      docId=81, positions=[0]
+      docId=86, positions=[0]
+      docId=91, positions=[0]
+      docId=96, positions=[0]
+      docId=101, positions=[0]
+      docId=106, positions=[0]
+      docId=111, positions=[0]
+      docId=116, positions=[0]
+      docId=121, positions=[0]
+      docId=126, positions=[0]
+      docId=131, positions=[0]
+      docId=136, positions=[0]
+      docId=141, positions=[0]
+      docId=146, positions=[0]
+      docId=151, positions=[0]
+      docId=156, positions=[0]
+      docId=161, positions=[0]
+      docId=166, positions=[0]
+      docId=171, positions=[0]
+      docId=176, positions=[0]
+      docId=181, positions=[0]
+      docId=186, positions=[0]
+      docId=191, positions=[0]
+      docId=196, positions=[0]
+      docId=201, positions=[0]
+      docId=206, positions=[0]
+      docId=211, positions=[0]
+      docId=216, positions=[0]
+      docId=221, positions=[0]
+      docId=226, positions=[0]
+      docId=231, positions=[0]
+
+  [Term] "atwood"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[1]
+      docId=6, positions=[1]
+      docId=11, positions=[1]
+      docId=16, positions=[1]
+      docId=21, positions=[1]
+      docId=26, positions=[1]
+      docId=31, positions=[1]
+      docId=36, positions=[1]
+      docId=41, positions=[1]
+      docId=46, positions=[1]
+      docId=51, positions=[1]
+      docId=56, positions=[1]
+      docId=61, positions=[1]
+      docId=66, positions=[1]
+      docId=71, positions=[1]
+      docId=76, positions=[1]
+      docId=77, positions=[1]
+      docId=82, positions=[1]
+      docId=87, positions=[1]
+      docId=92, positions=[1]
+      docId=97, positions=[1]
+      docId=102, positions=[1]
+      docId=107, positions=[1]
+      docId=112, positions=[1]
+      docId=117, positions=[1]
+      docId=122, positions=[1]
+      docId=127, positions=[1]
+      docId=132, positions=[1]
+      docId=137, positions=[1]
+      docId=142, positions=[1]
+      docId=147, positions=[1]
+      docId=152, positions=[1]
+      docId=157, positions=[1]
+      docId=162, positions=[1]
+      docId=167, positions=[1]
+      docId=172, positions=[1]
+      docId=177, positions=[1]
+      docId=182, positions=[1]
+      docId=187, positions=[1]
+      docId=192, positions=[1]
+      docId=197, positions=[1]
+      docId=202, positions=[1]
+      docId=207, positions=[1]
+      docId=212, positions=[1]
+      docId=217, positions=[1]
+      docId=222, positions=[1]
+      docId=227, positions=[1]
+      docId=232, positions=[1]
+      docId=233, positions=[1]
+
+  [Term] "bradbury"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+      docId=9, freq=1
+      docId=14, freq=1
+      docId=19, freq=1
+      docId=24, freq=1
+      docId=29, freq=1
+      docId=34, freq=1
+      docId=39, freq=1
+      docId=44, freq=1
+      docId=49, freq=1
+      docId=54, freq=1
+      docId=59, freq=1
+      docId=64, freq=1
+      docId=69, freq=1
+      docId=74, freq=1
+      docId=80, freq=1
+      docId=85, freq=1
+      docId=90, freq=1
+      docId=95, freq=1
+      docId=100, freq=1
+      docId=105, freq=1
+      docId=110, freq=1
+      docId=115, freq=1
+      docId=120, freq=1
+      docId=125, freq=1
+      docId=130, freq=1
+      docId=135, freq=1
+      docId=140, freq=1
+      docId=145, freq=1
+      docId=150, freq=1
+      docId=155, freq=1
+      docId=160, freq=1
+      docId=165, freq=1
+      docId=170, freq=1
+      docId=175, freq=1
+      docId=180, freq=1
+      docId=185, freq=1
+      docId=190, freq=1
+      docId=195, freq=1
+      docId=200, freq=1
+      docId=205, freq=1
+      docId=210, freq=1
+      docId=215, freq=1
+      docId=220, freq=1
+      docId=225, freq=1
+      docId=230, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=4, positions=[1]
+      docId=9, positions=[1]
+      docId=14, positions=[1]
+      docId=19, positions=[1]
+      docId=24, positions=[1]
+      docId=29, positions=[1]
+      docId=34, positions=[1]
+      docId=39, positions=[1]
+      docId=44, positions=[1]
+      docId=49, positions=[1]
+      docId=54, positions=[1]
+      docId=59, positions=[1]
+      docId=64, positions=[1]
+      docId=69, positions=[1]
+      docId=74, positions=[1]
+      docId=80, positions=[1]
+      docId=85, positions=[1]
+      docId=90, positions=[1]
+      docId=95, positions=[1]
+      docId=100, positions=[1]
+      docId=105, positions=[1]
+      docId=110, positions=[1]
+      docId=115, positions=[1]
+      docId=120, positions=[1]
+      docId=125, positions=[1]
+      docId=130, positions=[1]
+      docId=135, positions=[1]
+      docId=140, positions=[1]
+      docId=145, positions=[1]
+      docId=150, positions=[1]
+      docId=155, positions=[1]
+      docId=160, positions=[1]
+      docId=165, positions=[1]
+      docId=170, positions=[1]
+      docId=175, positions=[1]
+      docId=180, positions=[1]
+      docId=185, positions=[1]
+      docId=190, positions=[1]
+      docId=195, positions=[1]
+      docId=200, positions=[1]
+      docId=205, positions=[1]
+      docId=210, positions=[1]
+      docId=215, positions=[1]
+      docId=220, positions=[1]
+      docId=225, positions=[1]
+      docId=230, positions=[1]
+
+  [Term] "george"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=3, freq=1
+      docId=8, freq=1
+      docId=13, freq=1
+      docId=18, freq=1
+      docId=23, freq=1
+      docId=28, freq=1
+      docId=33, freq=1
+      docId=38, freq=1
+      docId=43, freq=1
+      docId=48, freq=1
+      docId=53, freq=1
+      docId=58, freq=1
+      docId=63, freq=1
+      docId=68, freq=1
+      docId=73, freq=1
+      docId=79, freq=1
+      docId=84, freq=1
+      docId=89, freq=1
+      docId=94, freq=1
+      docId=99, freq=1
+      docId=104, freq=1
+      docId=109, freq=1
+      docId=114, freq=1
+      docId=119, freq=1
+      docId=124, freq=1
+      docId=129, freq=1
+      docId=134, freq=1
+      docId=139, freq=1
+      docId=144, freq=1
+      docId=149, freq=1
+      docId=154, freq=1
+      docId=159, freq=1
+      docId=164, freq=1
+      docId=169, freq=1
+      docId=174, freq=1
+      docId=179, freq=1
+      docId=184, freq=1
+      docId=189, freq=1
+      docId=194, freq=1
+      docId=199, freq=1
+      docId=204, freq=1
+      docId=209, freq=1
+      docId=214, freq=1
+      docId=219, freq=1
+      docId=224, freq=1
+      docId=229, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=3, positions=[0]
+      docId=8, positions=[0]
+      docId=13, positions=[0]
+      docId=18, positions=[0]
+      docId=23, positions=[0]
+      docId=28, positions=[0]
+      docId=33, positions=[0]
+      docId=38, positions=[0]
+      docId=43, positions=[0]
+      docId=48, positions=[0]
+      docId=53, positions=[0]
+      docId=58, positions=[0]
+      docId=63, positions=[0]
+      docId=68, positions=[0]
+      docId=73, positions=[0]
+      docId=79, positions=[0]
+      docId=84, positions=[0]
+      docId=89, positions=[0]
+      docId=94, positions=[0]
+      docId=99, positions=[0]
+      docId=104, positions=[0]
+      docId=109, positions=[0]
+      docId=114, positions=[0]
+      docId=119, positions=[0]
+      docId=124, positions=[0]
+      docId=129, positions=[0]
+      docId=134, positions=[0]
+      docId=139, positions=[0]
+      docId=144, positions=[0]
+      docId=149, positions=[0]
+      docId=154, positions=[0]
+      docId=159, positions=[0]
+      docId=164, positions=[0]
+      docId=169, positions=[0]
+      docId=174, positions=[0]
+      docId=179, positions=[0]
+      docId=184, positions=[0]
+      docId=189, positions=[0]
+      docId=194, positions=[0]
+      docId=199, positions=[0]
+      docId=204, positions=[0]
+      docId=209, positions=[0]
+      docId=214, positions=[0]
+      docId=219, positions=[0]
+      docId=224, positions=[0]
+      docId=229, positions=[0]
+
+  [Term] "huxley"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=5, positions=[1]
+      docId=10, positions=[1]
+      docId=15, positions=[1]
+      docId=20, positions=[1]
+      docId=25, positions=[1]
+      docId=30, positions=[1]
+      docId=35, positions=[1]
+      docId=40, positions=[1]
+      docId=45, positions=[1]
+      docId=50, positions=[1]
+      docId=55, positions=[1]
+      docId=60, positions=[1]
+      docId=65, positions=[1]
+      docId=70, positions=[1]
+      docId=75, positions=[1]
+      docId=81, positions=[1]
+      docId=86, positions=[1]
+      docId=91, positions=[1]
+      docId=96, positions=[1]
+      docId=101, positions=[1]
+      docId=106, positions=[1]
+      docId=111, positions=[1]
+      docId=116, positions=[1]
+      docId=121, positions=[1]
+      docId=126, positions=[1]
+      docId=131, positions=[1]
+      docId=136, positions=[1]
+      docId=141, positions=[1]
+      docId=146, positions=[1]
+      docId=151, positions=[1]
+      docId=156, positions=[1]
+      docId=161, positions=[1]
+      docId=166, positions=[1]
+      docId=171, positions=[1]
+      docId=176, positions=[1]
+      docId=181, positions=[1]
+      docId=186, positions=[1]
+      docId=191, positions=[1]
+      docId=196, positions=[1]
+      docId=201, positions=[1]
+      docId=206, positions=[1]
+      docId=211, positions=[1]
+      docId=216, positions=[1]
+      docId=221, positions=[1]
+      docId=226, positions=[1]
+      docId=231, positions=[1]
+
+  [Term] "margaret"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[0]
+      docId=6, positions=[0]
+      docId=11, positions=[0]
+      docId=16, positions=[0]
+      docId=21, positions=[0]
+      docId=26, positions=[0]
+      docId=31, positions=[0]
+      docId=36, positions=[0]
+      docId=41, positions=[0]
+      docId=46, positions=[0]
+      docId=51, positions=[0]
+      docId=56, positions=[0]
+      docId=61, positions=[0]
+      docId=66, positions=[0]
+      docId=71, positions=[0]
+      docId=76, positions=[0]
+      docId=77, positions=[0]
+      docId=82, positions=[0]
+      docId=87, positions=[0]
+      docId=92, positions=[0]
+      docId=97, positions=[0]
+      docId=102, positions=[0]
+      docId=107, positions=[0]
+      docId=112, positions=[0]
+      docId=117, positions=[0]
+      docId=122, positions=[0]
+      docId=127, positions=[0]
+      docId=132, positions=[0]
+      docId=137, positions=[0]
+      docId=142, positions=[0]
+      docId=147, positions=[0]
+      docId=152, positions=[0]
+      docId=157, positions=[0]
+      docId=162, positions=[0]
+      docId=167, positions=[0]
+      docId=172, positions=[0]
+      docId=177, positions=[0]
+      docId=182, positions=[0]
+      docId=187, positions=[0]
+      docId=192, positions=[0]
+      docId=197, positions=[0]
+      docId=202, positions=[0]
+      docId=207, positions=[0]
+      docId=212, positions=[0]
+      docId=217, positions=[0]
+      docId=222, positions=[0]
+      docId=227, positions=[0]
+      docId=232, positions=[0]
+      docId=233, positions=[0]
+
+  [Term] "neal"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=1, positions=[0]
+
+  [Term] "orwell"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=3, freq=1
+      docId=8, freq=1
+      docId=13, freq=1
+      docId=18, freq=1
+      docId=23, freq=1
+      docId=28, freq=1
+      docId=33, freq=1
+      docId=38, freq=1
+      docId=43, freq=1
+      docId=48, freq=1
+      docId=53, freq=1
+      docId=58, freq=1
+      docId=63, freq=1
+      docId=68, freq=1
+      docId=73, freq=1
+      docId=79, freq=1
+      docId=84, freq=1
+      docId=89, freq=1
+      docId=94, freq=1
+      docId=99, freq=1
+      docId=104, freq=1
+      docId=109, freq=1
+      docId=114, freq=1
+      docId=119, freq=1
+      docId=124, freq=1
+      docId=129, freq=1
+      docId=134, freq=1
+      docId=139, freq=1
+      docId=144, freq=1
+      docId=149, freq=1
+      docId=154, freq=1
+      docId=159, freq=1
+      docId=164, freq=1
+      docId=169, freq=1
+      docId=174, freq=1
+      docId=179, freq=1
+      docId=184, freq=1
+      docId=189, freq=1
+      docId=194, freq=1
+      docId=199, freq=1
+      docId=204, freq=1
+      docId=209, freq=1
+      docId=214, freq=1
+      docId=219, freq=1
+      docId=224, freq=1
+      docId=229, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=3, positions=[1]
+      docId=8, positions=[1]
+      docId=13, positions=[1]
+      docId=18, positions=[1]
+      docId=23, positions=[1]
+      docId=28, positions=[1]
+      docId=33, positions=[1]
+      docId=38, positions=[1]
+      docId=43, positions=[1]
+      docId=48, positions=[1]
+      docId=53, positions=[1]
+      docId=58, positions=[1]
+      docId=63, positions=[1]
+      docId=68, positions=[1]
+      docId=73, positions=[1]
+      docId=79, positions=[1]
+      docId=84, positions=[1]
+      docId=89, positions=[1]
+      docId=94, positions=[1]
+      docId=99, positions=[1]
+      docId=104, positions=[1]
+      docId=109, positions=[1]
+      docId=114, positions=[1]
+      docId=119, positions=[1]
+      docId=124, positions=[1]
+      docId=129, positions=[1]
+      docId=134, positions=[1]
+      docId=139, positions=[1]
+      docId=144, positions=[1]
+      docId=149, positions=[1]
+      docId=154, positions=[1]
+      docId=159, positions=[1]
+      docId=164, positions=[1]
+      docId=169, positions=[1]
+      docId=174, positions=[1]
+      docId=179, positions=[1]
+      docId=184, positions=[1]
+      docId=189, positions=[1]
+      docId=194, positions=[1]
+      docId=199, positions=[1]
+      docId=204, positions=[1]
+      docId=209, positions=[1]
+      docId=214, positions=[1]
+      docId=219, positions=[1]
+      docId=224, positions=[1]
+      docId=229, positions=[1]
+
+  [Term] "ray"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+      docId=9, freq=1
+      docId=14, freq=1
+      docId=19, freq=1
+      docId=24, freq=1
+      docId=29, freq=1
+      docId=34, freq=1
+      docId=39, freq=1
+      docId=44, freq=1
+      docId=49, freq=1
+      docId=54, freq=1
+      docId=59, freq=1
+      docId=64, freq=1
+      docId=69, freq=1
+      docId=74, freq=1
+      docId=80, freq=1
+      docId=85, freq=1
+      docId=90, freq=1
+      docId=95, freq=1
+      docId=100, freq=1
+      docId=105, freq=1
+      docId=110, freq=1
+      docId=115, freq=1
+      docId=120, freq=1
+      docId=125, freq=1
+      docId=130, freq=1
+      docId=135, freq=1
+      docId=140, freq=1
+      docId=145, freq=1
+      docId=150, freq=1
+      docId=155, freq=1
+      docId=160, freq=1
+      docId=165, freq=1
+      docId=170, freq=1
+      docId=175, freq=1
+      docId=180, freq=1
+      docId=185, freq=1
+      docId=190, freq=1
+      docId=195, freq=1
+      docId=200, freq=1
+      docId=205, freq=1
+      docId=210, freq=1
+      docId=215, freq=1
+      docId=220, freq=1
+      docId=225, freq=1
+      docId=230, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=4, positions=[0]
+      docId=9, positions=[0]
+      docId=14, positions=[0]
+      docId=19, positions=[0]
+      docId=24, positions=[0]
+      docId=29, positions=[0]
+      docId=34, positions=[0]
+      docId=39, positions=[0]
+      docId=44, positions=[0]
+      docId=49, positions=[0]
+      docId=54, positions=[0]
+      docId=59, positions=[0]
+      docId=64, positions=[0]
+      docId=69, positions=[0]
+      docId=74, positions=[0]
+      docId=80, positions=[0]
+      docId=85, positions=[0]
+      docId=90, positions=[0]
+      docId=95, positions=[0]
+      docId=100, positions=[0]
+      docId=105, positions=[0]
+      docId=110, positions=[0]
+      docId=115, positions=[0]
+      docId=120, positions=[0]
+      docId=125, positions=[0]
+      docId=130, positions=[0]
+      docId=135, positions=[0]
+      docId=140, positions=[0]
+      docId=145, positions=[0]
+      docId=150, positions=[0]
+      docId=155, positions=[0]
+      docId=160, positions=[0]
+      docId=165, positions=[0]
+      docId=170, positions=[0]
+      docId=175, positions=[0]
+      docId=180, positions=[0]
+      docId=185, positions=[0]
+      docId=190, positions=[0]
+      docId=195, positions=[0]
+      docId=200, positions=[0]
+      docId=205, positions=[0]
+      docId=210, positions=[0]
+      docId=215, positions=[0]
+      docId=220, positions=[0]
+      docId=225, positions=[0]
+      docId=230, positions=[0]
+
+  [Term] "reynolds"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+      docId=7, freq=1
+      docId=12, freq=1
+      docId=17, freq=1
+      docId=22, freq=1
+      docId=27, freq=1
+      docId=32, freq=1
+      docId=37, freq=1
+      docId=42, freq=1
+      docId=47, freq=1
+      docId=52, freq=1
+      docId=57, freq=1
+      docId=62, freq=1
+      docId=67, freq=1
+      docId=72, freq=1
+      docId=78, freq=1
+      docId=83, freq=1
+      docId=88, freq=1
+      docId=93, freq=1
+      docId=98, freq=1
+      docId=103, freq=1
+      docId=108, freq=1
+      docId=113, freq=1
+      docId=118, freq=1
+      docId=123, freq=1
+      docId=128, freq=1
+      docId=133, freq=1
+      docId=138, freq=1
+      docId=143, freq=1
+      docId=148, freq=1
+      docId=153, freq=1
+      docId=158, freq=1
+      docId=163, freq=1
+      docId=168, freq=1
+      docId=173, freq=1
+      docId=178, freq=1
+      docId=183, freq=1
+      docId=188, freq=1
+      docId=193, freq=1
+      docId=198, freq=1
+      docId=203, freq=1
+      docId=208, freq=1
+      docId=213, freq=1
+      docId=218, freq=1
+      docId=223, freq=1
+      docId=228, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=2, positions=[1]
+      docId=7, positions=[1]
+      docId=12, positions=[1]
+      docId=17, positions=[1]
+      docId=22, positions=[1]
+      docId=27, positions=[1]
+      docId=32, positions=[1]
+      docId=37, positions=[1]
+      docId=42, positions=[1]
+      docId=47, positions=[1]
+      docId=52, positions=[1]
+      docId=57, positions=[1]
+      docId=62, positions=[1]
+      docId=67, positions=[1]
+      docId=72, positions=[1]
+      docId=78, positions=[1]
+      docId=83, positions=[1]
+      docId=88, positions=[1]
+      docId=93, positions=[1]
+      docId=98, positions=[1]
+      docId=103, positions=[1]
+      docId=108, positions=[1]
+      docId=113, positions=[1]
+      docId=118, positions=[1]
+      docId=123, positions=[1]
+      docId=128, positions=[1]
+      docId=133, positions=[1]
+      docId=138, positions=[1]
+      docId=143, positions=[1]
+      docId=148, positions=[1]
+      docId=153, positions=[1]
+      docId=158, positions=[1]
+      docId=163, positions=[1]
+      docId=168, positions=[1]
+      docId=173, positions=[1]
+      docId=178, positions=[1]
+      docId=183, positions=[1]
+      docId=188, positions=[1]
+      docId=193, positions=[1]
+      docId=198, positions=[1]
+      docId=203, positions=[1]
+      docId=208, positions=[1]
+      docId=213, positions=[1]
+      docId=218, positions=[1]
+      docId=223, positions=[1]
+      docId=228, positions=[1]
+
+  [Term] "stephenson"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+    Positions(文档ID -> 位置列表):
+      docId=1, positions=[1]
+
+----------------------------------------------------------
+[Field] author.keyword
+  IndexOptions: DOCS
+  DocCount: 234
+  SumTotalTermFreq: 234
+  SumDocFreq: 234
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+
+  [Term] "Alastair Reynolds"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=2, freq=1
+      docId=7, freq=1
+      docId=12, freq=1
+      docId=17, freq=1
+      docId=22, freq=1
+      docId=27, freq=1
+      docId=32, freq=1
+      docId=37, freq=1
+      docId=42, freq=1
+      docId=47, freq=1
+      docId=52, freq=1
+      docId=57, freq=1
+      docId=62, freq=1
+      docId=67, freq=1
+      docId=72, freq=1
+      docId=78, freq=1
+      docId=83, freq=1
+      docId=88, freq=1
+      docId=93, freq=1
+      docId=98, freq=1
+      docId=103, freq=1
+      docId=108, freq=1
+      docId=113, freq=1
+      docId=118, freq=1
+      docId=123, freq=1
+      docId=128, freq=1
+      docId=133, freq=1
+      docId=138, freq=1
+      docId=143, freq=1
+      docId=148, freq=1
+      docId=153, freq=1
+      docId=158, freq=1
+      docId=163, freq=1
+      docId=168, freq=1
+      docId=173, freq=1
+      docId=178, freq=1
+      docId=183, freq=1
+      docId=188, freq=1
+      docId=193, freq=1
+      docId=198, freq=1
+      docId=203, freq=1
+      docId=208, freq=1
+      docId=213, freq=1
+      docId=218, freq=1
+      docId=223, freq=1
+      docId=228, freq=1
+
+  [Term] "Aldous Huxley"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=5, freq=1
+      docId=10, freq=1
+      docId=15, freq=1
+      docId=20, freq=1
+      docId=25, freq=1
+      docId=30, freq=1
+      docId=35, freq=1
+      docId=40, freq=1
+      docId=45, freq=1
+      docId=50, freq=1
+      docId=55, freq=1
+      docId=60, freq=1
+      docId=65, freq=1
+      docId=70, freq=1
+      docId=75, freq=1
+      docId=81, freq=1
+      docId=86, freq=1
+      docId=91, freq=1
+      docId=96, freq=1
+      docId=101, freq=1
+      docId=106, freq=1
+      docId=111, freq=1
+      docId=116, freq=1
+      docId=121, freq=1
+      docId=126, freq=1
+      docId=131, freq=1
+      docId=136, freq=1
+      docId=141, freq=1
+      docId=146, freq=1
+      docId=151, freq=1
+      docId=156, freq=1
+      docId=161, freq=1
+      docId=166, freq=1
+      docId=171, freq=1
+      docId=176, freq=1
+      docId=181, freq=1
+      docId=186, freq=1
+      docId=191, freq=1
+      docId=196, freq=1
+      docId=201, freq=1
+      docId=206, freq=1
+      docId=211, freq=1
+      docId=216, freq=1
+      docId=221, freq=1
+      docId=226, freq=1
+      docId=231, freq=1
+
+  [Term] "George Orwell"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=3, freq=1
+      docId=8, freq=1
+      docId=13, freq=1
+      docId=18, freq=1
+      docId=23, freq=1
+      docId=28, freq=1
+      docId=33, freq=1
+      docId=38, freq=1
+      docId=43, freq=1
+      docId=48, freq=1
+      docId=53, freq=1
+      docId=58, freq=1
+      docId=63, freq=1
+      docId=68, freq=1
+      docId=73, freq=1
+      docId=79, freq=1
+      docId=84, freq=1
+      docId=89, freq=1
+      docId=94, freq=1
+      docId=99, freq=1
+      docId=104, freq=1
+      docId=109, freq=1
+      docId=114, freq=1
+      docId=119, freq=1
+      docId=124, freq=1
+      docId=129, freq=1
+      docId=134, freq=1
+      docId=139, freq=1
+      docId=144, freq=1
+      docId=149, freq=1
+      docId=154, freq=1
+      docId=159, freq=1
+      docId=164, freq=1
+      docId=169, freq=1
+      docId=174, freq=1
+      docId=179, freq=1
+      docId=184, freq=1
+      docId=189, freq=1
+      docId=194, freq=1
+      docId=199, freq=1
+      docId=204, freq=1
+      docId=209, freq=1
+      docId=214, freq=1
+      docId=219, freq=1
+      docId=224, freq=1
+      docId=229, freq=1
+
+  [Term] "Margaret Atwood"
+    DocFreq(出现在多少个文档中): 49
+    TotalTermFreq(总出现次数): 49
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=6, freq=1
+      docId=11, freq=1
+      docId=16, freq=1
+      docId=21, freq=1
+      docId=26, freq=1
+      docId=31, freq=1
+      docId=36, freq=1
+      docId=41, freq=1
+      docId=46, freq=1
+      docId=51, freq=1
+      docId=56, freq=1
+      docId=61, freq=1
+      docId=66, freq=1
+      docId=71, freq=1
+      docId=76, freq=1
+      docId=77, freq=1
+      docId=82, freq=1
+      docId=87, freq=1
+      docId=92, freq=1
+      docId=97, freq=1
+      docId=102, freq=1
+      docId=107, freq=1
+      docId=112, freq=1
+      docId=117, freq=1
+      docId=122, freq=1
+      docId=127, freq=1
+      docId=132, freq=1
+      docId=137, freq=1
+      docId=142, freq=1
+      docId=147, freq=1
+      docId=152, freq=1
+      docId=157, freq=1
+      docId=162, freq=1
+      docId=167, freq=1
+      docId=172, freq=1
+      docId=177, freq=1
+      docId=182, freq=1
+      docId=187, freq=1
+      docId=192, freq=1
+      docId=197, freq=1
+      docId=202, freq=1
+      docId=207, freq=1
+      docId=212, freq=1
+      docId=217, freq=1
+      docId=222, freq=1
+      docId=227, freq=1
+      docId=232, freq=1
+      docId=233, freq=1
+
+  [Term] "Neal Stephenson"
+    DocFreq(出现在多少个文档中): 1
+    TotalTermFreq(总出现次数): 1
+    Postings(文档ID -> 词频):
+      docId=1, freq=1
+
+  [Term] "Ray Bradbury"
+    DocFreq(出现在多少个文档中): 46
+    TotalTermFreq(总出现次数): 46
+    Postings(文档ID -> 词频):
+      docId=4, freq=1
+      docId=9, freq=1
+      docId=14, freq=1
+      docId=19, freq=1
+      docId=24, freq=1
+      docId=29, freq=1
+      docId=34, freq=1
+      docId=39, freq=1
+      docId=44, freq=1
+      docId=49, freq=1
+      docId=54, freq=1
+      docId=59, freq=1
+      docId=64, freq=1
+      docId=69, freq=1
+      docId=74, freq=1
+      docId=80, freq=1
+      docId=85, freq=1
+      docId=90, freq=1
+      docId=95, freq=1
+      docId=100, freq=1
+      docId=105, freq=1
+      docId=110, freq=1
+      docId=115, freq=1
+      docId=120, freq=1
+      docId=125, freq=1
+      docId=130, freq=1
+      docId=135, freq=1
+      docId=140, freq=1
+      docId=145, freq=1
+      docId=150, freq=1
+      docId=155, freq=1
+      docId=160, freq=1
+      docId=165, freq=1
+      docId=170, freq=1
+      docId=175, freq=1
+      docId=180, freq=1
+      docId=185, freq=1
+      docId=190, freq=1
+      docId=195, freq=1
+      docId=200, freq=1
+      docId=205, freq=1
+      docId=210, freq=1
+      docId=215, freq=1
+      docId=220, freq=1
+      docId=225, freq=1
+      docId=230, freq=1
+
+----------------------------------------------------------
+[Field] content
+  IndexOptions: DOCS_AND_FREQS_AND_POSITIONS
+  DocCount: 2
+  SumTotalTermFreq: 300
+  SumDocFreq: 84
+  HasFreqs: true
+  HasPositions: true
+  HasOffsets: false
+
+  [Term] "a"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[36, 86, 136]
+      docId=233, positions=[36, 86, 136]
+
+  [Term] "and"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[17, 67, 117]
+      docId=233, positions=[17, 67, 117]
+
+  [Term] "are"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[2, 52, 102]
+      docId=233, positions=[2, 52, 102]
+
+  [Term] "bypass"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[21, 71, 121]
+      docId=233, positions=[21, 71, 121]
+
+  [Term] "doc"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[16, 66, 116]
+      docId=233, positions=[16, 66, 116]
+
+  [Term] "duplicate"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[43, 93, 143]
+      docId=233, positions=[43, 93, 143]
+
+  [Term] "files"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[12, 62, 112]
+      docId=233, positions=[12, 62, 112]
+
+  [Term] "in"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[6, 56, 106]
+      docId=233, positions=[6, 56, 106]
+
+  [Term] "index"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[35, 85, 135]
+      docId=233, positions=[35, 85, 135]
+
+  [Term] "indices"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[1, 51, 101]
+      docId=233, positions=[1, 51, 101]
+
+  [Term] "it"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[48, 98, 148]
+      docId=233, positions=[48, 98, 148]
+
+  [Term] "large"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[38, 88, 138]
+      docId=233, positions=[38, 88, 138]
+
+  [Term] "let's"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[42, 92, 142]
+      docId=233, positions=[42, 92, 142]
+
+  [Term] "like"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[13, 63, 113]
+      docId=233, positions=[13, 63, 113]
+
+  [Term] "longer"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[49, 99, 149]
+      docId=233, positions=[49, 99, 149]
+
+  [Term] "lucene"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[0, 50, 100]
+      docId=233, positions=[0, 50, 100]
+
+  [Term] "made"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[3, 53, 103]
+      docId=233, positions=[3, 53, 103]
+
+  [Term] "make"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[47, 97, 147]
+      docId=233, positions=[47, 97, 147]
+
+  [Term] "mechanism"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[30, 80, 130]
+      docId=233, positions=[30, 80, 130]
+
+  [Term] "minimum"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[23, 73, 123]
+      docId=233, positions=[23, 73, 123]
+
+  [Term] "must"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[20, 70, 120]
+      docId=233, positions=[20, 70, 120]
+
+  [Term] "of"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 18
+    Postings(文档ID -> 词频):
+      docId=0, freq=9
+      docId=233, freq=9
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[4, 25, 40, 54, 75, 90, 104, 125, 140]
+      docId=233, positions=[4, 25, 40, 54, 75, 90, 104, 125, 140]
+
+  [Term] "order"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[7, 57, 107]
+      docId=233, positions=[7, 57, 107]
+
+  [Term] "piece"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[39, 89, 139]
+      docId=233, positions=[39, 89, 139]
+
+  [Term] "pos"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[18, 68, 118]
+      docId=233, positions=[18, 68, 118]
+
+  [Term] "protection"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[29, 79, 129]
+      docId=233, positions=[29, 79, 129]
+
+  [Term] "relatively"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[37, 87, 137]
+      docId=233, positions=[37, 87, 137]
+
+  [Term] "requires"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[32, 82, 132]
+      docId=233, positions=[32, 82, 132]
+
+  [Term] "see"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[9, 59, 109]
+      docId=233, positions=[9, 59, 109]
+
+  [Term] "segment"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[28, 78, 128]
+      docId=233, positions=[28, 78, 128]
+
+  [Term] "segments"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[5, 55, 105]
+      docId=233, positions=[5, 55, 105]
+
+  [Term] "small"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[27, 77, 127]
+      docId=233, positions=[27, 77, 127]
+
+  [Term] "text"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 12
+    Postings(文档ID -> 词频):
+      docId=0, freq=6
+      docId=233, freq=6
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[41, 45, 91, 95, 141, 145]
+      docId=233, positions=[41, 45, 91, 95, 141, 145]
+
+  [Term] "the"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 18
+    Postings(文档ID -> 词频):
+      docId=0, freq=9
+      docId=233, freq=9
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[10, 22, 26, 60, 72, 76, 110, 122, 126]
+      docId=233, positions=[10, 22, 26, 60, 72, 76, 110, 122, 126]
+
+  [Term] "this"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 12
+    Postings(文档ID -> 词频):
+      docId=0, freq=6
+      docId=233, freq=6
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[31, 44, 81, 94, 131, 144]
+      docId=233, positions=[31, 44, 81, 94, 131, 144]
+
+  [Term] "threshold"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[24, 74, 124]
+      docId=233, positions=[24, 74, 124]
+
+  [Term] "tim"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[14, 64, 114]
+      docId=233, positions=[14, 64, 114]
+
+  [Term] "tip"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[15, 65, 115]
+      docId=233, positions=[15, 65, 115]
+
+  [Term] "to"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 18
+    Postings(文档ID -> 词频):
+      docId=0, freq=9
+      docId=233, freq=9
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[8, 34, 46, 58, 84, 96, 108, 134, 146]
+      docId=233, positions=[8, 34, 46, 58, 84, 96, 108, 134, 146]
+
+  [Term] "underlying"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[11, 61, 111]
+      docId=233, positions=[11, 61, 111]
+
+  [Term] "us"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[33, 83, 133]
+      docId=233, positions=[33, 83, 133]
+
+  [Term] "we"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 6
+    Postings(文档ID -> 词频):
+      docId=0, freq=3
+      docId=233, freq=3
+    Positions(文档ID -> 位置列表):
+      docId=0, positions=[19, 69, 119]
+      docId=233, positions=[19, 69, 119]
+
+----------------------------------------------------------
+[Field] _ignored
+  IndexOptions: DOCS
+  DocCount: 2
+  SumTotalTermFreq: 2
+  SumDocFreq: 2
+  HasFreqs: false
+  HasPositions: false
+  HasOffsets: false
+
+  [Term] "content.keyword"
+    DocFreq(出现在多少个文档中): 2
+    TotalTermFreq(总出现次数): 2
+    Postings(文档ID -> 词频):
+      docId=0, freq=1
+      docId=233, freq=1
+
+
+==========================================================
+ 解析完成!
+ 共解析 314 个 term
+ 共解析 1773 条 postings 记录
+==========================================================

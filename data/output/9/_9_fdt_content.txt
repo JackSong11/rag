@@ -1,0 +1,1911 @@
+==========================================================
+ 解析索引目录: /Users/songzhiquan1/IdeaProjects/rag/data/index9
+ 目标: _9.fdt (Stored Fields Data)
+==========================================================
+
+[Segment: _9(9.8.0):C234:[diagnostics={lucene.version=9.8.0, os.arch=aarch64, timestamp=1781368580410, os=Linux, mergeFactor=3, java.runtime.version=21.0.1+12-29, mergeMaxNumSegments=1, java.vendor=Oracle Corporation, os.version=6.6.71-0-virt, es.shuffle_merge=, source=merge}]:[attributes={Lucene90StoredFieldsFormat.mode=BEST_SPEED}] :id=7xl0n45r2q6rxpfugdn3tcs65]
+  段内最大文档数: 234
+  段内有效文档数: 234
+
+----------------------------------------------------------
+Document ID (global): 0 | (segment-local): 0
+----------------------------------------------------------
+  [Field] _id:
+    10092
+  [Field] _source:
+    {
+    "name": "The Handmaids Tale",
+    "author": "Margaret Atwood",
+    "content" : "Lucene indices are made of segments. In order to see the underlying files like tim, tip, doc, and pos, we must bypass the minimum threshold of the small segment protection mechanism. This requires us to index a relatively large piece of text. Let's duplicate this text to make it longer. Lucene indices are made of segments. In order to see the underlying files like tim, tip, doc, and pos, we must bypass the minimum threshold of the small segment protection mechanism. This requires us to index a relatively large piece of text. Let's duplicate this text to make it longer. Lucene indices are made of segments. In order to see the underlying files like tim, tip, doc, and pos, we must bypass the minimum threshold of the small segment protection mechanism. This requires us to index a relatively large piece of text. Let's duplicate this text to make it longer.",
+    "release_date": "1985-06-01",
+    "page_count": 311
+}
+  [Field] _ignored:
+    (String) content.keyword
+
+----------------------------------------------------------
+Document ID (global): 1 | (segment-local): 1
+----------------------------------------------------------
+  [Field] _id:
+    34kxu54B6Am4M5fhHjgk
+  [Field] _source:
+    {
+    "name": "Snow Crash",
+    "author": "Neal Stephenson",
+    "release_date": "1992-06-01",
+    "page_count": 470
+}
+
+----------------------------------------------------------
+Document ID (global): 2 | (segment-local): 2
+----------------------------------------------------------
+  [Field] _id:
+    e4lQu54B6Am4M5fhrjn2
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 3 | (segment-local): 3
+----------------------------------------------------------
+  [Field] _id:
+    fIlQu54B6Am4M5fhrjn2
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 4 | (segment-local): 4
+----------------------------------------------------------
+  [Field] _id:
+    fYlQu54B6Am4M5fhrjn2
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 5 | (segment-local): 5
+----------------------------------------------------------
+  [Field] _id:
+    folQu54B6Am4M5fhrjn2
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 6 | (segment-local): 6
+----------------------------------------------------------
+  [Field] _id:
+    f4lQu54B6Am4M5fhrjn2
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 7 | (segment-local): 7
+----------------------------------------------------------
+  [Field] _id:
+    gIlQu54B6Am4M5fhsTln
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 8 | (segment-local): 8
+----------------------------------------------------------
+  [Field] _id:
+    gYlQu54B6Am4M5fhsTln
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 9 | (segment-local): 9
+----------------------------------------------------------
+  [Field] _id:
+    golQu54B6Am4M5fhsTln
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 10 | (segment-local): 10
+----------------------------------------------------------
+  [Field] _id:
+    g4lQu54B6Am4M5fhsTln
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 11 | (segment-local): 11
+----------------------------------------------------------
+  [Field] _id:
+    hIlQu54B6Am4M5fhsTln
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 12 | (segment-local): 12
+----------------------------------------------------------
+  [Field] _id:
+    hYlQu54B6Am4M5fhszl0
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 13 | (segment-local): 13
+----------------------------------------------------------
+  [Field] _id:
+    holQu54B6Am4M5fhszl0
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 14 | (segment-local): 14
+----------------------------------------------------------
+  [Field] _id:
+    h4lQu54B6Am4M5fhszl0
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 15 | (segment-local): 15
+----------------------------------------------------------
+  [Field] _id:
+    iIlQu54B6Am4M5fhszl0
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 16 | (segment-local): 16
+----------------------------------------------------------
+  [Field] _id:
+    iYlQu54B6Am4M5fhszl0
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 17 | (segment-local): 17
+----------------------------------------------------------
+  [Field] _id:
+    iolQu54B6Am4M5fhtTmU
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 18 | (segment-local): 18
+----------------------------------------------------------
+  [Field] _id:
+    i4lQu54B6Am4M5fhtTmU
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 19 | (segment-local): 19
+----------------------------------------------------------
+  [Field] _id:
+    jIlQu54B6Am4M5fhtTmU
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 20 | (segment-local): 20
+----------------------------------------------------------
+  [Field] _id:
+    jYlQu54B6Am4M5fhtTmU
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 21 | (segment-local): 21
+----------------------------------------------------------
+  [Field] _id:
+    jolQu54B6Am4M5fhtTmU
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 22 | (segment-local): 22
+----------------------------------------------------------
+  [Field] _id:
+    j4lQu54B6Am4M5fhtzlw
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 23 | (segment-local): 23
+----------------------------------------------------------
+  [Field] _id:
+    kIlQu54B6Am4M5fhtzlw
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 24 | (segment-local): 24
+----------------------------------------------------------
+  [Field] _id:
+    kYlQu54B6Am4M5fhtzlw
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 25 | (segment-local): 25
+----------------------------------------------------------
+  [Field] _id:
+    kolQu54B6Am4M5fhtzlw
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 26 | (segment-local): 26
+----------------------------------------------------------
+  [Field] _id:
+    k4lQu54B6Am4M5fhtzlw
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 27 | (segment-local): 27
+----------------------------------------------------------
+  [Field] _id:
+    lIlQu54B6Am4M5fhujkP
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 28 | (segment-local): 28
+----------------------------------------------------------
+  [Field] _id:
+    lYlQu54B6Am4M5fhujkP
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 29 | (segment-local): 29
+----------------------------------------------------------
+  [Field] _id:
+    lolQu54B6Am4M5fhujkP
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 30 | (segment-local): 30
+----------------------------------------------------------
+  [Field] _id:
+    l4lQu54B6Am4M5fhujkP
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 31 | (segment-local): 31
+----------------------------------------------------------
+  [Field] _id:
+    mIlQu54B6Am4M5fhujkP
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 32 | (segment-local): 32
+----------------------------------------------------------
+  [Field] _id:
+    mYlQu54B6Am4M5fhuzlw
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 33 | (segment-local): 33
+----------------------------------------------------------
+  [Field] _id:
+    molQu54B6Am4M5fhuzlw
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 34 | (segment-local): 34
+----------------------------------------------------------
+  [Field] _id:
+    m4lQu54B6Am4M5fhuzlw
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 35 | (segment-local): 35
+----------------------------------------------------------
+  [Field] _id:
+    nIlQu54B6Am4M5fhuzlw
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 36 | (segment-local): 36
+----------------------------------------------------------
+  [Field] _id:
+    nYlQu54B6Am4M5fhuzlw
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 37 | (segment-local): 37
+----------------------------------------------------------
+  [Field] _id:
+    nolQu54B6Am4M5fhvzmw
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 38 | (segment-local): 38
+----------------------------------------------------------
+  [Field] _id:
+    n4lQu54B6Am4M5fhvzmw
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 39 | (segment-local): 39
+----------------------------------------------------------
+  [Field] _id:
+    oIlQu54B6Am4M5fhvzmw
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 40 | (segment-local): 40
+----------------------------------------------------------
+  [Field] _id:
+    oYlQu54B6Am4M5fhvzmw
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 41 | (segment-local): 41
+----------------------------------------------------------
+  [Field] _id:
+    oolQu54B6Am4M5fhvzmx
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 42 | (segment-local): 42
+----------------------------------------------------------
+  [Field] _id:
+    o4lQu54B6Am4M5fhwTkO
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 43 | (segment-local): 43
+----------------------------------------------------------
+  [Field] _id:
+    pIlQu54B6Am4M5fhwTkO
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 44 | (segment-local): 44
+----------------------------------------------------------
+  [Field] _id:
+    pYlQu54B6Am4M5fhwTkO
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 45 | (segment-local): 45
+----------------------------------------------------------
+  [Field] _id:
+    polQu54B6Am4M5fhwTkO
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 46 | (segment-local): 46
+----------------------------------------------------------
+  [Field] _id:
+    p4lQu54B6Am4M5fhwTkO
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 47 | (segment-local): 47
+----------------------------------------------------------
+  [Field] _id:
+    qIlQu54B6Am4M5fhwzlk
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 48 | (segment-local): 48
+----------------------------------------------------------
+  [Field] _id:
+    qYlQu54B6Am4M5fhwzll
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 49 | (segment-local): 49
+----------------------------------------------------------
+  [Field] _id:
+    qolQu54B6Am4M5fhwzll
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 50 | (segment-local): 50
+----------------------------------------------------------
+  [Field] _id:
+    q4lQu54B6Am4M5fhwzll
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 51 | (segment-local): 51
+----------------------------------------------------------
+  [Field] _id:
+    rIlQu54B6Am4M5fhwzll
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 52 | (segment-local): 52
+----------------------------------------------------------
+  [Field] _id:
+    rYlQu54B6Am4M5fhyTlG
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 53 | (segment-local): 53
+----------------------------------------------------------
+  [Field] _id:
+    rolQu54B6Am4M5fhyTlG
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 54 | (segment-local): 54
+----------------------------------------------------------
+  [Field] _id:
+    r4lQu54B6Am4M5fhyTlG
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 55 | (segment-local): 55
+----------------------------------------------------------
+  [Field] _id:
+    sIlQu54B6Am4M5fhyTlG
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 56 | (segment-local): 56
+----------------------------------------------------------
+  [Field] _id:
+    sYlQu54B6Am4M5fhyTlG
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 57 | (segment-local): 57
+----------------------------------------------------------
+  [Field] _id:
+    solQu54B6Am4M5fhyzlI
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 58 | (segment-local): 58
+----------------------------------------------------------
+  [Field] _id:
+    s4lQu54B6Am4M5fhyzlJ
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 59 | (segment-local): 59
+----------------------------------------------------------
+  [Field] _id:
+    tIlQu54B6Am4M5fhyzlJ
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 60 | (segment-local): 60
+----------------------------------------------------------
+  [Field] _id:
+    tYlQu54B6Am4M5fhyzlJ
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 61 | (segment-local): 61
+----------------------------------------------------------
+  [Field] _id:
+    tolQu54B6Am4M5fhyzlJ
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 62 | (segment-local): 62
+----------------------------------------------------------
+  [Field] _id:
+    t4lQu54B6Am4M5fhzDnU
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 63 | (segment-local): 63
+----------------------------------------------------------
+  [Field] _id:
+    uIlQu54B6Am4M5fhzDnU
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 64 | (segment-local): 64
+----------------------------------------------------------
+  [Field] _id:
+    uYlQu54B6Am4M5fhzDnU
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 65 | (segment-local): 65
+----------------------------------------------------------
+  [Field] _id:
+    uolQu54B6Am4M5fhzDnU
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 66 | (segment-local): 66
+----------------------------------------------------------
+  [Field] _id:
+    u4lQu54B6Am4M5fhzDnU
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 67 | (segment-local): 67
+----------------------------------------------------------
+  [Field] _id:
+    vIlQu54B6Am4M5fhzjn6
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 68 | (segment-local): 68
+----------------------------------------------------------
+  [Field] _id:
+    vYlQu54B6Am4M5fhzjn6
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 69 | (segment-local): 69
+----------------------------------------------------------
+  [Field] _id:
+    volQu54B6Am4M5fhzjn6
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 70 | (segment-local): 70
+----------------------------------------------------------
+  [Field] _id:
+    v4lQu54B6Am4M5fhzjn6
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 71 | (segment-local): 71
+----------------------------------------------------------
+  [Field] _id:
+    wIlQu54B6Am4M5fhzjn6
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 72 | (segment-local): 72
+----------------------------------------------------------
+  [Field] _id:
+    wYlQu54B6Am4M5fh0DnH
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 73 | (segment-local): 73
+----------------------------------------------------------
+  [Field] _id:
+    wolQu54B6Am4M5fh0DnH
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 74 | (segment-local): 74
+----------------------------------------------------------
+  [Field] _id:
+    w4lQu54B6Am4M5fh0DnH
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 75 | (segment-local): 75
+----------------------------------------------------------
+  [Field] _id:
+    xIlQu54B6Am4M5fh0DnH
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 76 | (segment-local): 76
+----------------------------------------------------------
+  [Field] _id:
+    xYlQu54B6Am4M5fh0DnH
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 77 | (segment-local): 77
+----------------------------------------------------------
+  [Field] _id:
+    10090
+  [Field] _source:
+    {
+    "name": "The Handmaids Tale",
+    "author": "Margaret Atwood",
+    "release_date": "1985-06-01",
+    "page_count": 311
+}
+
+----------------------------------------------------------
+Document ID (global): 78 | (segment-local): 78
+----------------------------------------------------------
+  [Field] _id:
+    5YlPu54B6Am4M5fhXzjP
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 79 | (segment-local): 79
+----------------------------------------------------------
+  [Field] _id:
+    5olPu54B6Am4M5fhXzjP
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 80 | (segment-local): 80
+----------------------------------------------------------
+  [Field] _id:
+    54lPu54B6Am4M5fhXzjP
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 81 | (segment-local): 81
+----------------------------------------------------------
+  [Field] _id:
+    6IlPu54B6Am4M5fhXzjP
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 82 | (segment-local): 82
+----------------------------------------------------------
+  [Field] _id:
+    6YlPu54B6Am4M5fhXzjP
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 83 | (segment-local): 83
+----------------------------------------------------------
+  [Field] _id:
+    6olPu54B6Am4M5fhYjg4
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 84 | (segment-local): 84
+----------------------------------------------------------
+  [Field] _id:
+    64lPu54B6Am4M5fhYjg4
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 85 | (segment-local): 85
+----------------------------------------------------------
+  [Field] _id:
+    7IlPu54B6Am4M5fhYjg4
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 86 | (segment-local): 86
+----------------------------------------------------------
+  [Field] _id:
+    7YlPu54B6Am4M5fhYjg4
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 87 | (segment-local): 87
+----------------------------------------------------------
+  [Field] _id:
+    7olPu54B6Am4M5fhYjg4
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 88 | (segment-local): 88
+----------------------------------------------------------
+  [Field] _id:
+    74lPu54B6Am4M5fhZDiv
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 89 | (segment-local): 89
+----------------------------------------------------------
+  [Field] _id:
+    8IlPu54B6Am4M5fhZDiv
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 90 | (segment-local): 90
+----------------------------------------------------------
+  [Field] _id:
+    8YlPu54B6Am4M5fhZDiv
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 91 | (segment-local): 91
+----------------------------------------------------------
+  [Field] _id:
+    8olPu54B6Am4M5fhZDiv
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 92 | (segment-local): 92
+----------------------------------------------------------
+  [Field] _id:
+    84lPu54B6Am4M5fhZDiv
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 93 | (segment-local): 93
+----------------------------------------------------------
+  [Field] _id:
+    9IlPu54B6Am4M5fhZjjK
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 94 | (segment-local): 94
+----------------------------------------------------------
+  [Field] _id:
+    9YlPu54B6Am4M5fhZjjK
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 95 | (segment-local): 95
+----------------------------------------------------------
+  [Field] _id:
+    9olPu54B6Am4M5fhZjjK
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 96 | (segment-local): 96
+----------------------------------------------------------
+  [Field] _id:
+    94lPu54B6Am4M5fhZjjL
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 97 | (segment-local): 97
+----------------------------------------------------------
+  [Field] _id:
+    -IlPu54B6Am4M5fhZjjL
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 98 | (segment-local): 98
+----------------------------------------------------------
+  [Field] _id:
+    -YlPu54B6Am4M5fhaDjD
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 99 | (segment-local): 99
+----------------------------------------------------------
+  [Field] _id:
+    -olPu54B6Am4M5fhaDjD
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 100 | (segment-local): 100
+----------------------------------------------------------
+  [Field] _id:
+    -4lPu54B6Am4M5fhaDjD
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 101 | (segment-local): 101
+----------------------------------------------------------
+  [Field] _id:
+    _IlPu54B6Am4M5fhaDjD
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 102 | (segment-local): 102
+----------------------------------------------------------
+  [Field] _id:
+    _YlPu54B6Am4M5fhaDjD
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 103 | (segment-local): 103
+----------------------------------------------------------
+  [Field] _id:
+    _olPu54B6Am4M5fhajjT
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 104 | (segment-local): 104
+----------------------------------------------------------
+  [Field] _id:
+    _4lPu54B6Am4M5fhajjT
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 105 | (segment-local): 105
+----------------------------------------------------------
+  [Field] _id:
+    AIlPu54B6Am4M5fhajnT
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 106 | (segment-local): 106
+----------------------------------------------------------
+  [Field] _id:
+    AYlPu54B6Am4M5fhajnU
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 107 | (segment-local): 107
+----------------------------------------------------------
+  [Field] _id:
+    AolPu54B6Am4M5fhajnU
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 108 | (segment-local): 108
+----------------------------------------------------------
+  [Field] _id:
+    A4lPu54B6Am4M5fhbjky
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 109 | (segment-local): 109
+----------------------------------------------------------
+  [Field] _id:
+    BIlPu54B6Am4M5fhbjky
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 110 | (segment-local): 110
+----------------------------------------------------------
+  [Field] _id:
+    BYlPu54B6Am4M5fhbjkz
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 111 | (segment-local): 111
+----------------------------------------------------------
+  [Field] _id:
+    BolPu54B6Am4M5fhbjkz
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 112 | (segment-local): 112
+----------------------------------------------------------
+  [Field] _id:
+    B4lPu54B6Am4M5fhbjkz
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 113 | (segment-local): 113
+----------------------------------------------------------
+  [Field] _id:
+    CIlPu54B6Am4M5fhcDkR
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 114 | (segment-local): 114
+----------------------------------------------------------
+  [Field] _id:
+    CYlPu54B6Am4M5fhcDkR
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 115 | (segment-local): 115
+----------------------------------------------------------
+  [Field] _id:
+    ColPu54B6Am4M5fhcDkR
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 116 | (segment-local): 116
+----------------------------------------------------------
+  [Field] _id:
+    C4lPu54B6Am4M5fhcDkR
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 117 | (segment-local): 117
+----------------------------------------------------------
+  [Field] _id:
+    DIlPu54B6Am4M5fhcDkS
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 118 | (segment-local): 118
+----------------------------------------------------------
+  [Field] _id:
+    DYlPu54B6Am4M5fhcjkO
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 119 | (segment-local): 119
+----------------------------------------------------------
+  [Field] _id:
+    DolPu54B6Am4M5fhcjkO
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 120 | (segment-local): 120
+----------------------------------------------------------
+  [Field] _id:
+    D4lPu54B6Am4M5fhcjkO
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 121 | (segment-local): 121
+----------------------------------------------------------
+  [Field] _id:
+    EIlPu54B6Am4M5fhcjkO
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 122 | (segment-local): 122
+----------------------------------------------------------
+  [Field] _id:
+    EYlPu54B6Am4M5fhcjkO
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 123 | (segment-local): 123
+----------------------------------------------------------
+  [Field] _id:
+    EolPu54B6Am4M5fhczne
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 124 | (segment-local): 124
+----------------------------------------------------------
+  [Field] _id:
+    E4lPu54B6Am4M5fhczne
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 125 | (segment-local): 125
+----------------------------------------------------------
+  [Field] _id:
+    FIlPu54B6Am4M5fhczne
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 126 | (segment-local): 126
+----------------------------------------------------------
+  [Field] _id:
+    FYlPu54B6Am4M5fhczne
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 127 | (segment-local): 127
+----------------------------------------------------------
+  [Field] _id:
+    FolPu54B6Am4M5fhczne
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 128 | (segment-local): 128
+----------------------------------------------------------
+  [Field] _id:
+    F4lPu54B6Am4M5fhdTle
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 129 | (segment-local): 129
+----------------------------------------------------------
+  [Field] _id:
+    GIlPu54B6Am4M5fhdTle
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 130 | (segment-local): 130
+----------------------------------------------------------
+  [Field] _id:
+    GYlPu54B6Am4M5fhdTle
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 131 | (segment-local): 131
+----------------------------------------------------------
+  [Field] _id:
+    GolPu54B6Am4M5fhdTle
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 132 | (segment-local): 132
+----------------------------------------------------------
+  [Field] _id:
+    G4lPu54B6Am4M5fhdTle
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 133 | (segment-local): 133
+----------------------------------------------------------
+  [Field] _id:
+    HIlPu54B6Am4M5fheTkp
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 134 | (segment-local): 134
+----------------------------------------------------------
+  [Field] _id:
+    HYlPu54B6Am4M5fheTkp
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 135 | (segment-local): 135
+----------------------------------------------------------
+  [Field] _id:
+    HolPu54B6Am4M5fheTkp
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 136 | (segment-local): 136
+----------------------------------------------------------
+  [Field] _id:
+    H4lPu54B6Am4M5fheTkp
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 137 | (segment-local): 137
+----------------------------------------------------------
+  [Field] _id:
+    IIlPu54B6Am4M5fheTkp
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 138 | (segment-local): 138
+----------------------------------------------------------
+  [Field] _id:
+    IYlPu54B6Am4M5fhezkX
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 139 | (segment-local): 139
+----------------------------------------------------------
+  [Field] _id:
+    IolPu54B6Am4M5fhezkX
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 140 | (segment-local): 140
+----------------------------------------------------------
+  [Field] _id:
+    I4lPu54B6Am4M5fhezkX
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 141 | (segment-local): 141
+----------------------------------------------------------
+  [Field] _id:
+    JIlPu54B6Am4M5fhezkX
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 142 | (segment-local): 142
+----------------------------------------------------------
+  [Field] _id:
+    JYlPu54B6Am4M5fhezkX
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 143 | (segment-local): 143
+----------------------------------------------------------
+  [Field] _id:
+    JolPu54B6Am4M5fhpTkH
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 144 | (segment-local): 144
+----------------------------------------------------------
+  [Field] _id:
+    J4lPu54B6Am4M5fhpTkH
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 145 | (segment-local): 145
+----------------------------------------------------------
+  [Field] _id:
+    KIlPu54B6Am4M5fhpTkH
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 146 | (segment-local): 146
+----------------------------------------------------------
+  [Field] _id:
+    KYlPu54B6Am4M5fhpTkH
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 147 | (segment-local): 147
+----------------------------------------------------------
+  [Field] _id:
+    KolPu54B6Am4M5fhpTkH
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 148 | (segment-local): 148
+----------------------------------------------------------
+  [Field] _id:
+    K4lPu54B6Am4M5fhpzl0
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 149 | (segment-local): 149
+----------------------------------------------------------
+  [Field] _id:
+    LIlPu54B6Am4M5fhpzl0
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 150 | (segment-local): 150
+----------------------------------------------------------
+  [Field] _id:
+    LYlPu54B6Am4M5fhpzl0
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 151 | (segment-local): 151
+----------------------------------------------------------
+  [Field] _id:
+    LolPu54B6Am4M5fhpzl0
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 152 | (segment-local): 152
+----------------------------------------------------------
+  [Field] _id:
+    L4lPu54B6Am4M5fhpzl0
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 153 | (segment-local): 153
+----------------------------------------------------------
+  [Field] _id:
+    MIlPu54B6Am4M5fhqTlc
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 154 | (segment-local): 154
+----------------------------------------------------------
+  [Field] _id:
+    MYlPu54B6Am4M5fhqTlc
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 155 | (segment-local): 155
+----------------------------------------------------------
+  [Field] _id:
+    MolPu54B6Am4M5fhqTlc
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 156 | (segment-local): 156
+----------------------------------------------------------
+  [Field] _id:
+    M4lPu54B6Am4M5fhqTlc
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 157 | (segment-local): 157
+----------------------------------------------------------
+  [Field] _id:
+    NIlPu54B6Am4M5fhqTlc
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 158 | (segment-local): 158
+----------------------------------------------------------
+  [Field] _id:
+    NYlPu54B6Am4M5fhqzlp
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 159 | (segment-local): 159
+----------------------------------------------------------
+  [Field] _id:
+    NolPu54B6Am4M5fhqzlq
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 160 | (segment-local): 160
+----------------------------------------------------------
+  [Field] _id:
+    N4lPu54B6Am4M5fhqzlq
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 161 | (segment-local): 161
+----------------------------------------------------------
+  [Field] _id:
+    OIlPu54B6Am4M5fhqzlq
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 162 | (segment-local): 162
+----------------------------------------------------------
+  [Field] _id:
+    OYlPu54B6Am4M5fhqzlq
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 163 | (segment-local): 163
+----------------------------------------------------------
+  [Field] _id:
+    OolPu54B6Am4M5fhrTlU
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 164 | (segment-local): 164
+----------------------------------------------------------
+  [Field] _id:
+    O4lPu54B6Am4M5fhrTlU
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 165 | (segment-local): 165
+----------------------------------------------------------
+  [Field] _id:
+    PIlPu54B6Am4M5fhrTlU
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 166 | (segment-local): 166
+----------------------------------------------------------
+  [Field] _id:
+    PYlPu54B6Am4M5fhrTlU
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 167 | (segment-local): 167
+----------------------------------------------------------
+  [Field] _id:
+    PolPu54B6Am4M5fhrTlU
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 168 | (segment-local): 168
+----------------------------------------------------------
+  [Field] _id:
+    P4lPu54B6Am4M5fhrzkv
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 169 | (segment-local): 169
+----------------------------------------------------------
+  [Field] _id:
+    QIlPu54B6Am4M5fhrzkv
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 170 | (segment-local): 170
+----------------------------------------------------------
+  [Field] _id:
+    QYlPu54B6Am4M5fhrzkv
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 171 | (segment-local): 171
+----------------------------------------------------------
+  [Field] _id:
+    QolPu54B6Am4M5fhrzkv
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 172 | (segment-local): 172
+----------------------------------------------------------
+  [Field] _id:
+    Q4lPu54B6Am4M5fhrzkv
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 173 | (segment-local): 173
+----------------------------------------------------------
+  [Field] _id:
+    RIlPu54B6Am4M5fhsTkb
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 174 | (segment-local): 174
+----------------------------------------------------------
+  [Field] _id:
+    RYlPu54B6Am4M5fhsTkb
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 175 | (segment-local): 175
+----------------------------------------------------------
+  [Field] _id:
+    RolPu54B6Am4M5fhsTkb
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 176 | (segment-local): 176
+----------------------------------------------------------
+  [Field] _id:
+    R4lPu54B6Am4M5fhsTkb
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 177 | (segment-local): 177
+----------------------------------------------------------
+  [Field] _id:
+    SIlPu54B6Am4M5fhsTkb
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 178 | (segment-local): 178
+----------------------------------------------------------
+  [Field] _id:
+    SYlPu54B6Am4M5fhsjmR
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 179 | (segment-local): 179
+----------------------------------------------------------
+  [Field] _id:
+    SolPu54B6Am4M5fhsjmR
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 180 | (segment-local): 180
+----------------------------------------------------------
+  [Field] _id:
+    S4lPu54B6Am4M5fhsjmR
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 181 | (segment-local): 181
+----------------------------------------------------------
+  [Field] _id:
+    TIlPu54B6Am4M5fhsjmR
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 182 | (segment-local): 182
+----------------------------------------------------------
+  [Field] _id:
+    TYlPu54B6Am4M5fhsjmS
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 183 | (segment-local): 183
+----------------------------------------------------------
+  [Field] _id:
+    TolPu54B6Am4M5fhtDko
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 184 | (segment-local): 184
+----------------------------------------------------------
+  [Field] _id:
+    T4lPu54B6Am4M5fhtDko
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 185 | (segment-local): 185
+----------------------------------------------------------
+  [Field] _id:
+    UIlPu54B6Am4M5fhtDko
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 186 | (segment-local): 186
+----------------------------------------------------------
+  [Field] _id:
+    UYlPu54B6Am4M5fhtDko
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 187 | (segment-local): 187
+----------------------------------------------------------
+  [Field] _id:
+    UolPu54B6Am4M5fhtDko
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 188 | (segment-local): 188
+----------------------------------------------------------
+  [Field] _id:
+    U4lPu54B6Am4M5fhtjlL
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 189 | (segment-local): 189
+----------------------------------------------------------
+  [Field] _id:
+    VIlPu54B6Am4M5fhtjlM
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 190 | (segment-local): 190
+----------------------------------------------------------
+  [Field] _id:
+    VYlPu54B6Am4M5fhtjlM
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 191 | (segment-local): 191
+----------------------------------------------------------
+  [Field] _id:
+    VolPu54B6Am4M5fhtjlM
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 192 | (segment-local): 192
+----------------------------------------------------------
+  [Field] _id:
+    V4lPu54B6Am4M5fhtjlM
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 193 | (segment-local): 193
+----------------------------------------------------------
+  [Field] _id:
+    WIlPu54B6Am4M5fhuDmz
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 194 | (segment-local): 194
+----------------------------------------------------------
+  [Field] _id:
+    WYlPu54B6Am4M5fhuDmz
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 195 | (segment-local): 195
+----------------------------------------------------------
+  [Field] _id:
+    WolPu54B6Am4M5fhuDmz
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 196 | (segment-local): 196
+----------------------------------------------------------
+  [Field] _id:
+    W4lPu54B6Am4M5fhuDmz
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 197 | (segment-local): 197
+----------------------------------------------------------
+  [Field] _id:
+    XIlPu54B6Am4M5fhuDm0
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 198 | (segment-local): 198
+----------------------------------------------------------
+  [Field] _id:
+    XYlPu54B6Am4M5fhuzki
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 199 | (segment-local): 199
+----------------------------------------------------------
+  [Field] _id:
+    XolPu54B6Am4M5fhuzki
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 200 | (segment-local): 200
+----------------------------------------------------------
+  [Field] _id:
+    X4lPu54B6Am4M5fhuzki
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 201 | (segment-local): 201
+----------------------------------------------------------
+  [Field] _id:
+    YIlPu54B6Am4M5fhuzki
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 202 | (segment-local): 202
+----------------------------------------------------------
+  [Field] _id:
+    YYlPu54B6Am4M5fhuzki
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 203 | (segment-local): 203
+----------------------------------------------------------
+  [Field] _id:
+    YolPu54B6Am4M5fhvTmn
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 204 | (segment-local): 204
+----------------------------------------------------------
+  [Field] _id:
+    Y4lPu54B6Am4M5fhvTmn
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 205 | (segment-local): 205
+----------------------------------------------------------
+  [Field] _id:
+    ZIlPu54B6Am4M5fhvTmn
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 206 | (segment-local): 206
+----------------------------------------------------------
+  [Field] _id:
+    ZYlPu54B6Am4M5fhvTmn
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 207 | (segment-local): 207
+----------------------------------------------------------
+  [Field] _id:
+    ZolPu54B6Am4M5fhvTmn
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 208 | (segment-local): 208
+----------------------------------------------------------
+  [Field] _id:
+    Z4lPu54B6Am4M5fhvznd
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 209 | (segment-local): 209
+----------------------------------------------------------
+  [Field] _id:
+    aIlPu54B6Am4M5fhvznd
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 210 | (segment-local): 210
+----------------------------------------------------------
+  [Field] _id:
+    aYlPu54B6Am4M5fhvznd
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 211 | (segment-local): 211
+----------------------------------------------------------
+  [Field] _id:
+    aolPu54B6Am4M5fhvznd
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 212 | (segment-local): 212
+----------------------------------------------------------
+  [Field] _id:
+    a4lPu54B6Am4M5fhvznd
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 213 | (segment-local): 213
+----------------------------------------------------------
+  [Field] _id:
+    bIlPu54B6Am4M5fhwjkI
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 214 | (segment-local): 214
+----------------------------------------------------------
+  [Field] _id:
+    bYlPu54B6Am4M5fhwjkI
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 215 | (segment-local): 215
+----------------------------------------------------------
+  [Field] _id:
+    bolPu54B6Am4M5fhwjkI
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 216 | (segment-local): 216
+----------------------------------------------------------
+  [Field] _id:
+    b4lPu54B6Am4M5fhwjkI
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 217 | (segment-local): 217
+----------------------------------------------------------
+  [Field] _id:
+    cIlPu54B6Am4M5fhwjkI
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 218 | (segment-local): 218
+----------------------------------------------------------
+  [Field] _id:
+    cYlPu54B6Am4M5fhxDkq
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 219 | (segment-local): 219
+----------------------------------------------------------
+  [Field] _id:
+    colPu54B6Am4M5fhxDkq
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 220 | (segment-local): 220
+----------------------------------------------------------
+  [Field] _id:
+    c4lPu54B6Am4M5fhxDkq
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 221 | (segment-local): 221
+----------------------------------------------------------
+  [Field] _id:
+    dIlPu54B6Am4M5fhxDkq
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 222 | (segment-local): 222
+----------------------------------------------------------
+  [Field] _id:
+    dYlPu54B6Am4M5fhxDkq
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 223 | (segment-local): 223
+----------------------------------------------------------
+  [Field] _id:
+    dolQu54B6Am4M5fhrDnJ
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 224 | (segment-local): 224
+----------------------------------------------------------
+  [Field] _id:
+    d4lQu54B6Am4M5fhrDnK
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 225 | (segment-local): 225
+----------------------------------------------------------
+  [Field] _id:
+    eIlQu54B6Am4M5fhrDnK
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 226 | (segment-local): 226
+----------------------------------------------------------
+  [Field] _id:
+    eYlQu54B6Am4M5fhrDnL
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 227 | (segment-local): 227
+----------------------------------------------------------
+  [Field] _id:
+    eolQu54B6Am4M5fhrDnL
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 228 | (segment-local): 228
+----------------------------------------------------------
+  [Field] _id:
+    4IlPu54B6Am4M5fhVDgd
+  [Field] _source:
+    {"name": "Revelation Space", "author": "Alastair Reynolds", "release_date": "2000-03-15", "page_count": 585}
+
+----------------------------------------------------------
+Document ID (global): 229 | (segment-local): 229
+----------------------------------------------------------
+  [Field] _id:
+    4YlPu54B6Am4M5fhVDge
+  [Field] _source:
+    {"name": "1984", "author": "George Orwell", "release_date": "1985-06-01", "page_count": 328}
+
+----------------------------------------------------------
+Document ID (global): 230 | (segment-local): 230
+----------------------------------------------------------
+  [Field] _id:
+    4olPu54B6Am4M5fhVDge
+  [Field] _source:
+    {"name": "Fahrenheit 451", "author": "Ray Bradbury", "release_date": "1953-10-15", "page_count": 227}
+
+----------------------------------------------------------
+Document ID (global): 231 | (segment-local): 231
+----------------------------------------------------------
+  [Field] _id:
+    44lPu54B6Am4M5fhVDge
+  [Field] _source:
+    {"name": "Brave New World", "author": "Aldous Huxley", "release_date": "1932-06-01", "page_count": 268}
+
+----------------------------------------------------------
+Document ID (global): 232 | (segment-local): 232
+----------------------------------------------------------
+  [Field] _id:
+    5IlPu54B6Am4M5fhVDge
+  [Field] _source:
+    {"name": "The Handmaids Tale", "author": "Margaret Atwood", "release_date": "1985-06-01", "page_count": 311}
+
+----------------------------------------------------------
+Document ID (global): 233 | (segment-local): 233
+----------------------------------------------------------
+  [Field] _id:
+    10091
+  [Field] _source:
+    {
+    "name": "The Handmaids Tale",
+    "author": "Margaret Atwood",
+    "content" : "Lucene indices are made of segments. In order to see the underlying files like tim, tip, doc, and pos, we must bypass the minimum threshold of the small segment protection mechanism. This requires us to index a relatively large piece of text. Let's duplicate this text to make it longer. Lucene indices are made of segments. In order to see the underlying files like tim, tip, doc, and pos, we must bypass the minimum threshold of the small segment protection mechanism. This requires us to index a relatively large piece of text. Let's duplicate this text to make it longer. Lucene indices are made of segments. In order to see the underlying files like tim, tip, doc, and pos, we must bypass the minimum threshold of the small segment protection mechanism. This requires us to index a relatively large piece of text. Let's duplicate this text to make it longer.",
+    "release_date": "1985-06-01",
+    "page_count": 311
+}
+  [Field] _ignored:
+    (String) content.keyword
+
+
+==========================================================
+ 解析完成! 共输出 234 个有效文档的 stored fields 内容
+==========================================================

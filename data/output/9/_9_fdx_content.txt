@@ -1,0 +1,35 @@
+=== Lucene _9.fdx 文件解析 (Stored Fields Index) ===
+文件路径: /Users/songzhiquan1/IdeaProjects/rag/data/index9/_9.fdx
+文件长度: 75 bytes
+
+--- Codec Header ---
+Magic Number: 0x176CD73F (期望: 0x3FD76C17 即 CodecUtil.CODEC_MAGIC)
+Codec Name: Lucene90FieldsIndexIdx
+Version: 0
+Segment ID: 85FEF620C87D679BE089414916ABF29B
+Suffix: ""
+Header 结束位置 (offset): 48
+
+--- FDX 数据区域 (Chunk 到 .fdt 的偏移指针) ---
+数据区域: offset 48 ~ 58
+数据区域长度: 11 bytes
+
+--- 以 VInt/VLong 方式解析数据区域 ---
+[  0] Offset:   48 | numChunks (数据块总数): 77
+[  1] Offset:   49 | Chunk #0 -> .fdt 偏移量: 0
+[  2] Offset:   50 | Chunk #1 -> .fdt 偏移量: 9882
+[  3] Offset:   52 | Chunk #2 -> .fdt 偏移量: 268
+[  4] Offset:   54 | Chunk #3 -> .fdt 偏移量: 0
+[  5] Offset:   55 | Chunk #4 -> .fdt 偏移量: 24
+[  6] Offset:   56 | Chunk #5 -> .fdt 偏移量: 5189
+[  7] Offset:   58 | Chunk #6 -> .fdt 偏移量: 0
+
+--- 原始字节 (Hex Dump) ---
+Offset   48: 4D 00 9A 4D 8C 02 00 18 C5 28 00                 | M..M.....(.
+
+--- Codec Footer ---
+Footer Magic: 0xE89328C0 (期望: 0xFFFFFFFE 即 CodecUtil.FOOTER_MAGIC)
+Algorithm ID: 0
+Checksum: -4713740471514431488 (0xBE956E0400000000)
+
+=== 解析完成 ===
