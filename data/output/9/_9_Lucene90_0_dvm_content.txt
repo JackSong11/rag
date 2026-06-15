@@ -1,0 +1,1717 @@
+==========================================================
+ Lucene _9_Lucene90_0.dvm 文件解析 (DocValues Metadata)
+ 编解码器: Lucene90DocValuesFormat
+==========================================================
+文件路径: /Users/songzhiquan1/IdeaProjects/rag/data/index9/_9_Lucene90_0.dvm
+
+--- 文件基本信息 ---
+文件长度: 1041 bytes
+
+--- Codec Header ---
+Magic Number: 0x176CD73F
+  (注意: 不是标准 CODEC_MAGIC)
+Codec Name: Lucene90DocValuesMetadata
+Version: 0
+Segment ID: 85FEF620C87D679BE089414916ABF29B
+Suffix: "Lucene90_0"
+Header 结束位置 (offset): 61
+
+--- 数据区域 (VInt 解析) ---
+数据区域: offset 61 ~ 1024
+数据区域长度: 964 bytes
+
+[  0] Offset:   61 | VInt值: 1
+[  1] Offset:   62 | VInt值: 0
+[  2] Offset:   63 | VInt值: 0
+[  3] Offset:   64 | VInt值: 0
+[  4] Offset:   65 | VInt值: 0
+[  5] Offset:   66 | 读取VInt失败: Invalid vInt detected (too many bits)
+[  6] Offset:   67 | 读取VInt失败: Invalid vInt detected (too many bits)
+[  7] Offset:   68 | 读取VInt失败: Invalid vInt detected (too many bits)
+[  8] Offset:   69 | 读取VInt失败: Invalid vInt detected (too many bits)
+[  9] Offset:   70 | VInt值: 268435455
+[ 10] Offset:   75 | VInt值: 0
+[ 11] Offset:   76 | VInt值: 0
+[ 12] Offset:   77 | VInt值: 0
+[ 13] Offset:   78 | VInt值: 0
+[ 14] Offset:   79 | VInt值: 0
+[ 15] Offset:   80 | VInt值: 0
+[ 16] Offset:   81 | VInt值: 0
+[ 17] Offset:   82 | VInt值: 224395263
+[ 18] Offset:   87 | VInt值: 0
+[ 19] Offset:   88 | VInt值: 0
+[ 20] Offset:   89 | VInt值: 0
+[ 21] Offset:   90 | VInt值: 0
+[ 22] Offset:   91 | VInt值: 0
+[ 23] Offset:   92 | VInt值: 0
+[ 24] Offset:   93 | VInt值: -1879048193
+[ 25] Offset:   98 | VInt值: 0
+[ 26] Offset:   99 | VInt值: 0
+[ 27] Offset:  100 | VInt值: 0
+[ 28] Offset:  101 | VInt值: 0
+[ 29] Offset:  102 | VInt值: 0
+[ 30] Offset:  103 | VInt值: 0
+[ 31] Offset:  104 | VInt值: 0
+[ 32] Offset:  105 | VInt值: 0
+[ 33] Offset:  106 | VInt值: 1
+[ 34] Offset:  107 | VInt值: 0
+[ 35] Offset:  108 | VInt值: 0
+[ 36] Offset:  109 | VInt值: 0
+[ 37] Offset:  110 | VInt值: 0
+[ 38] Offset:  111 | VInt值: 0
+[ 39] Offset:  112 | VInt值: 0
+[ 40] Offset:  113 | VInt值: 0
+[ 41] Offset:  114 | VInt值: 57
+[ 42] Offset:  115 | VInt值: 0
+[ 43] Offset:  116 | VInt值: 0
+[ 44] Offset:  117 | VInt值: 0
+[ 45] Offset:  118 | VInt值: 0
+[ 46] Offset:  119 | VInt值: 0
+[ 47] Offset:  120 | VInt值: 0
+[ 48] Offset:  121 | VInt值: 0
+[ 49] Offset:  122 | VInt值: 106
+[ 50] Offset:  124 | VInt值: 0
+[ 51] Offset:  125 | VInt值: 0
+[ 52] Offset:  126 | VInt值: 0
+[ 53] Offset:  127 | VInt值: 0
+[ 54] Offset:  128 | VInt值: 0
+[ 55] Offset:  129 | VInt值: 0
+[ 56] Offset:  130 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 57] Offset:  131 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 58] Offset:  132 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 59] Offset:  133 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 60] Offset:  134 | VInt值: 805306367
+[ 61] Offset:  139 | VInt值: 0
+[ 62] Offset:  140 | VInt值: 0
+[ 63] Offset:  141 | VInt值: 0
+[ 64] Offset:  142 | VInt值: 0
+[ 65] Offset:  143 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 66] Offset:  144 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 67] Offset:  145 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 68] Offset:  146 | 读取VInt失败: Invalid vInt detected (too many bits)
+[ 69] Offset:  147 | VInt值: 268435455
+[ 70] Offset:  152 | VInt值: 0
+[ 71] Offset:  153 | VInt值: 0
+[ 72] Offset:  154 | VInt值: 0
+[ 73] Offset:  155 | VInt值: 0
+[ 74] Offset:  156 | VInt值: 0
+[ 75] Offset:  157 | VInt值: 0
+[ 76] Offset:  158 | VInt值: 0
+[ 77] Offset:  159 | VInt值: 224395263
+[ 78] Offset:  164 | VInt值: 0
+[ 79] Offset:  165 | VInt值: 0
+[ 80] Offset:  166 | VInt值: 0
+[ 81] Offset:  167 | VInt值: 0
+[ 82] Offset:  168 | VInt值: 0
+[ 83] Offset:  169 | VInt值: 0
+[ 84] Offset:  170 | VInt值: 268435455
+[ 85] Offset:  175 | VInt值: 1
+[ 86] Offset:  176 | VInt值: 0
+[ 87] Offset:  177 | VInt值: 0
+[ 88] Offset:  178 | VInt值: 0
+[ 89] Offset:  179 | VInt值: 0
+[ 90] Offset:  180 | VInt值: 0
+[ 91] Offset:  181 | VInt值: 0
+[ 92] Offset:  182 | VInt值: 0
+[ 93] Offset:  183 | VInt值: 0
+[ 94] Offset:  184 | VInt值: 0
+[ 95] Offset:  185 | VInt值: 0
+[ 96] Offset:  186 | VInt值: 0
+[ 97] Offset:  187 | VInt值: 0
+[ 98] Offset:  188 | VInt值: 0
+[ 99] Offset:  189 | VInt值: 0
+[100] Offset:  190 | VInt值: 0
+[101] Offset:  191 | VInt值: 35
+[102] Offset:  192 | VInt值: 1
+[103] Offset:  193 | VInt值: 0
+[104] Offset:  194 | VInt值: 0
+[105] Offset:  195 | VInt值: 0
+[106] Offset:  196 | VInt值: 0
+[107] Offset:  197 | VInt值: 0
+[108] Offset:  198 | VInt值: 0
+[109] Offset:  199 | VInt值: 0
+[110] Offset:  200 | VInt值: 0
+[111] Offset:  201 | VInt值: 0
+[112] Offset:  202 | VInt值: 0
+[113] Offset:  203 | VInt值: 0
+[114] Offset:  204 | VInt值: 0
+[115] Offset:  205 | VInt值: 0
+[116] Offset:  206 | VInt值: 0
+[117] Offset:  207 | 读取VInt失败: Invalid vInt detected (too many bits)
+[118] Offset:  208 | 读取VInt失败: Invalid vInt detected (too many bits)
+[119] Offset:  209 | 读取VInt失败: Invalid vInt detected (too many bits)
+[120] Offset:  210 | 读取VInt失败: Invalid vInt detected (too many bits)
+[121] Offset:  211 | VInt值: 1342177279
+[122] Offset:  216 | VInt值: 0
+[123] Offset:  217 | VInt值: 0
+[124] Offset:  218 | VInt值: 0
+[125] Offset:  219 | VInt值: 0
+[126] Offset:  220 | 读取VInt失败: Invalid vInt detected (too many bits)
+[127] Offset:  221 | 读取VInt失败: Invalid vInt detected (too many bits)
+[128] Offset:  222 | 读取VInt失败: Invalid vInt detected (too many bits)
+[129] Offset:  223 | 读取VInt失败: Invalid vInt detected (too many bits)
+[130] Offset:  224 | VInt值: 268435455
+[131] Offset:  229 | VInt值: 0
+[132] Offset:  230 | VInt值: 0
+[133] Offset:  231 | VInt值: 0
+[134] Offset:  232 | VInt值: 0
+[135] Offset:  233 | VInt值: 0
+[136] Offset:  234 | VInt值: 0
+[137] Offset:  235 | VInt值: 0
+[138] Offset:  236 | VInt值: 224395263
+[139] Offset:  241 | VInt值: 0
+[140] Offset:  242 | VInt值: 0
+[141] Offset:  243 | VInt值: 0
+[142] Offset:  244 | VInt值: 0
+[143] Offset:  245 | VInt值: 0
+[144] Offset:  246 | VInt值: 0
+[145] Offset:  247 | VInt值: 536870911
+[146] Offset:  252 | VInt值: 1
+[147] Offset:  253 | VInt值: 0
+[148] Offset:  254 | VInt值: 0
+[149] Offset:  255 | VInt值: 0
+[150] Offset:  256 | VInt值: 0
+[151] Offset:  257 | VInt值: 0
+[152] Offset:  258 | VInt值: 0
+[153] Offset:  259 | VInt值: 0
+[154] Offset:  260 | VInt值: 1
+[155] Offset:  261 | VInt值: 0
+[156] Offset:  262 | VInt值: 0
+[157] Offset:  263 | VInt值: 0
+[158] Offset:  264 | VInt值: 0
+[159] Offset:  265 | VInt值: 0
+[160] Offset:  266 | VInt值: 0
+[161] Offset:  267 | VInt值: 0
+[162] Offset:  268 | VInt值: 35
+[163] Offset:  269 | VInt值: 1
+[164] Offset:  270 | VInt值: 0
+[165] Offset:  271 | VInt值: 0
+[166] Offset:  272 | VInt值: 0
+[167] Offset:  273 | VInt值: 0
+[168] Offset:  274 | VInt值: 0
+[169] Offset:  275 | VInt值: 0
+[170] Offset:  276 | VInt值: 30
+[171] Offset:  277 | VInt值: 0
+[172] Offset:  278 | VInt值: 0
+[173] Offset:  279 | VInt值: 0
+[174] Offset:  280 | VInt值: 0
+[175] Offset:  281 | VInt值: 0
+[176] Offset:  282 | VInt值: 0
+[177] Offset:  283 | VInt值: 0
+[178] Offset:  284 | 读取VInt失败: Invalid vInt detected (too many bits)
+[179] Offset:  285 | 读取VInt失败: Invalid vInt detected (too many bits)
+[180] Offset:  286 | 读取VInt失败: Invalid vInt detected (too many bits)
+[181] Offset:  287 | 读取VInt失败: Invalid vInt detected (too many bits)
+[182] Offset:  288 | VInt值: 1879048191
+[183] Offset:  293 | VInt值: 0
+[184] Offset:  294 | VInt值: 0
+[185] Offset:  295 | VInt值: 0
+[186] Offset:  296 | VInt值: 3
+[187] Offset:  297 | VInt值: 0
+[188] Offset:  298 | 读取VInt失败: Invalid vInt detected (too many bits)
+[189] Offset:  299 | 读取VInt失败: Invalid vInt detected (too many bits)
+[190] Offset:  300 | 读取VInt失败: Invalid vInt detected (too many bits)
+[191] Offset:  301 | 读取VInt失败: Invalid vInt detected (too many bits)
+[192] Offset:  302 | VInt值: 268435455
+[193] Offset:  307 | VInt值: 0
+[194] Offset:  308 | VInt值: 0
+[195] Offset:  309 | VInt值: 0
+[196] Offset:  310 | VInt值: 0
+[197] Offset:  311 | VInt值: 0
+[198] Offset:  312 | VInt值: 0
+[199] Offset:  313 | VInt值: 0
+[200] Offset:  314 | VInt值: 224395263
+[201] Offset:  319 | VInt值: 0
+[202] Offset:  320 | VInt值: 0
+[203] Offset:  321 | VInt值: 0
+[204] Offset:  322 | VInt值: 0
+[205] Offset:  323 | VInt值: 0
+[206] Offset:  324 | VInt值: 0
+[207] Offset:  325 | VInt值: 1342177279
+[208] Offset:  330 | VInt值: 0
+[209] Offset:  331 | VInt值: 0
+[210] Offset:  332 | VInt值: 0
+[211] Offset:  333 | VInt值: 0
+[212] Offset:  334 | VInt值: 0
+[213] Offset:  335 | VInt值: 0
+[214] Offset:  336 | VInt值: 0
+[215] Offset:  337 | VInt值: 0
+[216] Offset:  338 | VInt值: 1
+[217] Offset:  339 | VInt值: 0
+[218] Offset:  340 | VInt值: 0
+[219] Offset:  341 | VInt值: 0
+[220] Offset:  342 | VInt值: 0
+[221] Offset:  343 | VInt值: 0
+[222] Offset:  344 | VInt值: 0
+[223] Offset:  345 | VInt值: 0
+[224] Offset:  346 | VInt值: 65
+[225] Offset:  347 | VInt值: 1
+[226] Offset:  348 | VInt值: 0
+[227] Offset:  349 | VInt值: 0
+[228] Offset:  350 | VInt值: 0
+[229] Offset:  351 | VInt值: 0
+[230] Offset:  352 | VInt值: 0
+[231] Offset:  353 | VInt值: 0
+[232] Offset:  354 | VInt值: 117
+[233] Offset:  355 | VInt值: 0
+[234] Offset:  356 | VInt值: 0
+[235] Offset:  357 | VInt值: 0
+[236] Offset:  358 | VInt值: 0
+[237] Offset:  359 | VInt值: 0
+[238] Offset:  360 | VInt值: 0
+[239] Offset:  361 | VInt值: 0
+[240] Offset:  362 | 读取VInt失败: Invalid vInt detected (too many bits)
+[241] Offset:  363 | 读取VInt失败: Invalid vInt detected (too many bits)
+[242] Offset:  364 | 读取VInt失败: Invalid vInt detected (too many bits)
+[243] Offset:  365 | 读取VInt失败: Invalid vInt detected (too many bits)
+[244] Offset:  366 | VInt值: 1879048191
+[245] Offset:  371 | VInt值: 16
+[246] Offset:  372 | VInt值: 0
+[247] Offset:  373 | VInt值: 0
+[248] Offset:  374 | VInt值: 0
+[249] Offset:  375 | VInt值: 0
+[250] Offset:  376 | VInt值: 0
+[251] Offset:  377 | VInt值: 0
+[252] Offset:  378 | VInt值: 0
+[253] Offset:  379 | VInt值: 0
+[254] Offset:  380 | VInt值: 0
+[255] Offset:  381 | VInt值: 0
+[256] Offset:  382 | VInt值: 0
+[257] Offset:  383 | VInt值: 0
+[258] Offset:  384 | VInt值: 0
+[259] Offset:  385 | VInt值: 0
+[260] Offset:  386 | VInt值: 0
+[261] Offset:  387 | VInt值: 0
+[262] Offset:  388 | VInt值: 0
+[263] Offset:  389 | VInt值: 0
+[264] Offset:  390 | VInt值: 0
+[265] Offset:  391 | VInt值: 0
+[266] Offset:  392 | VInt值: 0
+[267] Offset:  393 | VInt值: 0
+[268] Offset:  394 | VInt值: 0
+[269] Offset:  395 | VInt值: 0
+[270] Offset:  396 | VInt值: 18
+[271] Offset:  397 | VInt值: 0
+[272] Offset:  398 | VInt值: 0
+[273] Offset:  399 | VInt值: 0
+[274] Offset:  400 | VInt值: 80
+[275] Offset:  401 | VInt值: 0
+[276] Offset:  402 | VInt值: 0
+[277] Offset:  403 | VInt值: 0
+[278] Offset:  404 | VInt值: 182
+[279] Offset:  406 | VInt值: 0
+[280] Offset:  407 | VInt值: 0
+[281] Offset:  408 | VInt值: 0
+[282] Offset:  409 | VInt值: 0
+[283] Offset:  410 | VInt值: 0
+[284] Offset:  411 | VInt值: 0
+[285] Offset:  412 | VInt值: 88
+[286] Offset:  413 | VInt值: 0
+[287] Offset:  414 | VInt值: 0
+[288] Offset:  415 | VInt值: 0
+[289] Offset:  416 | VInt值: 0
+[290] Offset:  417 | VInt值: 0
+[291] Offset:  418 | VInt值: 0
+[292] Offset:  419 | VInt值: 0
+[293] Offset:  420 | VInt值: 14
+[294] Offset:  421 | VInt值: 2
+[295] Offset:  422 | VInt值: 0
+[296] Offset:  423 | VInt值: 0
+[297] Offset:  424 | VInt值: 0
+[298] Offset:  425 | VInt值: 0
+[299] Offset:  426 | VInt值: 0
+[300] Offset:  427 | VInt值: 0
+[301] Offset:  428 | VInt值: 0
+[302] Offset:  429 | VInt值: 0
+[303] Offset:  430 | VInt值: 0
+[304] Offset:  431 | VInt值: 0
+[305] Offset:  432 | VInt值: 0
+[306] Offset:  433 | VInt值: 0
+[307] Offset:  434 | VInt值: 0
+[308] Offset:  435 | VInt值: 0
+[309] Offset:  436 | VInt值: 10
+[310] Offset:  437 | VInt值: 0
+[311] Offset:  438 | VInt值: 0
+[312] Offset:  439 | VInt值: 0
+[313] Offset:  440 | VInt值: 0
+[314] Offset:  441 | VInt值: 0
+[315] Offset:  442 | VInt值: 0
+[316] Offset:  443 | VInt值: 0
+[317] Offset:  444 | VInt值: 0
+[318] Offset:  445 | VInt值: 0
+[319] Offset:  446 | VInt值: 0
+[320] Offset:  447 | VInt值: 0
+[321] Offset:  448 | VInt值: 0
+[322] Offset:  449 | VInt值: 0
+[323] Offset:  450 | VInt值: 0
+[324] Offset:  451 | VInt值: 0
+[325] Offset:  452 | VInt值: 0
+[326] Offset:  453 | VInt值: 0
+[327] Offset:  454 | VInt值: 0
+[328] Offset:  455 | VInt值: 0
+[329] Offset:  456 | VInt值: 0
+[330] Offset:  457 | VInt值: 0
+[331] Offset:  458 | VInt值: 0
+[332] Offset:  459 | VInt值: 0
+[333] Offset:  460 | VInt值: 0
+[334] Offset:  461 | VInt值: 14
+[335] Offset:  462 | VInt值: 2
+[336] Offset:  463 | VInt值: 0
+[337] Offset:  464 | VInt值: 0
+[338] Offset:  465 | VInt值: 0
+[339] Offset:  466 | VInt值: 0
+[340] Offset:  467 | VInt值: 0
+[341] Offset:  468 | VInt值: 0
+[342] Offset:  469 | VInt值: 0
+[343] Offset:  470 | VInt值: 0
+[344] Offset:  471 | VInt值: 0
+[345] Offset:  472 | VInt值: 0
+[346] Offset:  473 | VInt值: 0
+[347] Offset:  474 | VInt值: 0
+[348] Offset:  475 | VInt值: 0
+[349] Offset:  476 | VInt值: 0
+[350] Offset:  477 | VInt值: 14
+[351] Offset:  478 | VInt值: 2
+[352] Offset:  479 | VInt值: 0
+[353] Offset:  480 | VInt值: 0
+[354] Offset:  481 | VInt值: 0
+[355] Offset:  482 | VInt值: 0
+[356] Offset:  483 | VInt值: 0
+[357] Offset:  484 | VInt值: 0
+[358] Offset:  485 | VInt值: 0
+[359] Offset:  486 | VInt值: 0
+[360] Offset:  487 | VInt值: 0
+[361] Offset:  488 | VInt值: 0
+[362] Offset:  489 | VInt值: 0
+[363] Offset:  490 | VInt值: 0
+[364] Offset:  491 | VInt值: 0
+[365] Offset:  492 | VInt值: 0
+[366] Offset:  493 | VInt值: 8
+[367] Offset:  494 | VInt值: 0
+[368] Offset:  495 | VInt值: 0
+[369] Offset:  496 | VInt值: 0
+[370] Offset:  497 | VInt值: 3
+[371] Offset:  498 | VInt值: 0
+[372] Offset:  499 | 读取VInt失败: Invalid vInt detected (too many bits)
+[373] Offset:  500 | 读取VInt失败: Invalid vInt detected (too many bits)
+[374] Offset:  501 | 读取VInt失败: Invalid vInt detected (too many bits)
+[375] Offset:  502 | 读取VInt失败: Invalid vInt detected (too many bits)
+[376] Offset:  503 | VInt值: 268435455
+[377] Offset:  508 | VInt值: 0
+[378] Offset:  509 | VInt值: 0
+[379] Offset:  510 | VInt值: 0
+[380] Offset:  511 | VInt值: 0
+[381] Offset:  512 | VInt值: 0
+[382] Offset:  513 | VInt值: 0
+[383] Offset:  514 | VInt值: 0
+[384] Offset:  515 | VInt值: 224395263
+[385] Offset:  520 | VInt值: 0
+[386] Offset:  521 | VInt值: 0
+[387] Offset:  522 | VInt值: 0
+[388] Offset:  523 | VInt值: 0
+[389] Offset:  524 | VInt值: 0
+[390] Offset:  525 | VInt值: 0
+[391] Offset:  526 | VInt值: 1342177279
+[392] Offset:  531 | VInt值: 0
+[393] Offset:  532 | VInt值: 0
+[394] Offset:  533 | VInt值: 0
+[395] Offset:  534 | VInt值: 0
+[396] Offset:  535 | VInt值: 0
+[397] Offset:  536 | VInt值: 0
+[398] Offset:  537 | VInt值: 0
+[399] Offset:  538 | VInt值: 0
+[400] Offset:  539 | VInt值: 1
+[401] Offset:  540 | VInt值: 0
+[402] Offset:  541 | VInt值: 0
+[403] Offset:  542 | VInt值: 0
+[404] Offset:  543 | VInt值: 0
+[405] Offset:  544 | VInt值: 0
+[406] Offset:  545 | VInt值: 0
+[407] Offset:  546 | VInt值: 0
+[408] Offset:  547 | VInt值: 14
+[409] Offset:  548 | VInt值: 2
+[410] Offset:  549 | VInt值: 0
+[411] Offset:  550 | VInt值: 0
+[412] Offset:  551 | VInt值: 0
+[413] Offset:  552 | VInt值: 0
+[414] Offset:  553 | VInt值: 0
+[415] Offset:  554 | VInt值: 0
+[416] Offset:  555 | VInt值: 117
+[417] Offset:  556 | VInt值: 0
+[418] Offset:  557 | VInt值: 0
+[419] Offset:  558 | VInt值: 0
+[420] Offset:  559 | VInt值: 0
+[421] Offset:  560 | VInt值: 0
+[422] Offset:  561 | VInt值: 0
+[423] Offset:  562 | VInt值: 0
+[424] Offset:  563 | 读取VInt失败: Invalid vInt detected (too many bits)
+[425] Offset:  564 | 读取VInt失败: Invalid vInt detected (too many bits)
+[426] Offset:  565 | 读取VInt失败: Invalid vInt detected (too many bits)
+[427] Offset:  566 | 读取VInt失败: Invalid vInt detected (too many bits)
+[428] Offset:  567 | VInt值: 1879048191
+[429] Offset:  572 | VInt值: 16
+[430] Offset:  573 | VInt值: 0
+[431] Offset:  574 | VInt值: 0
+[432] Offset:  575 | VInt值: 0
+[433] Offset:  576 | VInt值: 0
+[434] Offset:  577 | VInt值: 0
+[435] Offset:  578 | VInt值: 0
+[436] Offset:  579 | VInt值: 0
+[437] Offset:  580 | VInt值: 0
+[438] Offset:  581 | VInt值: 0
+[439] Offset:  582 | VInt值: 0
+[440] Offset:  583 | VInt值: 0
+[441] Offset:  584 | VInt值: 0
+[442] Offset:  585 | VInt值: 0
+[443] Offset:  586 | VInt值: 0
+[444] Offset:  587 | VInt值: 0
+[445] Offset:  588 | VInt值: 0
+[446] Offset:  589 | VInt值: 0
+[447] Offset:  590 | VInt值: 0
+[448] Offset:  591 | VInt值: 0
+[449] Offset:  592 | VInt值: 0
+[450] Offset:  593 | VInt值: 0
+[451] Offset:  594 | VInt值: 0
+[452] Offset:  595 | VInt值: 0
+[453] Offset:  596 | VInt值: 0
+[454] Offset:  597 | VInt值: 17
+[455] Offset:  598 | VInt值: 0
+[456] Offset:  599 | VInt值: 0
+[457] Offset:  600 | VInt值: 0
+[458] Offset:  601 | VInt值: 71
+[459] Offset:  602 | VInt值: 0
+[460] Offset:  603 | VInt值: 0
+[461] Offset:  604 | VInt值: 0
+[462] Offset:  605 | VInt值: 259
+[463] Offset:  607 | VInt值: 0
+[464] Offset:  608 | VInt值: 0
+[465] Offset:  609 | VInt值: 0
+[466] Offset:  610 | VInt值: 0
+[467] Offset:  611 | VInt值: 0
+[468] Offset:  612 | VInt值: 0
+[469] Offset:  613 | VInt值: 92
+[470] Offset:  614 | VInt值: 0
+[471] Offset:  615 | VInt值: 0
+[472] Offset:  616 | VInt值: 0
+[473] Offset:  617 | VInt值: 0
+[474] Offset:  618 | VInt值: 0
+[475] Offset:  619 | VInt值: 0
+[476] Offset:  620 | VInt值: 0
+[477] Offset:  621 | VInt值: 351
+[478] Offset:  623 | VInt值: 0
+[479] Offset:  624 | VInt值: 0
+[480] Offset:  625 | VInt值: 0
+[481] Offset:  626 | VInt值: 0
+[482] Offset:  627 | VInt值: 0
+[483] Offset:  628 | VInt值: 0
+[484] Offset:  629 | VInt值: 0
+[485] Offset:  630 | VInt值: 0
+[486] Offset:  631 | VInt值: 0
+[487] Offset:  632 | VInt值: 0
+[488] Offset:  633 | VInt值: 0
+[489] Offset:  634 | VInt值: 0
+[490] Offset:  635 | VInt值: 0
+[491] Offset:  636 | VInt值: 0
+[492] Offset:  637 | VInt值: 10
+[493] Offset:  638 | VInt值: 0
+[494] Offset:  639 | VInt值: 0
+[495] Offset:  640 | VInt值: 0
+[496] Offset:  641 | VInt值: 0
+[497] Offset:  642 | VInt值: 0
+[498] Offset:  643 | VInt值: 0
+[499] Offset:  644 | VInt值: 0
+[500] Offset:  645 | VInt值: 0
+[501] Offset:  646 | VInt值: 0
+[502] Offset:  647 | VInt值: 0
+[503] Offset:  648 | VInt值: 0
+[504] Offset:  649 | VInt值: 0
+[505] Offset:  650 | VInt值: 0
+[506] Offset:  651 | VInt值: 0
+[507] Offset:  652 | VInt值: 0
+[508] Offset:  653 | VInt值: 0
+[509] Offset:  654 | VInt值: 0
+[510] Offset:  655 | VInt值: 0
+[511] Offset:  656 | VInt值: 0
+[512] Offset:  657 | VInt值: 0
+[513] Offset:  658 | VInt值: 0
+[514] Offset:  659 | VInt值: 0
+[515] Offset:  660 | VInt值: 0
+[516] Offset:  661 | VInt值: 0
+[517] Offset:  662 | VInt值: 351
+[518] Offset:  664 | VInt值: 0
+[519] Offset:  665 | VInt值: 0
+[520] Offset:  666 | VInt值: 0
+[521] Offset:  667 | VInt值: 0
+[522] Offset:  668 | VInt值: 0
+[523] Offset:  669 | VInt值: 0
+[524] Offset:  670 | VInt值: 0
+[525] Offset:  671 | VInt值: 0
+[526] Offset:  672 | VInt值: 0
+[527] Offset:  673 | VInt值: 0
+[528] Offset:  674 | VInt值: 0
+[529] Offset:  675 | VInt值: 0
+[530] Offset:  676 | VInt值: 0
+[531] Offset:  677 | VInt值: 0
+[532] Offset:  678 | VInt值: 351
+[533] Offset:  680 | VInt值: 0
+[534] Offset:  681 | VInt值: 0
+[535] Offset:  682 | VInt值: 0
+[536] Offset:  683 | VInt值: 0
+[537] Offset:  684 | VInt值: 0
+[538] Offset:  685 | VInt值: 0
+[539] Offset:  686 | VInt值: 0
+[540] Offset:  687 | VInt值: 0
+[541] Offset:  688 | VInt值: 0
+[542] Offset:  689 | VInt值: 0
+[543] Offset:  690 | VInt值: 0
+[544] Offset:  691 | VInt值: 0
+[545] Offset:  692 | VInt值: 0
+[546] Offset:  693 | VInt值: 0
+[547] Offset:  694 | VInt值: 9
+[548] Offset:  695 | VInt值: 0
+[549] Offset:  696 | VInt值: 0
+[550] Offset:  697 | VInt值: 0
+[551] Offset:  698 | VInt值: 4
+[552] Offset:  699 | 读取VInt失败: Invalid vInt detected (too many bits)
+[553] Offset:  700 | 读取VInt失败: Invalid vInt detected (too many bits)
+[554] Offset:  701 | 读取VInt失败: Invalid vInt detected (too many bits)
+[555] Offset:  702 | 读取VInt失败: Invalid vInt detected (too many bits)
+[556] Offset:  703 | VInt值: 268435455
+[557] Offset:  708 | VInt值: 0
+[558] Offset:  709 | VInt值: 0
+[559] Offset:  710 | VInt值: 0
+[560] Offset:  711 | VInt值: 0
+[561] Offset:  712 | VInt值: 0
+[562] Offset:  713 | VInt值: 0
+[563] Offset:  714 | VInt值: 0
+[564] Offset:  715 | VInt值: 224395263
+[565] Offset:  720 | VInt值: 0
+[566] Offset:  721 | VInt值: 0
+[567] Offset:  722 | VInt值: 0
+[568] Offset:  723 | VInt值: 0
+[569] Offset:  724 | VInt值: 0
+[570] Offset:  725 | VInt值: 0
+[571] Offset:  726 | VInt值: 5
+[572] Offset:  727 | VInt值: 0
+[573] Offset:  728 | VInt值: 0
+[574] Offset:  729 | VInt值: 0
+[575] Offset:  730 | VInt值: 0
+[576] Offset:  731 | 读取VInt失败: Invalid vInt detected (too many bits)
+[577] Offset:  732 | 读取VInt失败: Invalid vInt detected (too many bits)
+[578] Offset:  733 | 读取VInt失败: Invalid vInt detected (too many bits)
+[579] Offset:  734 | VInt值: 268435307
+[580] Offset:  739 | 读取VInt失败: Invalid vInt detected (too many bits)
+[581] Offset:  740 | 读取VInt失败: Invalid vInt detected (too many bits)
+[582] Offset:  741 | 读取VInt失败: Invalid vInt detected (too many bits)
+[583] Offset:  742 | VInt值: 268435336
+[584] Offset:  747 | VInt值: 72
+[585] Offset:  748 | VInt值: 8347
+[586] Offset:  750 | VInt值: 113
+[587] Offset:  751 | VInt值: 0
+[588] Offset:  752 | VInt值: 0
+[589] Offset:  753 | VInt值: 0
+[590] Offset:  754 | VInt值: 0
+[591] Offset:  755 | VInt值: 52
+[592] Offset:  756 | VInt值: 596160
+[593] Offset:  760 | VInt值: 0
+[594] Offset:  761 | VInt值: 0
+[595] Offset:  762 | VInt值: 0
+[596] Offset:  763 | VInt值: 68
+[597] Offset:  764 | VInt值: 1536998
+[598] Offset:  768 | VInt值: 0
+[599] Offset:  769 | VInt值: 0
+[600] Offset:  770 | VInt值: 4
+[601] Offset:  771 | VInt值: 0
+[602] Offset:  772 | VInt值: 0
+[603] Offset:  773 | VInt值: 0
+[604] Offset:  774 | VInt值: 0
+[605] Offset:  775 | VInt值: 0
+[606] Offset:  776 | VInt值: 0
+[607] Offset:  777 | VInt值: 0
+[608] Offset:  778 | VInt值: 0
+[609] Offset:  779 | VInt值: 1
+[610] Offset:  780 | VInt值: 0
+[611] Offset:  781 | VInt值: 0
+[612] Offset:  782 | VInt值: 0
+[613] Offset:  783 | VInt值: 0
+[614] Offset:  784 | VInt值: 0
+[615] Offset:  785 | VInt值: 0
+[616] Offset:  786 | VInt值: 0
+[617] Offset:  787 | VInt值: 351
+[618] Offset:  789 | VInt值: 0
+[619] Offset:  790 | VInt值: 0
+[620] Offset:  791 | VInt值: 0
+[621] Offset:  792 | VInt值: 0
+[622] Offset:  793 | VInt值: 0
+[623] Offset:  794 | VInt值: 0
+[624] Offset:  795 | VInt值: 117
+[625] Offset:  796 | VInt值: 0
+[626] Offset:  797 | VInt值: 0
+[627] Offset:  798 | VInt值: 0
+[628] Offset:  799 | VInt值: 0
+[629] Offset:  800 | VInt值: 0
+[630] Offset:  801 | VInt值: 0
+[631] Offset:  802 | VInt值: 0
+[632] Offset:  803 | 读取VInt失败: Invalid vInt detected (too many bits)
+[633] Offset:  804 | 读取VInt失败: Invalid vInt detected (too many bits)
+[634] Offset:  805 | 读取VInt失败: Invalid vInt detected (too many bits)
+[635] Offset:  806 | 读取VInt失败: Invalid vInt detected (too many bits)
+[636] Offset:  807 | 读取VInt失败: Invalid vInt detected (too many bits)
+[637] Offset:  808 | VInt值: 224395263
+[638] Offset:  813 | VInt值: 0
+[639] Offset:  814 | VInt值: 0
+[640] Offset:  815 | VInt值: 10
+[641] Offset:  816 | VInt值: 0
+[642] Offset:  817 | VInt值: 0
+[643] Offset:  818 | VInt值: 0
+[644] Offset:  819 | VInt值: 4
+[645] Offset:  820 | 读取VInt失败: Invalid vInt detected (too many bits)
+[646] Offset:  821 | 读取VInt失败: Invalid vInt detected (too many bits)
+[647] Offset:  822 | 读取VInt失败: Invalid vInt detected (too many bits)
+[648] Offset:  823 | 读取VInt失败: Invalid vInt detected (too many bits)
+[649] Offset:  824 | VInt值: 268435455
+[650] Offset:  829 | VInt值: 0
+[651] Offset:  830 | VInt值: 0
+[652] Offset:  831 | VInt值: 0
+[653] Offset:  832 | VInt值: 0
+[654] Offset:  833 | VInt值: 0
+[655] Offset:  834 | VInt值: 0
+[656] Offset:  835 | VInt值: 0
+[657] Offset:  836 | VInt值: 224395263
+[658] Offset:  841 | VInt值: 0
+[659] Offset:  842 | VInt值: 0
+[660] Offset:  843 | VInt值: 0
+[661] Offset:  844 | VInt值: 0
+[662] Offset:  845 | VInt值: 0
+[663] Offset:  846 | VInt值: 0
+[664] Offset:  847 | VInt值: 6
+[665] Offset:  848 | VInt值: 0
+[666] Offset:  849 | VInt值: 0
+[667] Offset:  850 | VInt值: 0
+[668] Offset:  851 | VInt值: 99
+[669] Offset:  853 | VInt值: 0
+[670] Offset:  854 | VInt值: 0
+[671] Offset:  855 | VInt值: 0
+[672] Offset:  856 | VInt值: 0
+[673] Offset:  857 | VInt值: 0
+[674] Offset:  858 | VInt值: 0
+[675] Offset:  859 | VInt值: 12
+[676] Offset:  860 | VInt值: 1
+[677] Offset:  861 | VInt值: 0
+[678] Offset:  862 | VInt值: 0
+[679] Offset:  863 | VInt值: 0
+[680] Offset:  864 | VInt值: 0
+[681] Offset:  865 | VInt值: 0
+[682] Offset:  866 | VInt值: 0
+[683] Offset:  867 | VInt值: 55
+[684] Offset:  868 | VInt值: 1
+[685] Offset:  869 | VInt值: 0
+[686] Offset:  870 | VInt值: 0
+[687] Offset:  871 | VInt值: 0
+[688] Offset:  872 | VInt值: 0
+[689] Offset:  873 | VInt值: 0
+[690] Offset:  874 | VInt值: 0
+[691] Offset:  875 | VInt值: 72
+[692] Offset:  876 | VInt值: 1
+[693] Offset:  877 | VInt值: 0
+[694] Offset:  878 | VInt值: 0
+[695] Offset:  879 | VInt值: 0
+[696] Offset:  880 | VInt值: 0
+[697] Offset:  881 | VInt值: 0
+[698] Offset:  882 | VInt值: 0
+[699] Offset:  883 | VInt值: 214
+[700] Offset:  885 | VInt值: 0
+[701] Offset:  886 | VInt值: 0
+[702] Offset:  887 | VInt值: 0
+[703] Offset:  888 | VInt值: 0
+[704] Offset:  889 | VInt值: 0
+[705] Offset:  890 | VInt值: 0
+[706] Offset:  891 | VInt值: 73
+[707] Offset:  892 | VInt值: 2
+[708] Offset:  893 | VInt值: 0
+[709] Offset:  894 | VInt值: 0
+[710] Offset:  895 | VInt值: 0
+[711] Offset:  896 | VInt值: 0
+[712] Offset:  897 | VInt值: 0
+[713] Offset:  898 | VInt值: 0
+[714] Offset:  899 | VInt值: 4
+[715] Offset:  900 | VInt值: 0
+[716] Offset:  901 | VInt值: 0
+[717] Offset:  902 | VInt值: 0
+[718] Offset:  903 | VInt值: 0
+[719] Offset:  904 | VInt值: 0
+[720] Offset:  905 | VInt值: 0
+[721] Offset:  906 | VInt值: 0
+[722] Offset:  907 | VInt值: 0
+[723] Offset:  908 | VInt值: 1
+[724] Offset:  909 | VInt值: 0
+[725] Offset:  910 | VInt值: 0
+[726] Offset:  911 | VInt值: 0
+[727] Offset:  912 | VInt值: 0
+[728] Offset:  913 | VInt值: 0
+[729] Offset:  914 | VInt值: 0
+[730] Offset:  915 | VInt值: 0
+[731] Offset:  916 | VInt值: 84
+[732] Offset:  917 | VInt值: 3
+[733] Offset:  918 | VInt值: 0
+[734] Offset:  919 | VInt值: 0
+[735] Offset:  920 | VInt值: 0
+[736] Offset:  921 | VInt值: 0
+[737] Offset:  922 | VInt值: 0
+[738] Offset:  923 | VInt值: 0
+[739] Offset:  924 | VInt值: 117
+[740] Offset:  925 | VInt值: 0
+[741] Offset:  926 | VInt值: 0
+[742] Offset:  927 | VInt值: 0
+[743] Offset:  928 | VInt值: 0
+[744] Offset:  929 | VInt值: 0
+[745] Offset:  930 | VInt值: 0
+[746] Offset:  931 | VInt值: 0
+[747] Offset:  932 | 读取VInt失败: Invalid vInt detected (too many bits)
+[748] Offset:  933 | 读取VInt失败: Invalid vInt detected (too many bits)
+[749] Offset:  934 | 读取VInt失败: Invalid vInt detected (too many bits)
+[750] Offset:  935 | 读取VInt失败: Invalid vInt detected (too many bits)
+[751] Offset:  936 | 读取VInt失败: Invalid vInt detected (too many bits)
+[752] Offset:  937 | VInt值: 224395263
+[753] Offset:  942 | VInt值: 0
+[754] Offset:  943 | VInt值: 0
+[755] Offset:  944 | VInt值: 13
+[756] Offset:  945 | VInt值: 0
+[757] Offset:  946 | VInt值: 0
+[758] Offset:  947 | VInt值: 0
+[759] Offset:  948 | VInt值: 0
+[760] Offset:  949 | 读取VInt失败: Invalid vInt detected (too many bits)
+[761] Offset:  950 | 读取VInt失败: Invalid vInt detected (too many bits)
+[762] Offset:  951 | 读取VInt失败: Invalid vInt detected (too many bits)
+[763] Offset:  952 | 读取VInt失败: Invalid vInt detected (too many bits)
+[764] Offset:  953 | VInt值: 268435455
+[765] Offset:  958 | VInt值: 0
+[766] Offset:  959 | VInt值: 0
+[767] Offset:  960 | VInt值: 0
+[768] Offset:  961 | VInt值: 0
+[769] Offset:  962 | VInt值: 0
+[770] Offset:  963 | VInt值: 0
+[771] Offset:  964 | VInt值: 0
+[772] Offset:  965 | VInt值: 2097151
+[773] Offset:  969 | VInt值: 0
+[774] Offset:  970 | VInt值: 0
+[775] Offset:  971 | VInt值: 0
+[776] Offset:  972 | VInt值: 0
+[777] Offset:  973 | VInt值: 0
+[778] Offset:  974 | VInt值: 0
+[779] Offset:  975 | VInt值: 0
+[780] Offset:  976 | VInt值: 268435455
+[781] Offset:  981 | 读取VInt失败: Invalid vInt detected (too many bits)
+[782] Offset:  982 | 读取VInt失败: Invalid vInt detected (too many bits)
+[783] Offset:  983 | 读取VInt失败: Invalid vInt detected (too many bits)
+[784] Offset:  984 | 读取VInt失败: Invalid vInt detected (too many bits)
+[785] Offset:  985 | VInt值: 268435455
+[786] Offset:  989 | VInt值: 0
+[787] Offset:  990 | VInt值: 0
+[788] Offset:  991 | VInt值: 0
+[789] Offset:  992 | VInt值: 0
+[790] Offset:  993 | VInt值: 0
+[791] Offset:  994 | VInt值: 0
+[792] Offset:  995 | VInt值: 0
+[793] Offset:  996 | VInt值: 0
+[794] Offset:  997 | VInt值: 457
+[795] Offset:  999 | VInt值: 0
+[796] Offset: 1000 | VInt值: 0
+[797] Offset: 1001 | VInt值: 0
+[798] Offset: 1002 | VInt值: 0
+[799] Offset: 1003 | VInt值: 0
+[800] Offset: 1004 | VInt值: 0
+[801] Offset: 1005 | VInt值: 0
+[802] Offset: 1006 | VInt值: 0
+[803] Offset: 1007 | VInt值: 0
+[804] Offset: 1008 | VInt值: 0
+[805] Offset: 1009 | VInt值: 0
+[806] Offset: 1010 | VInt值: 0
+[807] Offset: 1011 | VInt值: 0
+[808] Offset: 1012 | VInt值: 0
+[809] Offset: 1013 | 读取VInt失败: Invalid vInt detected (too many bits)
+[810] Offset: 1014 | 读取VInt失败: Invalid vInt detected (too many bits)
+[811] Offset: 1015 | 读取VInt失败: Invalid vInt detected (too many bits)
+[812] Offset: 1016 | 读取VInt失败: Invalid vInt detected (too many bits)
+[813] Offset: 1017 | 读取VInt失败: Invalid vInt detected (too many bits)
+[814] Offset: 1018 | 读取VInt失败: Invalid vInt detected (too many bits)
+[815] Offset: 1019 | 读取VInt失败: Invalid vInt detected (too many bits)
+[816] Offset: 1020 | 读取VInt失败: Invalid vInt detected (too many bits)
+[817] Offset: 1021 | 读取VInt失败: Invalid vInt detected (too many bits)
+[818] Offset: 1022 | 读取VInt失败: Invalid vInt detected (too many bits)
+[819] Offset: 1023 | VInt值: 84951039
+
+--- 原始字节 (Hex Dump) ---
+Offset   61: 01 00 00 00 00 FF FF FF FF FF FF FF FF 00 00 00  | ................
+Offset   77: 00 00 00 00 00 FF FF FF EA 00 00 00 00 00 00 00  | ................
+Offset   93: FF FF FF FF 08 00 00 00 00 00 00 00 00 01 00 00  | ................
+Offset  109: 00 00 00 00 00 39 00 00 00 00 00 00 00 EA 00 00  | .....9..........
+Offset  125: 00 00 00 00 00 FF FF FF FF FF FF FF FF 02 00 00  | ................
+Offset  141: 00 00 FF FF FF FF FF FF FF FF 00 00 00 00 00 00  | ................
+Offset  157: 00 00 FF FF FF EA 00 00 00 00 00 00 00 FF FF FF  | ................
+Offset  173: FF 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  189: 00 00 23 01 00 00 00 00 00 00 00 00 00 00 00 00  | ..#.............
+Offset  205: 00 00 FF FF FF FF FF FF FF FF 04 00 00 00 00 FF  | ................
+Offset  221: FF FF FF FF FF FF FF 00 00 00 00 00 00 00 00 FF  | ................
+Offset  237: FF FF EA 00 00 00 00 00 00 00 FF FF FF FF 01 01  | ................
+Offset  253: 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 23  | ...............#
+Offset  269: 01 00 00 00 00 00 00 1E 00 00 00 00 00 00 00 FF  | ................
+Offset  285: FF FF FF FF FF FF FF 06 00 00 00 03 00 FF FF FF  | ................
+Offset  301: FF FF FF FF FF 00 00 00 00 00 00 00 00 FF FF FF  | ................
+Offset  317: EA 00 00 00 00 00 00 00 FF FF FF FF 04 00 00 00  | ................
+Offset  333: 00 00 00 00 00 01 00 00 00 00 00 00 00 41 01 00  | .............A..
+Offset  349: 00 00 00 00 00 75 00 00 00 00 00 00 00 FF FF FF  | .....u..........
+Offset  365: FF FF FF FF FF 06 10 00 00 00 00 00 00 00 00 00  | ................
+Offset  381: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 12  | ................
+Offset  397: 00 00 00 50 00 00 00 B6 01 00 00 00 00 00 00 58  | ...P...........X
+Offset  413: 00 00 00 00 00 00 00 0E 02 00 00 00 00 00 00 00  | ................
+Offset  429: 00 00 00 00 00 00 00 0A 00 00 00 00 00 00 00 00  | ................
+Offset  445: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  461: 0E 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  477: 0E 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  493: 08 00 00 00 03 00 FF FF FF FF FF FF FF FF 00 00  | ................
+Offset  509: 00 00 00 00 00 00 FF FF FF EA 00 00 00 00 00 00  | ................
+Offset  525: 00 FF FF FF FF 04 00 00 00 00 00 00 00 00 01 00  | ................
+Offset  541: 00 00 00 00 00 00 0E 02 00 00 00 00 00 00 75 00  | ..............u.
+Offset  557: 00 00 00 00 00 00 FF FF FF FF FF FF FF FF 06 10  | ................
+Offset  573: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  589: 00 00 00 00 00 00 00 00 11 00 00 00 47 00 00 00  | ............G...
+Offset  605: 83 02 00 00 00 00 00 00 5C 00 00 00 00 00 00 00  | ........\.......
+Offset  621: DF 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  637: 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | ................
+Offset  653: 00 00 00 00 00 00 00 00 00 DF 02 00 00 00 00 00  | ................
+Offset  669: 00 00 00 00 00 00 00 00 00 DF 02 00 00 00 00 00  | ................
+Offset  685: 00 00 00 00 00 00 00 00 00 09 00 00 00 04 FF FF  | ................
+Offset  701: FF FF FF FF FF FF 00 00 00 00 00 00 00 00 FF FF  | ................
+Offset  717: FF EA 00 00 00 00 00 00 00 05 00 00 00 00 80 FA  | ................
+Offset  733: D6 EB FE FF FF 00 C8 A3 DE 88 FF FF FF 00 48 9B  | ..............H.
+Offset  749: 41 71 00 00 00 00 34 C0 B1 A4 00 00 00 00 44 E6  | Aq....4.......D.
+Offset  765: E7 DD 00 00 00 04 00 00 00 00 00 00 00 00 01 00  | ................
+Offset  781: 00 00 00 00 00 00 DF 02 00 00 00 00 00 00 75 00  | ..............u.
+Offset  797: 00 00 00 00 00 00 FF FF FF FF FF FF FF FF EA 00  | ................
+Offset  813: 00 00 0A 00 00 00 04 FF FF FF FF FF FF FF FF 00  | ................
+Offset  829: 00 00 00 00 00 00 00 FF FF FF EA 00 00 00 00 00  | ................
+Offset  845: 00 00 06 00 00 00 E3 00 00 00 00 00 00 00 0C 01  | ................
+Offset  861: 00 00 00 00 00 00 37 01 00 00 00 00 00 00 48 01  | ......7.......H.
+Offset  877: 00 00 00 00 00 00 D6 01 00 00 00 00 00 00 49 02  | ..............I.
+Offset  893: 00 00 00 00 00 00 04 00 00 00 00 00 00 00 00 01  | ................
+Offset  909: 00 00 00 00 00 00 00 54 03 00 00 00 00 00 00 75  | .......T.......u
+Offset  925: 00 00 00 00 00 00 00 FF FF FF FF FF FF FF FF EA  | ................
+Offset  941: 00 00 00 0D 00 00 00 00 FE FF FF FF FF FF FF FF  | ................
+Offset  957: 00 00 00 00 00 00 00 00 FF FF FF 00 00 00 00 00  | ................
+Offset  973: 00 00 00 FF FF FF FF 00 FF FF FF FF FF FF FF 7F  | ................
+Offset  989: 00 00 00 00 00 00 00 00 C9 03 00 00 00 00 00 00  | ................
+Offset 1005: 00 00 00 00 00 00 00 00 FF FF FF FF FF FF FF FF  | ................
+Offset 1021: FF FF FF FF                                      | ....
+
+--- Codec Footer ---
+Footer Magic: 0xE89328C0
+Algorithm ID: 0
+Checksum: -512241937437163520 (0xF8E426AC00000000)
+
+==========================================================
+ 通过 Lucene API 解析 DocValues 语义内容
+ (对应 _9_Lucene90_0.dvm 文件中存储的 DocValues 元数据)
+==========================================================
+
+[Segment: _9]
+  最大文档数: 234
+  有效文档数: 234
+
+----------------------------------------------------------
+[DocValues Field] _seq_no
+  Field Number: 1
+  DocValues Type: NUMERIC
+
+  --- Numeric DocValues ---
+    doc=0, value=234
+    doc=1, value=0
+    doc=2, value=158
+    doc=3, value=159
+    doc=4, value=160
+    doc=5, value=161
+    doc=6, value=162
+    doc=7, value=163
+    doc=8, value=164
+    doc=9, value=165
+    doc=10, value=166
+    doc=11, value=167
+    doc=12, value=168
+    doc=13, value=169
+    doc=14, value=170
+    doc=15, value=171
+    doc=16, value=172
+    doc=17, value=173
+    doc=18, value=174
+    doc=19, value=175
+    doc=20, value=176
+    doc=21, value=177
+    doc=22, value=178
+    doc=23, value=179
+    doc=24, value=180
+    doc=25, value=181
+    doc=26, value=182
+    doc=27, value=183
+    doc=28, value=184
+    doc=29, value=185
+    doc=30, value=186
+    doc=31, value=187
+    doc=32, value=188
+    doc=33, value=189
+    doc=34, value=190
+    doc=35, value=191
+    doc=36, value=192
+    doc=37, value=193
+    doc=38, value=194
+    doc=39, value=195
+    doc=40, value=196
+    doc=41, value=197
+    doc=42, value=198
+    doc=43, value=199
+    doc=44, value=200
+    doc=45, value=201
+    doc=46, value=202
+    doc=47, value=203
+    doc=48, value=204
+    doc=49, value=205
+    doc=50, value=206
+    doc=51, value=207
+    doc=52, value=208
+    doc=53, value=209
+    doc=54, value=210
+    doc=55, value=211
+    doc=56, value=212
+    doc=57, value=213
+    doc=58, value=214
+    doc=59, value=215
+    doc=60, value=216
+    doc=61, value=217
+    doc=62, value=218
+    doc=63, value=219
+    doc=64, value=220
+    doc=65, value=221
+    doc=66, value=222
+    doc=67, value=223
+    doc=68, value=224
+    doc=69, value=225
+    doc=70, value=226
+    doc=71, value=227
+    doc=72, value=228
+    doc=73, value=229
+    doc=74, value=230
+    doc=75, value=231
+    doc=76, value=232
+    doc=77, value=1
+    doc=78, value=8
+    doc=79, value=9
+    doc=80, value=10
+    doc=81, value=11
+    doc=82, value=12
+    doc=83, value=13
+    doc=84, value=14
+    doc=85, value=15
+    doc=86, value=16
+    doc=87, value=17
+    doc=88, value=18
+    doc=89, value=19
+    doc=90, value=20
+    doc=91, value=21
+    doc=92, value=22
+    doc=93, value=23
+    doc=94, value=24
+    doc=95, value=25
+    doc=96, value=26
+    doc=97, value=27
+    doc=98, value=28
+    doc=99, value=29
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] _primary_term
+  Field Number: 2
+  DocValues Type: NUMERIC
+
+  --- Numeric DocValues ---
+    doc=0, value=1
+    doc=1, value=1
+    doc=2, value=1
+    doc=3, value=1
+    doc=4, value=1
+    doc=5, value=1
+    doc=6, value=1
+    doc=7, value=1
+    doc=8, value=1
+    doc=9, value=1
+    doc=10, value=1
+    doc=11, value=1
+    doc=12, value=1
+    doc=13, value=1
+    doc=14, value=1
+    doc=15, value=1
+    doc=16, value=1
+    doc=17, value=1
+    doc=18, value=1
+    doc=19, value=1
+    doc=20, value=1
+    doc=21, value=1
+    doc=22, value=1
+    doc=23, value=1
+    doc=24, value=1
+    doc=25, value=1
+    doc=26, value=1
+    doc=27, value=1
+    doc=28, value=1
+    doc=29, value=1
+    doc=30, value=1
+    doc=31, value=1
+    doc=32, value=1
+    doc=33, value=1
+    doc=34, value=1
+    doc=35, value=1
+    doc=36, value=1
+    doc=37, value=1
+    doc=38, value=1
+    doc=39, value=1
+    doc=40, value=1
+    doc=41, value=1
+    doc=42, value=1
+    doc=43, value=1
+    doc=44, value=1
+    doc=45, value=1
+    doc=46, value=1
+    doc=47, value=1
+    doc=48, value=1
+    doc=49, value=1
+    doc=50, value=1
+    doc=51, value=1
+    doc=52, value=1
+    doc=53, value=1
+    doc=54, value=1
+    doc=55, value=1
+    doc=56, value=1
+    doc=57, value=1
+    doc=58, value=1
+    doc=59, value=1
+    doc=60, value=1
+    doc=61, value=1
+    doc=62, value=1
+    doc=63, value=1
+    doc=64, value=1
+    doc=65, value=1
+    doc=66, value=1
+    doc=67, value=1
+    doc=68, value=1
+    doc=69, value=1
+    doc=70, value=1
+    doc=71, value=1
+    doc=72, value=1
+    doc=73, value=1
+    doc=74, value=1
+    doc=75, value=1
+    doc=76, value=1
+    doc=77, value=1
+    doc=78, value=1
+    doc=79, value=1
+    doc=80, value=1
+    doc=81, value=1
+    doc=82, value=1
+    doc=83, value=1
+    doc=84, value=1
+    doc=85, value=1
+    doc=86, value=1
+    doc=87, value=1
+    doc=88, value=1
+    doc=89, value=1
+    doc=90, value=1
+    doc=91, value=1
+    doc=92, value=1
+    doc=93, value=1
+    doc=94, value=1
+    doc=95, value=1
+    doc=96, value=1
+    doc=97, value=1
+    doc=98, value=1
+    doc=99, value=1
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] _version
+  Field Number: 4
+  DocValues Type: NUMERIC
+
+  --- Numeric DocValues ---
+    doc=0, value=1
+    doc=1, value=1
+    doc=2, value=1
+    doc=3, value=1
+    doc=4, value=1
+    doc=5, value=1
+    doc=6, value=1
+    doc=7, value=1
+    doc=8, value=1
+    doc=9, value=1
+    doc=10, value=1
+    doc=11, value=1
+    doc=12, value=1
+    doc=13, value=1
+    doc=14, value=1
+    doc=15, value=1
+    doc=16, value=1
+    doc=17, value=1
+    doc=18, value=1
+    doc=19, value=1
+    doc=20, value=1
+    doc=21, value=1
+    doc=22, value=1
+    doc=23, value=1
+    doc=24, value=1
+    doc=25, value=1
+    doc=26, value=1
+    doc=27, value=1
+    doc=28, value=1
+    doc=29, value=1
+    doc=30, value=1
+    doc=31, value=1
+    doc=32, value=1
+    doc=33, value=1
+    doc=34, value=1
+    doc=35, value=1
+    doc=36, value=1
+    doc=37, value=1
+    doc=38, value=1
+    doc=39, value=1
+    doc=40, value=1
+    doc=41, value=1
+    doc=42, value=1
+    doc=43, value=1
+    doc=44, value=1
+    doc=45, value=1
+    doc=46, value=1
+    doc=47, value=1
+    doc=48, value=1
+    doc=49, value=1
+    doc=50, value=1
+    doc=51, value=1
+    doc=52, value=1
+    doc=53, value=1
+    doc=54, value=1
+    doc=55, value=1
+    doc=56, value=1
+    doc=57, value=1
+    doc=58, value=1
+    doc=59, value=1
+    doc=60, value=1
+    doc=61, value=1
+    doc=62, value=1
+    doc=63, value=1
+    doc=64, value=1
+    doc=65, value=1
+    doc=66, value=1
+    doc=67, value=1
+    doc=68, value=1
+    doc=69, value=1
+    doc=70, value=1
+    doc=71, value=1
+    doc=72, value=1
+    doc=73, value=1
+    doc=74, value=1
+    doc=75, value=1
+    doc=76, value=1
+    doc=77, value=1
+    doc=78, value=1
+    doc=79, value=1
+    doc=80, value=1
+    doc=81, value=1
+    doc=82, value=1
+    doc=83, value=1
+    doc=84, value=1
+    doc=85, value=1
+    doc=86, value=1
+    doc=87, value=1
+    doc=88, value=1
+    doc=89, value=1
+    doc=90, value=1
+    doc=91, value=1
+    doc=92, value=1
+    doc=93, value=1
+    doc=94, value=1
+    doc=95, value=1
+    doc=96, value=1
+    doc=97, value=1
+    doc=98, value=1
+    doc=99, value=1
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] name.keyword
+  Field Number: 6
+  DocValues Type: SORTED_SET
+
+  --- Sorted Set DocValues ---
+  唯一值数量: 6
+
+  [Ord -> Value 映射]
+    ord=0 -> "1984"
+    ord=1 -> "Brave New World"
+    ord=2 -> "Fahrenheit 451"
+    ord=3 -> "Revelation Space"
+    ord=4 -> "Snow Crash"
+    ord=5 -> "The Handmaids Tale"
+
+  [Doc -> Ords 映射]
+    doc=0 -> [ord=5/"The Handmaids Tale"]
+    doc=1 -> [ord=4/"Snow Crash"]
+    doc=2 -> [ord=3/"Revelation Space"]
+    doc=3 -> [ord=0/"1984"]
+    doc=4 -> [ord=2/"Fahrenheit 451"]
+    doc=5 -> [ord=1/"Brave New World"]
+    doc=6 -> [ord=5/"The Handmaids Tale"]
+    doc=7 -> [ord=3/"Revelation Space"]
+    doc=8 -> [ord=0/"1984"]
+    doc=9 -> [ord=2/"Fahrenheit 451"]
+    doc=10 -> [ord=1/"Brave New World"]
+    doc=11 -> [ord=5/"The Handmaids Tale"]
+    doc=12 -> [ord=3/"Revelation Space"]
+    doc=13 -> [ord=0/"1984"]
+    doc=14 -> [ord=2/"Fahrenheit 451"]
+    doc=15 -> [ord=1/"Brave New World"]
+    doc=16 -> [ord=5/"The Handmaids Tale"]
+    doc=17 -> [ord=3/"Revelation Space"]
+    doc=18 -> [ord=0/"1984"]
+    doc=19 -> [ord=2/"Fahrenheit 451"]
+    doc=20 -> [ord=1/"Brave New World"]
+    doc=21 -> [ord=5/"The Handmaids Tale"]
+    doc=22 -> [ord=3/"Revelation Space"]
+    doc=23 -> [ord=0/"1984"]
+    doc=24 -> [ord=2/"Fahrenheit 451"]
+    doc=25 -> [ord=1/"Brave New World"]
+    doc=26 -> [ord=5/"The Handmaids Tale"]
+    doc=27 -> [ord=3/"Revelation Space"]
+    doc=28 -> [ord=0/"1984"]
+    doc=29 -> [ord=2/"Fahrenheit 451"]
+    doc=30 -> [ord=1/"Brave New World"]
+    doc=31 -> [ord=5/"The Handmaids Tale"]
+    doc=32 -> [ord=3/"Revelation Space"]
+    doc=33 -> [ord=0/"1984"]
+    doc=34 -> [ord=2/"Fahrenheit 451"]
+    doc=35 -> [ord=1/"Brave New World"]
+    doc=36 -> [ord=5/"The Handmaids Tale"]
+    doc=37 -> [ord=3/"Revelation Space"]
+    doc=38 -> [ord=0/"1984"]
+    doc=39 -> [ord=2/"Fahrenheit 451"]
+    doc=40 -> [ord=1/"Brave New World"]
+    doc=41 -> [ord=5/"The Handmaids Tale"]
+    doc=42 -> [ord=3/"Revelation Space"]
+    doc=43 -> [ord=0/"1984"]
+    doc=44 -> [ord=2/"Fahrenheit 451"]
+    doc=45 -> [ord=1/"Brave New World"]
+    doc=46 -> [ord=5/"The Handmaids Tale"]
+    doc=47 -> [ord=3/"Revelation Space"]
+    doc=48 -> [ord=0/"1984"]
+    doc=49 -> [ord=2/"Fahrenheit 451"]
+    doc=50 -> [ord=1/"Brave New World"]
+    doc=51 -> [ord=5/"The Handmaids Tale"]
+    doc=52 -> [ord=3/"Revelation Space"]
+    doc=53 -> [ord=0/"1984"]
+    doc=54 -> [ord=2/"Fahrenheit 451"]
+    doc=55 -> [ord=1/"Brave New World"]
+    doc=56 -> [ord=5/"The Handmaids Tale"]
+    doc=57 -> [ord=3/"Revelation Space"]
+    doc=58 -> [ord=0/"1984"]
+    doc=59 -> [ord=2/"Fahrenheit 451"]
+    doc=60 -> [ord=1/"Brave New World"]
+    doc=61 -> [ord=5/"The Handmaids Tale"]
+    doc=62 -> [ord=3/"Revelation Space"]
+    doc=63 -> [ord=0/"1984"]
+    doc=64 -> [ord=2/"Fahrenheit 451"]
+    doc=65 -> [ord=1/"Brave New World"]
+    doc=66 -> [ord=5/"The Handmaids Tale"]
+    doc=67 -> [ord=3/"Revelation Space"]
+    doc=68 -> [ord=0/"1984"]
+    doc=69 -> [ord=2/"Fahrenheit 451"]
+    doc=70 -> [ord=1/"Brave New World"]
+    doc=71 -> [ord=5/"The Handmaids Tale"]
+    doc=72 -> [ord=3/"Revelation Space"]
+    doc=73 -> [ord=0/"1984"]
+    doc=74 -> [ord=2/"Fahrenheit 451"]
+    doc=75 -> [ord=1/"Brave New World"]
+    doc=76 -> [ord=5/"The Handmaids Tale"]
+    doc=77 -> [ord=5/"The Handmaids Tale"]
+    doc=78 -> [ord=3/"Revelation Space"]
+    doc=79 -> [ord=0/"1984"]
+    doc=80 -> [ord=2/"Fahrenheit 451"]
+    doc=81 -> [ord=1/"Brave New World"]
+    doc=82 -> [ord=5/"The Handmaids Tale"]
+    doc=83 -> [ord=3/"Revelation Space"]
+    doc=84 -> [ord=0/"1984"]
+    doc=85 -> [ord=2/"Fahrenheit 451"]
+    doc=86 -> [ord=1/"Brave New World"]
+    doc=87 -> [ord=5/"The Handmaids Tale"]
+    doc=88 -> [ord=3/"Revelation Space"]
+    doc=89 -> [ord=0/"1984"]
+    doc=90 -> [ord=2/"Fahrenheit 451"]
+    doc=91 -> [ord=1/"Brave New World"]
+    doc=92 -> [ord=5/"The Handmaids Tale"]
+    doc=93 -> [ord=3/"Revelation Space"]
+    doc=94 -> [ord=0/"1984"]
+    doc=95 -> [ord=2/"Fahrenheit 451"]
+    doc=96 -> [ord=1/"Brave New World"]
+    doc=97 -> [ord=5/"The Handmaids Tale"]
+    doc=98 -> [ord=3/"Revelation Space"]
+    doc=99 -> [ord=0/"1984"]
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] author.keyword
+  Field Number: 8
+  DocValues Type: SORTED_SET
+
+  --- Sorted Set DocValues ---
+  唯一值数量: 6
+
+  [Ord -> Value 映射]
+    ord=0 -> "Alastair Reynolds"
+    ord=1 -> "Aldous Huxley"
+    ord=2 -> "George Orwell"
+    ord=3 -> "Margaret Atwood"
+    ord=4 -> "Neal Stephenson"
+    ord=5 -> "Ray Bradbury"
+
+  [Doc -> Ords 映射]
+    doc=0 -> [ord=3/"Margaret Atwood"]
+    doc=1 -> [ord=4/"Neal Stephenson"]
+    doc=2 -> [ord=0/"Alastair Reynolds"]
+    doc=3 -> [ord=2/"George Orwell"]
+    doc=4 -> [ord=5/"Ray Bradbury"]
+    doc=5 -> [ord=1/"Aldous Huxley"]
+    doc=6 -> [ord=3/"Margaret Atwood"]
+    doc=7 -> [ord=0/"Alastair Reynolds"]
+    doc=8 -> [ord=2/"George Orwell"]
+    doc=9 -> [ord=5/"Ray Bradbury"]
+    doc=10 -> [ord=1/"Aldous Huxley"]
+    doc=11 -> [ord=3/"Margaret Atwood"]
+    doc=12 -> [ord=0/"Alastair Reynolds"]
+    doc=13 -> [ord=2/"George Orwell"]
+    doc=14 -> [ord=5/"Ray Bradbury"]
+    doc=15 -> [ord=1/"Aldous Huxley"]
+    doc=16 -> [ord=3/"Margaret Atwood"]
+    doc=17 -> [ord=0/"Alastair Reynolds"]
+    doc=18 -> [ord=2/"George Orwell"]
+    doc=19 -> [ord=5/"Ray Bradbury"]
+    doc=20 -> [ord=1/"Aldous Huxley"]
+    doc=21 -> [ord=3/"Margaret Atwood"]
+    doc=22 -> [ord=0/"Alastair Reynolds"]
+    doc=23 -> [ord=2/"George Orwell"]
+    doc=24 -> [ord=5/"Ray Bradbury"]
+    doc=25 -> [ord=1/"Aldous Huxley"]
+    doc=26 -> [ord=3/"Margaret Atwood"]
+    doc=27 -> [ord=0/"Alastair Reynolds"]
+    doc=28 -> [ord=2/"George Orwell"]
+    doc=29 -> [ord=5/"Ray Bradbury"]
+    doc=30 -> [ord=1/"Aldous Huxley"]
+    doc=31 -> [ord=3/"Margaret Atwood"]
+    doc=32 -> [ord=0/"Alastair Reynolds"]
+    doc=33 -> [ord=2/"George Orwell"]
+    doc=34 -> [ord=5/"Ray Bradbury"]
+    doc=35 -> [ord=1/"Aldous Huxley"]
+    doc=36 -> [ord=3/"Margaret Atwood"]
+    doc=37 -> [ord=0/"Alastair Reynolds"]
+    doc=38 -> [ord=2/"George Orwell"]
+    doc=39 -> [ord=5/"Ray Bradbury"]
+    doc=40 -> [ord=1/"Aldous Huxley"]
+    doc=41 -> [ord=3/"Margaret Atwood"]
+    doc=42 -> [ord=0/"Alastair Reynolds"]
+    doc=43 -> [ord=2/"George Orwell"]
+    doc=44 -> [ord=5/"Ray Bradbury"]
+    doc=45 -> [ord=1/"Aldous Huxley"]
+    doc=46 -> [ord=3/"Margaret Atwood"]
+    doc=47 -> [ord=0/"Alastair Reynolds"]
+    doc=48 -> [ord=2/"George Orwell"]
+    doc=49 -> [ord=5/"Ray Bradbury"]
+    doc=50 -> [ord=1/"Aldous Huxley"]
+    doc=51 -> [ord=3/"Margaret Atwood"]
+    doc=52 -> [ord=0/"Alastair Reynolds"]
+    doc=53 -> [ord=2/"George Orwell"]
+    doc=54 -> [ord=5/"Ray Bradbury"]
+    doc=55 -> [ord=1/"Aldous Huxley"]
+    doc=56 -> [ord=3/"Margaret Atwood"]
+    doc=57 -> [ord=0/"Alastair Reynolds"]
+    doc=58 -> [ord=2/"George Orwell"]
+    doc=59 -> [ord=5/"Ray Bradbury"]
+    doc=60 -> [ord=1/"Aldous Huxley"]
+    doc=61 -> [ord=3/"Margaret Atwood"]
+    doc=62 -> [ord=0/"Alastair Reynolds"]
+    doc=63 -> [ord=2/"George Orwell"]
+    doc=64 -> [ord=5/"Ray Bradbury"]
+    doc=65 -> [ord=1/"Aldous Huxley"]
+    doc=66 -> [ord=3/"Margaret Atwood"]
+    doc=67 -> [ord=0/"Alastair Reynolds"]
+    doc=68 -> [ord=2/"George Orwell"]
+    doc=69 -> [ord=5/"Ray Bradbury"]
+    doc=70 -> [ord=1/"Aldous Huxley"]
+    doc=71 -> [ord=3/"Margaret Atwood"]
+    doc=72 -> [ord=0/"Alastair Reynolds"]
+    doc=73 -> [ord=2/"George Orwell"]
+    doc=74 -> [ord=5/"Ray Bradbury"]
+    doc=75 -> [ord=1/"Aldous Huxley"]
+    doc=76 -> [ord=3/"Margaret Atwood"]
+    doc=77 -> [ord=3/"Margaret Atwood"]
+    doc=78 -> [ord=0/"Alastair Reynolds"]
+    doc=79 -> [ord=2/"George Orwell"]
+    doc=80 -> [ord=5/"Ray Bradbury"]
+    doc=81 -> [ord=1/"Aldous Huxley"]
+    doc=82 -> [ord=3/"Margaret Atwood"]
+    doc=83 -> [ord=0/"Alastair Reynolds"]
+    doc=84 -> [ord=2/"George Orwell"]
+    doc=85 -> [ord=5/"Ray Bradbury"]
+    doc=86 -> [ord=1/"Aldous Huxley"]
+    doc=87 -> [ord=3/"Margaret Atwood"]
+    doc=88 -> [ord=0/"Alastair Reynolds"]
+    doc=89 -> [ord=2/"George Orwell"]
+    doc=90 -> [ord=5/"Ray Bradbury"]
+    doc=91 -> [ord=1/"Aldous Huxley"]
+    doc=92 -> [ord=3/"Margaret Atwood"]
+    doc=93 -> [ord=0/"Alastair Reynolds"]
+    doc=94 -> [ord=2/"George Orwell"]
+    doc=95 -> [ord=5/"Ray Bradbury"]
+    doc=96 -> [ord=1/"Aldous Huxley"]
+    doc=97 -> [ord=3/"Margaret Atwood"]
+    doc=98 -> [ord=0/"Alastair Reynolds"]
+    doc=99 -> [ord=2/"George Orwell"]
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] release_date
+  Field Number: 9
+  DocValues Type: SORTED_NUMERIC
+
+  --- Sorted Numeric DocValues ---
+    doc=0, count=1, values=[486432000000]
+    doc=1, count=1, values=[707356800000]
+    doc=2, count=1, values=[953078400000]
+    doc=3, count=1, values=[486432000000]
+    doc=4, count=1, values=[-511660800000]
+    doc=5, count=1, values=[-1186099200000]
+    doc=6, count=1, values=[486432000000]
+    doc=7, count=1, values=[953078400000]
+    doc=8, count=1, values=[486432000000]
+    doc=9, count=1, values=[-511660800000]
+    doc=10, count=1, values=[-1186099200000]
+    doc=11, count=1, values=[486432000000]
+    doc=12, count=1, values=[953078400000]
+    doc=13, count=1, values=[486432000000]
+    doc=14, count=1, values=[-511660800000]
+    doc=15, count=1, values=[-1186099200000]
+    doc=16, count=1, values=[486432000000]
+    doc=17, count=1, values=[953078400000]
+    doc=18, count=1, values=[486432000000]
+    doc=19, count=1, values=[-511660800000]
+    doc=20, count=1, values=[-1186099200000]
+    doc=21, count=1, values=[486432000000]
+    doc=22, count=1, values=[953078400000]
+    doc=23, count=1, values=[486432000000]
+    doc=24, count=1, values=[-511660800000]
+    doc=25, count=1, values=[-1186099200000]
+    doc=26, count=1, values=[486432000000]
+    doc=27, count=1, values=[953078400000]
+    doc=28, count=1, values=[486432000000]
+    doc=29, count=1, values=[-511660800000]
+    doc=30, count=1, values=[-1186099200000]
+    doc=31, count=1, values=[486432000000]
+    doc=32, count=1, values=[953078400000]
+    doc=33, count=1, values=[486432000000]
+    doc=34, count=1, values=[-511660800000]
+    doc=35, count=1, values=[-1186099200000]
+    doc=36, count=1, values=[486432000000]
+    doc=37, count=1, values=[953078400000]
+    doc=38, count=1, values=[486432000000]
+    doc=39, count=1, values=[-511660800000]
+    doc=40, count=1, values=[-1186099200000]
+    doc=41, count=1, values=[486432000000]
+    doc=42, count=1, values=[953078400000]
+    doc=43, count=1, values=[486432000000]
+    doc=44, count=1, values=[-511660800000]
+    doc=45, count=1, values=[-1186099200000]
+    doc=46, count=1, values=[486432000000]
+    doc=47, count=1, values=[953078400000]
+    doc=48, count=1, values=[486432000000]
+    doc=49, count=1, values=[-511660800000]
+    doc=50, count=1, values=[-1186099200000]
+    doc=51, count=1, values=[486432000000]
+    doc=52, count=1, values=[953078400000]
+    doc=53, count=1, values=[486432000000]
+    doc=54, count=1, values=[-511660800000]
+    doc=55, count=1, values=[-1186099200000]
+    doc=56, count=1, values=[486432000000]
+    doc=57, count=1, values=[953078400000]
+    doc=58, count=1, values=[486432000000]
+    doc=59, count=1, values=[-511660800000]
+    doc=60, count=1, values=[-1186099200000]
+    doc=61, count=1, values=[486432000000]
+    doc=62, count=1, values=[953078400000]
+    doc=63, count=1, values=[486432000000]
+    doc=64, count=1, values=[-511660800000]
+    doc=65, count=1, values=[-1186099200000]
+    doc=66, count=1, values=[486432000000]
+    doc=67, count=1, values=[953078400000]
+    doc=68, count=1, values=[486432000000]
+    doc=69, count=1, values=[-511660800000]
+    doc=70, count=1, values=[-1186099200000]
+    doc=71, count=1, values=[486432000000]
+    doc=72, count=1, values=[953078400000]
+    doc=73, count=1, values=[486432000000]
+    doc=74, count=1, values=[-511660800000]
+    doc=75, count=1, values=[-1186099200000]
+    doc=76, count=1, values=[486432000000]
+    doc=77, count=1, values=[486432000000]
+    doc=78, count=1, values=[953078400000]
+    doc=79, count=1, values=[486432000000]
+    doc=80, count=1, values=[-511660800000]
+    doc=81, count=1, values=[-1186099200000]
+    doc=82, count=1, values=[486432000000]
+    doc=83, count=1, values=[953078400000]
+    doc=84, count=1, values=[486432000000]
+    doc=85, count=1, values=[-511660800000]
+    doc=86, count=1, values=[-1186099200000]
+    doc=87, count=1, values=[486432000000]
+    doc=88, count=1, values=[953078400000]
+    doc=89, count=1, values=[486432000000]
+    doc=90, count=1, values=[-511660800000]
+    doc=91, count=1, values=[-1186099200000]
+    doc=92, count=1, values=[486432000000]
+    doc=93, count=1, values=[953078400000]
+    doc=94, count=1, values=[486432000000]
+    doc=95, count=1, values=[-511660800000]
+    doc=96, count=1, values=[-1186099200000]
+    doc=97, count=1, values=[486432000000]
+    doc=98, count=1, values=[953078400000]
+    doc=99, count=1, values=[486432000000]
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] page_count
+  Field Number: 10
+  DocValues Type: SORTED_NUMERIC
+
+  --- Sorted Numeric DocValues ---
+    doc=0, count=1, values=[311]
+    doc=1, count=1, values=[470]
+    doc=2, count=1, values=[585]
+    doc=3, count=1, values=[328]
+    doc=4, count=1, values=[227]
+    doc=5, count=1, values=[268]
+    doc=6, count=1, values=[311]
+    doc=7, count=1, values=[585]
+    doc=8, count=1, values=[328]
+    doc=9, count=1, values=[227]
+    doc=10, count=1, values=[268]
+    doc=11, count=1, values=[311]
+    doc=12, count=1, values=[585]
+    doc=13, count=1, values=[328]
+    doc=14, count=1, values=[227]
+    doc=15, count=1, values=[268]
+    doc=16, count=1, values=[311]
+    doc=17, count=1, values=[585]
+    doc=18, count=1, values=[328]
+    doc=19, count=1, values=[227]
+    doc=20, count=1, values=[268]
+    doc=21, count=1, values=[311]
+    doc=22, count=1, values=[585]
+    doc=23, count=1, values=[328]
+    doc=24, count=1, values=[227]
+    doc=25, count=1, values=[268]
+    doc=26, count=1, values=[311]
+    doc=27, count=1, values=[585]
+    doc=28, count=1, values=[328]
+    doc=29, count=1, values=[227]
+    doc=30, count=1, values=[268]
+    doc=31, count=1, values=[311]
+    doc=32, count=1, values=[585]
+    doc=33, count=1, values=[328]
+    doc=34, count=1, values=[227]
+    doc=35, count=1, values=[268]
+    doc=36, count=1, values=[311]
+    doc=37, count=1, values=[585]
+    doc=38, count=1, values=[328]
+    doc=39, count=1, values=[227]
+    doc=40, count=1, values=[268]
+    doc=41, count=1, values=[311]
+    doc=42, count=1, values=[585]
+    doc=43, count=1, values=[328]
+    doc=44, count=1, values=[227]
+    doc=45, count=1, values=[268]
+    doc=46, count=1, values=[311]
+    doc=47, count=1, values=[585]
+    doc=48, count=1, values=[328]
+    doc=49, count=1, values=[227]
+    doc=50, count=1, values=[268]
+    doc=51, count=1, values=[311]
+    doc=52, count=1, values=[585]
+    doc=53, count=1, values=[328]
+    doc=54, count=1, values=[227]
+    doc=55, count=1, values=[268]
+    doc=56, count=1, values=[311]
+    doc=57, count=1, values=[585]
+    doc=58, count=1, values=[328]
+    doc=59, count=1, values=[227]
+    doc=60, count=1, values=[268]
+    doc=61, count=1, values=[311]
+    doc=62, count=1, values=[585]
+    doc=63, count=1, values=[328]
+    doc=64, count=1, values=[227]
+    doc=65, count=1, values=[268]
+    doc=66, count=1, values=[311]
+    doc=67, count=1, values=[585]
+    doc=68, count=1, values=[328]
+    doc=69, count=1, values=[227]
+    doc=70, count=1, values=[268]
+    doc=71, count=1, values=[311]
+    doc=72, count=1, values=[585]
+    doc=73, count=1, values=[328]
+    doc=74, count=1, values=[227]
+    doc=75, count=1, values=[268]
+    doc=76, count=1, values=[311]
+    doc=77, count=1, values=[311]
+    doc=78, count=1, values=[585]
+    doc=79, count=1, values=[328]
+    doc=80, count=1, values=[227]
+    doc=81, count=1, values=[268]
+    doc=82, count=1, values=[311]
+    doc=83, count=1, values=[585]
+    doc=84, count=1, values=[328]
+    doc=85, count=1, values=[227]
+    doc=86, count=1, values=[268]
+    doc=87, count=1, values=[311]
+    doc=88, count=1, values=[585]
+    doc=89, count=1, values=[328]
+    doc=90, count=1, values=[227]
+    doc=91, count=1, values=[268]
+    doc=92, count=1, values=[311]
+    doc=93, count=1, values=[585]
+    doc=94, count=1, values=[328]
+    doc=95, count=1, values=[227]
+    doc=96, count=1, values=[268]
+    doc=97, count=1, values=[311]
+    doc=98, count=1, values=[585]
+    doc=99, count=1, values=[328]
+    ... (超过100条，截断显示)
+  总计: 100 条记录
+
+----------------------------------------------------------
+[DocValues Field] __soft_deletes
+  Field Number: 13
+  DocValues Type: NUMERIC
+
+  --- Numeric DocValues ---
+  总计: 0 条记录
+
+
+==========================================================
+ 解析完成!
+==========================================================
